@@ -128,6 +128,8 @@ client.guilds.get("704799551193874474").members.get("634872299069374488").addRol
 
 /*client.users.get("").send("-")
 client.users.get("").sendFile("https://-/-.png")*/
+	var exn = "0";
+	var exd = "0";
 	var exh = "0";
 	var exm = "0";
 	var exs = "0";
@@ -141,7 +143,13 @@ client.users.get("").sendFile("https://-/-.png")*/
 	if(malo.getUTCSeconds() > 9){
 		exs = "";
 	}
-	client.channels.get("716768099122151494").send("Bot is up: **" + exh + malo.getUTCHours() + ":" + exm + malo.getUTCMinutes() + ":" + exs + malo.getUTCSeconds() + "** UTC.")
+	if((malo.getUTCMonth() + 1) > 9){
+		exn = "";
+	}
+	if(malo.getUTCDate() + 1 > 9){
+		exd = "";
+	}
+	client.channels.get("716768099122151494").send("Bot is up: **"+ exh + malo.getUTCHours() + ":" + exm + malo.getUTCMinutes() + ":" + exs + malo.getUTCSeconds() + " UTC**" + " of **" + exd + malo.getUTCDate() + "/" + exn + (malo.getUTCMonth() + 1) + "/" + malo.getUTCFullYear() + "**")
 
        // client.user.setAvatar("https://cdn.discordapp.com/attachments/704829826002845787/712101122596143174/blurpleFSL.jpg")
 });
