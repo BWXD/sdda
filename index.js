@@ -299,6 +299,7 @@ client.on("message", async function(message) {
     var args = message.content.substring(PREFIX.length).split(" ");
     switch (args[0].toLowerCase()) {
 		    if(bugProtectMode == "off"){
+			    //THE PROTECTION MODE IS OFF, COMMANDS NORMAL
 		    
 /*case "ping":
         const msg = await message.channel.send('Getting my ping...')
