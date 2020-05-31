@@ -799,7 +799,8 @@ Stereo
 An00xy
 Nike
 Merc
-virgin`
+virgin
+Daffyd`
 
 var varnateamfc = `aWaKeN (C)
 Kea97 (Co)
