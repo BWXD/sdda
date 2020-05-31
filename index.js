@@ -298,7 +298,7 @@ client.on("message", async function(message) {
     if (!message.content.startsWith(PREFIX)) return;
     var args = message.content.substring(PREFIX.length).split(" ");
     switch (args[0].toLowerCase()) {
-		    if(bugProtectMode == "off){
+		    if(bugProtectMode == "off"){
 		    
 /*case "ping":
         const msg = await message.channel.send('Getting my ping...')
