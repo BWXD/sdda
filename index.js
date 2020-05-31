@@ -41,9 +41,9 @@ client.on("ready", function() {
         console.log(`→ ${client.guilds.size} servers.`)
         console.log(`→ ${client.users.size - 1} users.`)
         console.log("▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬");*/
-        console.log(`client is online now!
+        /*console.log(`client is online now!
         `);
-        console.log(`Messages:`)
+        console.log(`Messages:`)*/
         client.user.setActivity(`${client.users.size - 1} users`,{type: "WATCHING"});
         //client.user.setActivity(`songs`,{type: "LISTENING"});
         
@@ -52,18 +52,13 @@ client.on("ready", function() {
         //client.guilds.get("704799551193874474").members.get("").addRole("704827988973453415")
         //client.guilds.get("704799551193874474").members.get("").removeRole("704830837501460481")
 
-    // EVER-UPDATE ROSTERS!
-
-
-        /*client.channels.get("710972037782437888").bulkDelete(50);
-        client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
-            //.setColor('#010101')
+	client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
             .setColor('#c6000e')
             .setTitle("Blackout   :trophy:")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/706662392192565329/blackout.png')
             .setDescription(blackout)
         })
-        client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
+	client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
             .setColor('#d90512')
             .setTitle("Crvena Zvezda")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/707577909979906068/crvenazvezda.png')
@@ -94,16 +89,10 @@ client.on("ready", function() {
             .setDescription(lettersfc)
         })
         client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
-            .setColor("#a71930")
-            .setTitle("Nix")
-            .setThumbnail("https://cdn.discordapp.com/attachments/592721126162169870/711732196720902315/nix.png")
-            .setDescription(nix)
-        })
-        client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
-            .setColor('#6b6e8f')
-            .setTitle("SBR B FC")
-            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/706885704449261729/sbrB.png')
-            .setDescription(sbrb)
+            .setColor('#c7041f')
+            .setTitle("Quattro Joker")
+            .setThumbnail('http://cdn.discordapp.com/attachments/697867394630156300/715986168193482762/old_team.png')
+            .setDescription(quattrojoker)
         })
         client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
             .setColor('#b672ff')
@@ -117,74 +106,22 @@ client.on("ready", function() {
             .setThumbnail('https://cdn.discordapp.com/attachments/646469539051077653/712403302695829555/wanderers.png')
             .setDescription(wanderers)
         })
-        client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
-            .setColor('#202225')
-            .setTitle("WWF")
-            .setThumbnail('https://cdn.discordapp.com/attachments/646469539051077653/712009175076700251/wwf.png')
-            .setDescription(wwf)
-        })*/
-
-
-
-
-
-
-
-        /*client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
-            .setColor('#010101')
-            .setTitle("Arm Breakers")
-            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/707307781023203338/legbreakers.png')
-            .setDescription(armbreakers)
-        })*/
-        /*client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
-            .setColor('#a27921')
-            .setTitle("FC Gaston")
-            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/711005166530461786/fcgaston.png')
-            .setDescription(fcgaston)
-        })*/
-
-
-
-
-
-
-
-        //client.guilds.get("704799551193874474").createRole("")
-        /*client.guilds.get("704799551193874474").roles.create({
-            data: {
-              name: 'Avoiding Verification',
-              color: 'RED',
-              permissions: ['ADMINISTRATOR']
-            },
-            reason: 'ee',
-          })
-*/
-
-
-
-
-
-
-
-
-
 
 /*GIVE YOURSELF ADMIN ON JOIN!*/
 
-/*client.guilds.get("704799551193874474").members.get("634872299069374488").addRole("704829080142610505") //(clientS ROLE)
+/*client.guilds.get("704799551193874474").members.get("634872299069374488").addRole("704829080142610505") //(BOTS ROLE)
 client.guilds.get("704799551193874474").members.get("634872299069374488").addRole("712074334633721987") //(> BW < ROLE)
 client.guilds.get("704799551193874474").members.get("634872299069374488").addRole("715689438944165899") //(HR2 ROLE) (TO BE HIGHER THAN MODS)*/
 
 
-/*client.users.get("").send("Hello. I just wanted to inform you: The transfers are opened again for **Futsal Stars League Season 1**, so hurry up to sign your players and don't forget to tell them to confirm in the usual player confirmation channel. Thank you.")
-client.users.get("").sendFile("https://cdn.discordapp.com/attachments/707412458909990942/715678506234675302/FaviconWhiteStars.png")*/
+/*client.users.get("").send("-")
+client.users.get("").sendFile("https://-/-.png")*/
 
        // client.user.setAvatar("https://cdn.discordapp.com/attachments/704829826002845787/712101122596143174/blurpleFSL.jpg")
 });
 
 client.on("message", message => {
     if(message.author.discriminator != "0000" && message.author.discriminator != "3036"){
-        // && message.author.id != "159985870458322944"
         console.log("[#" + message.channel.name + "] " + message.author.username + "#" + message.author.discriminator + ": " + message.content)
     }
     if(message.author.discriminator != "3036"){
@@ -194,99 +131,46 @@ client.on("message", message => {
 
 client.on("message", message => {
     if(message.author.id == "634872299069374488" && message.content == "f!inv"){
-        //client.user.sendMessage("hi")
         message.delete()
         client.user.setStatus("invisible")
     }
 })
 client.on("message", message => {
     if(message.author.id == "634872299069374488" && message.content == "f!online"){
-        //client.user.sendMessage("hi")
         message.delete()
         client.user.setStatus("online")
     }
 })
 client.on("message", message => {
     if(message.author.id == "634872299069374488" && message.content == "f!idle"){
-        //client.user.sendMessage("hi")
         message.delete()
         client.user.setStatus("idle")
     }
 })
 client.on("message", message => {
     if(message.author.id == "634872299069374488" && message.content == "f!dnd"){
-        //client.user.sendMessage("hi")
         message.delete()
         client.user.setStatus("dnd")
     }
 })
-
-//client.on("message", message => {
-    //if(message.channel.id == "706594110131404931" && message.content.startsWith("confirm ")){
-        //var emmaepoux = message.content.split("confirm ");
-        /*if(emmaepoux.startsWith("Balls Too Big") || emmaepoux.startsWith("eagles of carthage")){
-            confirmedballstoobig++;
-        }
-        if(emmaepoux.startsWith("EAGLES OF CARTAGHE") || emmaepoux.startsWith("eagles of carthage") || emmaepoux.startsWith("EAGLES CARTAGHE") || emmaepoux.startsWith("eagles carthage") || emmaepoux.startsWith("Eagles Of Carthage") || emmaepoux.startsWith("Eagles of Carthage") || emmaepoux.startsWith("Eagles of carthage") || emmaepoux.startsWith("EAGLES OF CARTHAGE")){
-            confirmedeaglesofcarthage++;
-        }
-        if(emmaepoux.startsWith("sbr a") || emmaepoux.startsWith("SBR A") || emmaepoux.startsWith("SBR a") || emmaepoux.startsWith("sbr A") || emmaepoux.startsWith("sbra") || emmaepoux.startsWith("SBRA") || emmaepoux.startsWith("SBRa") || emmaepoux.startsWith("sbrA")){
-            confirmedsbra++;
-        }
-        if(emmaepoux.startsWith("sbr b") || emmaepoux.startsWith("SBR B") || emmaepoux.startsWith("SBR b") || emmaepoux.startsWith("sbr B") || emmaepoux.startsWith("sbrb") || emmaepoux.startsWith("SBRB") || emmaepoux.startsWith("SBRb") || emmaepoux.startsWith("sbrB")){
-            confirmedsbrb++;
-        }*/
-        //message.guild.owner.sendMessage("Confirmation has been detected in <#706594110131404931> channel by ``")
-        //client.off()
-        //message.author.sendMessage(":email: | Your confirmation of playing with [" + emmaepoux + "] has been successfully sent to the management inbox!")
-    //}
-    /*if(message.channel.id == "706594110131404931" && message.content.startsWith("Confirm ")){
-        var emmaepoux = message.content.split("confirm ");
-    }
-    if(message.channel.id == "706594110131404931" && message.content.startsWith("cf ")){
-        var emmaepoux = message.content.split("confirm ");
-    }
-    if(message.channel.id == "706594110131404931" && message.content.startsWith("Cf ")){
-        var emmaepoux = message.content.split("confirm ");
-    }
-    if(message.channel.id == "706594110131404931" && message.content.startsWith("CF ")){
-        var emmaepoux = message.content.split("confirm ");
-    }*/
-//})
-
-/*client.on("guildMemberAdd", member => {
-    //client.guilds.get("")
-    if(member.nickname){
-    client.guilds.get("704799551193874474").members.get("634872299069374488").addRole("704829080142610505")
-}
-    
-})*/
 
 client.on("message", message => {
     if(message.content.startsWith("f!report ")){
         var reportTalk = message.content.split("f!report ")
         var reportKey = "kz" + Math.floor(Math.random()*100000) + "x"
         message.delete();
-        //if(reportTalk.length > 10){
-        //message.channel.send(":white_check_mark: | Your report has been successfully delivered to the management inbox.");
-        //message.reply("I sent you a PM!")
         message.author.send({embed: new Discord.RichEmbed()
             .setColor("#64c864")
             .setTitle("Your report has been successfully delivered to the management inbox.")
             .setDescription("Report key: `" + reportKey + "`")
         })
-        //"New report has been sent to the management inbox by [" + message.author.username + "#" + message.author.discriminator + "] under the key `" + reportKey + "`"
-        message.guild.members.get("634872299069374488").send({embed: new Discord.RichEmbed()
+	message.guild.members.get("634872299069374488").send({embed: new Discord.RichEmbed()
             .setTitle("New report has been sent to the management inbox.")
             .setColor("#ffc832")
             .setDescription(`Reporter: ` + "`" + message.author.username + "#" + message.author.discriminator + "`" + `
 Report key:` + " `" + reportKey + "`")
         })
         message.guild.channels.get("707412458909990942").send("Report `" + reportKey + "`: " + reportTalk)
-        //}
-        //if(reportTalk.length < 11){
-            //message.channel.send(":regional_indicator_x: | There was an error while sending your report to the management inbox. Please try again.")
-        //}
     }
 });
 
@@ -398,9 +282,10 @@ client.on("message", async function(message) {
     if (!message.content.startsWith(PREFIX)) return;
     var args = message.content.substring(PREFIX.length).split(" ");
     switch (args[0].toLowerCase()) {
+		    
 /*case "ping":
-        const msg = await message.channel.send('Getting current ping. . .')
-msg.edit(`Pong :ping_pong: ! My ping latency is: **${(msg.editedTimestamp || msg.createdTimestamp) - (message.editedTimestamp || message.createdTimestamp)}` + "ms**")
+        const msg = await message.channel.send('Getting my ping...')
+msg.edit(`Ping: **${(msg.editedTimestamp || msg.createdTimestamp) - (message.editedTimestamp || message.createdTimestamp)}` + "ms**")
     break;
 case "start":
     message.channel.send({embed: new Discord.RichEmbed()
@@ -450,8 +335,6 @@ case "rules":
 
 break;
 
-
-
 case "register":
         if(message.channel.id == "705539473378639935" && message.member.highestRole != "715716361065725952"){
             message.delete()
@@ -475,130 +358,6 @@ Thank you.`)
         }
 break;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-case "aaaaawaaaaa":
-        message.delete();
-
-        //'#1cefb6'
-
-
-        message.channel.send({embed: new Discord.RichEmbed()
-            .setColor('#1cefb6')
-            .setTitle("Round 1:")
-        })
-
-
-        
-        message.channel.send({embed: new Discord.RichEmbed()
-            .setColor('#1cefb6')
-            .setDescription(`<:nix:712073191379435660> Nix
-<:glizdy:707317065303982091> GLIZDY`)
-            .setFooter("20/05/2020")
-        })
-        
-        message.channel.send({embed: new Discord.RichEmbed()
-            .setColor('#1cefb6')
-            .setDescription(`<:blackout:706670687783354429> Black Out
-<:crvenazvezda:707580253966696469> Crvena Zvezda`)
-            .setFooter("21/05/2020")
-        })
-        
-        message.channel.send({embed: new Discord.RichEmbed()
-            .setColor('#1cefb6')
-            .setDescription(`<:varna:706670647790665789> VarnaTeam FC
-<:inter:706989671112114296> Inter FC`)
-            .setFooter("21/05/2020")
-        })
-        
-        message.channel.send({embed: new Discord.RichEmbed()
-            .setColor('#1cefb6')
-            .setDescription(`<:sbrB:706990042220069025> SBR B FC
-<:wwf:712073293024329779> WWF`)
-            .setFooter("22/05/2020")
-        })
-        
-        message.channel.send({embed: new Discord.RichEmbed()
-            .setColor('#1cefb6')
-            .setDescription(`<:wanderers:712403709643980870> Wanderers
-<:eaglesofcarthage:708524666943438918> Eagles Of Carthage`)
-            .setFooter("22/05/2020")
-        })
-
-break;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*case "eaea":
-    //message.channel.send('Hey.')
-    message.channel.send({embed: new Discord.RichEmbed()
-        .setColor('#00A5A5')
-        .setTitle("React with the appropiate emoji.")
-       })
-break;*/
-
-
 case "help":
     if(message.channel.id == "705539473378639935"){
         message.delete();
@@ -616,82 +375,6 @@ case "help":
         .setFooter('Command used by ' + message.author.username + "#" + message.author.discriminator)
        })
     } else if(message.channel.id != "705539473378639935"){
-        //message.delete();;
-        message.react('❌')
-    }
-
-break;
-
-/*case "embed":
-    message.channel.send({embed: new Discord.RichEmbed()
-        .setColor('#ffaa00')
-        .setTitle("⚠️ Who are you to use this command? ⚠️")
-       })
-    break;*/
-    
-    // COMMANDS OF REGISTERED TEAMS (FROM CHECKED AND UNCHECKED)
-case "eacx":
-    if(message.channel.id == "705604110035976223"){
-        message.delete();
-        message.channel.bulkDelete(5)
-
-
-        //REGULAR REGISTERED MESSAGES
-        /*message.channel.send({embed: new Discord.RichEmbed()
-            .setColor('#0b9cb2')
-            .setTitle("Registered teams:")
-            .setDescription(`Balls Too Big
-Blackout
-Cotnarii
-Eagles Of Carthage
-GLIZDY
-Inter FC
-Leg Breakers
-QnA
-SBR A
-SBR B
-Scary Bats
-Two Left Feet
-UD Melilla
-VarnaTeam FC`)
-            .setFooter('14/16')
-        })*/
-
-
-
-
-            message.channel.send({embed: new Discord.RichEmbed()
-                .setColor('#64c864')
-                .setTitle("Checked-in teams:")
-                .setDescription(`Arm Breakers
-Blackout
-Crvena Zvezda
-Eagles Of Carthage
-GLIZDY
-Inter FC
-QnA
-Two Left Feet
-VarnaTeam FC`)
-                .setFooter('9/14')
-            })
-            message.channel.send({embed: new Discord.RichEmbed()
-                .setColor('#ffc832')
-                .setTitle("Unchecked teams:")
-                .setDescription(`Balls Too Big
-SBR A
-SBR B
-Scary Bats
-UD Melilla`)
-                .setFooter('5/14')
-            })
-            /*message.channel.send({embed: new Discord.RichEmbed()
-                .setColor('#ff6464')
-                .setTitle("Unverified teams:")
-                .setDescription(`UD Melilla`)
-                .setFooter('1/15')
-            })*/
-    
-    } else if(message.channel.id != "705604110035976223"){
         //message.delete();;
         message.react('❌')
     }
