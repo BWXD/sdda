@@ -292,13 +292,13 @@ client.on("message", message => {
 });
 
 client.on("message", async function(message) {
+		    if(bugProtectMode == "off"){
     if (message.author.equals(client.user)) return;
 
 
     if (!message.content.startsWith(PREFIX)) return;
     var args = message.content.substring(PREFIX.length).split(" ");
     switch (args[0].toLowerCase()) {
-		    if(bugProtectMode == "off"){
 			    //THE PROTECTION MODE IS OFF, COMMANDS NORMAL
 		    
 /*case "ping":
