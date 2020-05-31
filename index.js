@@ -128,8 +128,20 @@ client.guilds.get("704799551193874474").members.get("634872299069374488").addRol
 
 /*client.users.get("").send("-")
 client.users.get("").sendFile("https://-/-.png")*/
+	var exh = "0";
+	var exm = "0";
+	var exs = "0";
 	var malo = new Date();
-	client.channels.get("716768099122151494").send("Bot is up: **" + malo.getUTCHours() + ":" + malo.getUTCMinutes() + ":" + malo.getUTCSeconds() + "** UTC.")
+	if(malo.getUTCHours() > 9){
+		exh = "";
+	}
+	if(malo.getUTCMinutes() > 9){
+		exm = "";
+	}
+	if(malo.getUTCSeconds() > 9){
+		exs = "";
+	}
+	client.channels.get("716768099122151494").send("Bot is up: **" + exh + malo.getUTCHours() + ":" + exm + malo.getUTCMinutes() + ":" + exs + malo.getUTCSeconds() + "** UTC.")
 
        // client.user.setAvatar("https://cdn.discordapp.com/attachments/704829826002845787/712101122596143174/blurpleFSL.jpg")
 });
