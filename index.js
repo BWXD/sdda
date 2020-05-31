@@ -389,7 +389,7 @@ case "help":
         .setTitle("Commands:")
         .addField('**Server**', `**f!rules**: Display rules of server.
 **f!report**: Report somebody who broke the rules, or a bug in the client, or a certain mistake in the system.`)
-//**f!time**: To get server time.
+        .addField('**Bot**', `**f!online**: Displays the duration of the bot connection to the server.`)
         .addField('**League**', `**f!registration**: Shows the registeration criteria/instructions.`)
         .addField('**System**', `**f!register**: Send a request to register in Futsal Stars Member.`)
         .setFooter('Command used by ' + message.author.username + "#" + message.author.discriminator)
