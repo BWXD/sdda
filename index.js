@@ -19,6 +19,11 @@ var min = 0;
 var h = 0;
 var d = 0;
 
+var ood = "";
+var ooh = "";
+var oom = "";
+var oos = "";
+
 function timePasses(){
     sec++;
     if(sec > 59){
@@ -386,10 +391,7 @@ case "help":
 **f!report**: Report somebody who broke the rules, or a bug in the client, or a certain mistake in the system.`)
 //**f!time**: To get server time.
         .addField('**League**', `**f!registration**: Shows the registeration criteria/instructions.`)
-        .addField('**Admins**', `**f!embed / f!e**: Allows you to embed your message.
-**f!autoembed**: Allows embeding every message you send.
-**f!accept**: True report alert. (Report case victory)
-**f!reject**: False report alert. (Report case lose)`)
+        .addField('**System**', `**f!register**: Send a request to register in Futsal Stars Member.`)
         .setFooter('Command used by ' + message.author.username + "#" + message.author.discriminator)
        })
     } else if(message.channel.id != "705539473378639935"){
@@ -398,6 +400,53 @@ case "help":
     }
 
 break;
+		    
+	    case "online":
+		    
+		    if(d == 1){
+			ood = "";
+		    }
+		    if(d > 1){
+			ood = "s";
+		    }
+		    
+		    if(h == 1){
+			ooh = "";
+		    }
+		    if(h > 1){
+			ooh = "s";
+		    }
+		    
+		    if(min == 1){
+			oom = "";
+		    }
+		    if(min > 1){
+			oom = "s";
+		    }
+		    
+		    if(sec == 1){
+			oos = "";
+		    }
+		    if(sec > 1){
+			oos = "s";
+		    }
+		    
+		    
+		    if(d>0){
+		    message.channel.send("Bot has been up online for " + d + " day" + ood + ", " + h + " hour" + ooh + ", " + min + " minute" + oom + " and " + sec + "second" + oos)
+		    }
+		    if(h>0 && d==0){
+		    message.channel.send("Bot has been up online for " + h + " hour" + ooh + ", " + min + " minute" + oom + " and " + sec + "second" + oos)
+		    }
+		    if(min>0 && h==0){
+		    message.channel.send("Bot has been up online for " + min + " minute" + oom + " and " + sec + "second" + oos)
+		    }
+		    if(sec>0 && min==0){
+		    message.channel.send("Bot has been up online for " + sec + " second" + oos)
+		    }
+		    
+		    break;
+		    
 
 /*case "time":
     var t = new Date();
