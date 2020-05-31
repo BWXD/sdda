@@ -45,6 +45,7 @@ client.on("ready", function() {
         `);
         console.log(`Messages:`)*/
         client.user.setActivity(`${client.users.size - 1} users`,{type: "WATCHING"});
+        client.user.setStatus("dnd")
         //client.user.setActivity(`songs`,{type: "LISTENING"});
         
 /*VERIFY MEMBERS*/
@@ -52,6 +53,7 @@ client.on("ready", function() {
         //client.guilds.get("704799551193874474").members.get("").addRole("704827988973453415")
         //client.guilds.get("704799551193874474").members.get("").removeRole("704830837501460481")
 
+	client.channels.get("710972037782437888").bulkDelete(30)
 	client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
             .setColor('#c6000e')
             .setTitle("Blackout   :trophy:")
