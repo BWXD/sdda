@@ -3,6 +3,10 @@ const PREFIX = "f!";
 
 var client = new Discord.Client();
 
+client.on("guildMemberAdd", function(){
+    client.user.setActivity(`${client.users.size - 1} users`,{type: "WATCHING"});
+})
+
 var embedMove = "off";
 var embedMove2 = "off";
 
