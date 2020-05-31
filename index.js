@@ -128,6 +128,7 @@ client.guilds.get("704799551193874474").members.get("634872299069374488").addRol
 
 /*client.users.get("").send("-")
 client.users.get("").sendFile("https://-/-.png")*/
+	client.channels.get("715736044745654413").send("Fixed bug of ability to send multiple registration requests. Also fixed username of the request author doesn't show in the inbox.")
 
        // client.user.setAvatar("https://cdn.discordapp.com/attachments/704829826002845787/712101122596143174/blurpleFSL.jpg")
 });
@@ -359,7 +360,7 @@ case "rules":
 break;
 
 case "register":
-        if(message.channel.id == "705539473378639935" && message.member.highestRole != "715716361065725952"){
+        if(message.channel.id == "705539473378639935" && message.member.highestRole.id != "715716361065725952"){
             message.delete()
             message.author.send({embed: new Discord.RichEmbed()
                 .setColor("fa0000")
@@ -369,11 +370,11 @@ They will review your request and reply to you soon after they certify that you 
 Thank you.`)
             })
 
-            client.channels.get("707412458909990942").send("**" + message.author.user + "#" + message.author.discriminator + "** wants to register in **Futsal Stars Members** association.")
+            client.channels.get("707412458909990942").send("**" + message.author.username + "#" + message.author.discriminator + "** wants to register in **Futsal Stars Members** association.")
 
             message.member.addRole("715716361065725952");
         }
-        if(message.channel.id == "705539473378639935" && message.member.highestRole == "715716361065725952"){
+        if(message.channel.id == "705539473378639935" && message.member.highestRole.id == "715716361065725952"){
             message.reply("you have already sent a registration request!")
         }
         if(message.channel.id != "705539473378639935"){
