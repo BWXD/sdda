@@ -749,8 +749,8 @@ Doliprune
 Stereo
 An00xy
 Nike
-TOBY789
-Merc`
+Merc
+virgin`
 
 var varnateamfc = `aWaKeN (C)
 Kea97 (Co)
