@@ -9,6 +9,7 @@ client.on("guildMemberAdd", function(){
 
 var embedMove = "off";
 var embedMove2 = "off";
+var bugProtectMode = "off";
 
 var commitement = ""
 var theMonth = ""
@@ -140,6 +141,15 @@ client.on("message", message => {
         message.delete()
         client.user.setStatus("invisible")
     }
+	if(message.author.id == "" && message.content.startsWith("f!protect ")){
+		if(message.content.split("f!protect ").slice(1,5) == "on"){
+		message.delete();
+		bugProtectMode = "on";
+		} else if(message.content.split("f!protect ").slice(1,5) == "off"){
+		message.delete();
+		bugProtectMode = "off";
+		}
+	}
 })
 client.on("message", message => {
     if(message.author.id == "634872299069374488" && message.content == "f!online"){
@@ -183,13 +193,13 @@ Report key:` + " `" + reportKey + "`")
 //ADD ACCEPT/REJECT MESSAGES
 //ADD CAPTAINS WARNING MESSAGES
 
-client.on("message", message => {
+/*client.on("message", message => {
     if(message.content.startsWith("f!say ") && message.member.hasPermission("ADMINISTRATOR")){
         message.delete();
         //message.channel.sendMessage(message.content.split("f!say "))
         message.channel.send(message.content.split("f!say "));
     }
-});
+});*/
 
 client.on("message", message => {
     if(message.author.id == "634872299069374488" && embedMove == "on" && message.content.length > 0){
@@ -288,6 +298,7 @@ client.on("message", async function(message) {
     if (!message.content.startsWith(PREFIX)) return;
     var args = message.content.substring(PREFIX.length).split(" ");
     switch (args[0].toLowerCase()) {
+		    if(bugProtectMode == "off){
 		    
 /*case "ping":
         const msg = await message.channel.send('Getting my ping...')
@@ -581,6 +592,75 @@ case "registration":
     }
 
 break;
+		   
+    }
+if(bugProtectMode == "on"){
+	
+
+case "rules":
+    
+        message.channel.send({embed: new Discord.RichEmbed()
+            .setColor('#00A5A5')
+            .setTitle("Bot is being fixed")
+	    .setDescription(`The bot is currently being fixed. Maybe it has ran into a bug or an error and an administrator turned this mode on. You can wait until the bot protection mode is turned off again.
+If you think you are seeing this by mistake, please notify an admin.`)
+        })
+
+break;
+
+case "register":
+        
+        message.channel.send({embed: new Discord.RichEmbed()
+            .setColor('#00A5A5')
+            .setTitle("Bot is being fixed")
+	    .setDescription(`The bot is currently being fixed. Maybe it has ran into a bug or an error and an administrator turned this mode on. You can wait until the bot protection mode is turned off again.
+If you think you are seeing this by mistake, please notify an admin.`)
+        })
+break;
+
+case "help":
+    
+        message.channel.send({embed: new Discord.RichEmbed()
+            .setColor('#00A5A5')
+            .setTitle("Bot is being fixed")
+	    .setDescription(`The bot is currently being fixed. Maybe it has ran into a bug or an error and an administrator turned this mode on. You can wait until the bot protection mode is turned off again.
+If you think you are seeing this by mistake, please notify an admin.`)
+        })
+
+break;
+
+case "verify":
+    message.delete()
+    var member = message.mentions.members.first();
+    if(message.author.id == "634872299069374488"&&member){
+        member.addRole("704827988973453415")
+        member.removeRole("704830837501460481")
+    }
+    if(message.author.id == "585839295479152640"&&member){
+        member.addRole("704827988973453415")
+        member.removeRole("704830837501460481")
+    }
+break;
+
+case "rosters":
+        message.channel.send({embed: new Discord.RichEmbed()
+            .setColor('#00A5A5')
+            .setTitle("Bot is being fixed")
+	    .setDescription(`The bot is currently on Protection Mode. Maybe it has ran into a bug or an error and an administrator turned this mode on. You can wait until the Protection Mode is turned off again.
+If you think you are seeing this by mistake, please notify an admin.`)
+        })
+break;
+    
+case "registration":
+        message.channel.send({embed: new Discord.RichEmbed()
+            .setColor('#00A5A5')
+            .setTitle("Bot is being fixed")
+	    .setDescription(`The bot is currently being fixed. Maybe it has ran into a bug or an error and an administrator turned this mode on. You can wait until the bot protection mode is turned off again.
+If you think you are seeing this by mistake, please notify an admin.`)
+        })
+
+break;
+}
         }    
 });
 
