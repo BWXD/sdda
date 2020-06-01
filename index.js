@@ -7,6 +7,10 @@ client.on("guildMemberAdd", function(){
     client.user.setActivity(`${client.users.size - 1} users`,{type: "WATCHING"});
 })
 
+client.on("guildMemberRemove", function(){
+    client.user.setActivity(`${client.users.size - 1} users`,{type: "WATCHING"});
+})
+
 var embedMove = "off";
 var embedMove2 = "off";
 var bugProtectMode = "off";
@@ -455,13 +459,13 @@ break;
 		    
 		    
 		    if(d>0){
-		    message.channel.send("Bot has been up online for " + d + " day" + ood + ", " + h + " hour" + ooh + ", " + min + " minute" + oom + " and " + sec + "second" + oos)
+		    message.channel.send("Bot has been up online for " + d + " day" + ood + ", " + h + " hour" + ooh + ", " + min + " minute" + oom + " and " + sec + " second" + oos)
 		    }
 		    if(h>0 && d==0){
-		    message.channel.send("Bot has been up online for " + h + " hour" + ooh + ", " + min + " minute" + oom + " and " + sec + "second" + oos)
+		    message.channel.send("Bot has been up online for " + h + " hour" + ooh + ", " + min + " minute" + oom + " and " + sec + " second" + oos)
 		    }
 		    if(min>0 && h==0){
-		    message.channel.send("Bot has been up online for " + min + " minute" + oom + " and " + sec + "second" + oos)
+		    message.channel.send("Bot has been up online for " + min + " minute" + oom + " and " + sec + " second" + oos)
 		    }
 		    if(sec>0 && min==0){
 		    message.channel.send("Bot has been up online for " + sec + " second" + oos)
