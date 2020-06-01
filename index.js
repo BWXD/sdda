@@ -325,11 +325,11 @@ client.on("message", async function(message) {
     switch (args[0].toLowerCase()) {
 			    //THE PROTECTION MODE IS OFF, COMMANDS NORMAL
 		    
-/*case "ping":
+case "ping":
         const msg = await message.channel.send('Getting my ping...')
 msg.edit(`Ping: **${(msg.editedTimestamp || msg.createdTimestamp) - (message.editedTimestamp || message.createdTimestamp)}` + "ms**")
     break;
-case "start":
+/*case "start":
     message.channel.send({embed: new Discord.RichEmbed()
         .setColor('#00FFFF')
         .setImage('https://cdn.discordapp.com/attachments/704829826002845787/705155997156507789/FSL_WELCOME.png')
@@ -870,7 +870,7 @@ Di Maria
 Isco
 Gooch
 marcelo12
-Sebi C`;
+Sebi c :x:`;
 
 var participations = ``;
 
