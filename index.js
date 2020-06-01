@@ -47,17 +47,6 @@ function timePasses(){
 setInterval(timePasses,1000);
 
 client.on("ready", function() {
-        /*console.log("");
-        console.log("client is on!");
-        console.log("");
-        console.log("▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬");
-        console.log(`client stats:`)
-        console.log(`→ ${client.guilds.size} servers.`)
-        console.log(`→ ${client.users.size - 1} users.`)
-        console.log("▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬");*/
-        /*console.log(`client is online now!
-        `);
-        console.log(`Messages:`)*/
         client.user.setActivity(`${client.users.size - 1} users`,{type: "WATCHING"});
         client.user.setStatus("dnd")
         //client.user.setActivity(`songs`,{type: "LISTENING"});
