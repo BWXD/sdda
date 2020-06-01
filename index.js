@@ -818,7 +818,8 @@ SALL
 αgυεяσ
 sc30
 REMI
-Thing'E`;
+Thing'E
+Xcsu`;
 
 var quattrojoker = `DominoPL (C)
 TheBlob (Co)
