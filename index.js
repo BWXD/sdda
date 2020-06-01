@@ -828,7 +828,6 @@ Autentik
 Doliprune
 Stereo
 An00xy
-Nike
 Merc
 virgin
 Daffyd`
