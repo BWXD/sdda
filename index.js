@@ -850,6 +850,7 @@ Defender
 Di Maria
 Isco
 Gooch
-marcelo12`;
+marcelo12
+Sebi C`;
 
 client.login(process.env.TOKEN);
