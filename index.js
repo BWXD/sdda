@@ -412,8 +412,15 @@ case "participe":
         message.delete()
         client.channels.get("717104939473698858").send("**" + message.author.username + "#" + message.author.discriminator + "** has joined the waiting list of participation in **Futsal Stars Fun Cup n°1**.")
 	}
-break;		    
+break;	
 		    
+		    
+	
+case "funcup":
+	if(message.author.id == "634872299069374488"){
+		message.channel.send(participations.length + " players has registered in the Fun Cup #1.")
+	}
+break;		    
 		    
 		    
 		    
