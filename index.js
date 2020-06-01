@@ -410,6 +410,28 @@ Thank you.`)
             message.message.react("❌")
         }
 break;
+		    
+
+case "participe":
+	if(participations.length < 16){
+        message.delete()
+
+        client.channels.get("717102211032940626").send("**" + message.author.username + "#" + message.author.discriminator + "** has registered in the **Futsal Stars Fun Cup n°1**.")
+	participations += "C";
+	}
+	else if(participations.length > 15){
+        message.delete()
+        client.channels.get("717104939473698858").send("**" + message.author.username + "#" + message.author.discriminator + "** has joined the waiting list of participation in **Futsal Stars Fun Cup n°1**.")
+	}
+break;		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
 
 case "help":
     if(message.channel.id == "705539473378639935"){
@@ -852,5 +874,7 @@ Isco
 Gooch
 marcelo12
 Sebi C`;
+
+var participations = ``;
 
 client.login(process.env.TOKEN);
