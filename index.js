@@ -816,7 +816,8 @@ var glizdy = `:flag_pl: Endou (C)
 :flag_pl: zaQu
 :flag_pl: yennefer
 :flag_pl: omgg
-:flag_pl: Meireles`;
+:flag_pl: Meireles
+:flag_de: mY_ruleZ^`;
 
 var inter = `DELUXE (C)
 zDog (Co)
