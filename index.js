@@ -354,11 +354,11 @@ case "modify":
 		if(args[1] == "VAR"){
 			var roster = message.content.split("f!modify VAR ").slice(1,2000);
 			varnateamfc = roster;
-		}if(args[1] == "VarnaTeam FC"){
-			var roster = message.content.split("f!modify VarnaTeam FC ").slice(1,2000);
+		}if(args[1] == "VarnaTeam_FC"){
+			var roster = message.content.split("f!modify VarnaTeam_FC ").slice(1,2000);
 			varnateamfc = roster;
-		}if(args[1] == "varnateam fc"){
-			var roster = message.content.split("f!modify varnateam fc ").slice(1,2000);
+		}if(args[1] == "varnateam_fc"){
+			var roster = message.content.split("f!modify varnateam_fc ").slice(1,2000);
 			varnateamfc = roster;
 		}if(args[1] == "var"){
 			var roster = message.content.split("f!modify var ").slice(1,2000);
@@ -369,35 +369,35 @@ case "modify":
 		}if(args[1] == "varna"){
 			var roster = message.content.split("f!modify varna ").slice(1,2000);
 			varnateamfc = roster;
-		}if(args[1] == "Varna FC"){
-			var roster = message.content.split("f!modify Varna FC ").slice(1,2000);
+		}if(args[1] == "Varna_FC"){
+			var roster = message.content.split("f!modify Varna_FC ").slice(1,2000);
 			varnateamfc = roster;
-		}if(args[1] == "varna fc"){
-			var roster = message.content.split("f!modify varna fc ").slice(1,2000);
+		}if(args[1] == "varna_fc"){
+			var roster = message.content.split("f!modify varna_fc ").slice(1,2000);
 			varnateamfc = roster;
 		}if(args[1] == "VARNA"){
 			var roster = message.content.split("f!modify VARNA ").slice(1,2000);
-			wanderers = roster;
+			varnateamfc = roster;
 		}
 		
 		//QUATTRO JOKER
 		if(args[1] == "QUA"){
 			var roster = message.content.split("f!modify QUA ").slice(1,2000);
 			quattrojoker = roster;
-		}if(args[1] == "Quattro Joker"){
-			var roster = message.content.split("f!modify Quattro Joker ").slice(1,2000);
+		}if(args[1] == "Quattro_Joker"){
+			var roster = message.content.split("f!modify Quattro_Joker ").slice(1,2000);
 			quattrojoker = roster;
-		}if(args[1] == "Quattro joker"){
-			var roster = message.content.split("f!modify Quattro joker ").slice(1,2000);
+		}if(args[1] == "Quattro_joker"){
+			var roster = message.content.split("f!modify Quattro_joker ").slice(1,2000);
 			quattrojoker = roster;
-		}if(args[1] == "quattro joker"){
-			var roster = message.content.split("f!modify quattro joker ").slice(1,2000);
+		}if(args[1] == "quattro_joker"){
+			var roster = message.content.split("f!modify quattro_joker ").slice(1,2000);
 			quattrojoker = roster;
 		}if(args[1] == "qua"){
 			var roster = message.content.split("f!modify qua ").slice(1,2000);
 			quattrojoker = roster;
-		}if(args[1] == "QUATTRO JOKER"){
-			var roster = message.content.split("f!modify QUATTRO JOKER ").slice(1,2000);
+		}if(args[1] == "QUATTRO_JOKER"){
+			var roster = message.content.split("f!modify QUATTRO_JOKER ").slice(1,2000);
 			quattrojoker = roster;
 		}
 		
@@ -405,11 +405,11 @@ case "modify":
 		if(args[1] == "LET"){
 			var roster = message.content.split("f!modify LET ").slice(1,2000);
 			lettersfc = roster;
-		}if(args[1] == "LETTERS FC"){
-			var roster = message.content.split("f!modify LETTERS FC ").slice(1,2000);
+		}if(args[1] == "LETTERS_FC"){
+			var roster = message.content.split("f!modify LETTERS_FC ").slice(1,2000);
 			lettersfc = roster;
-		}if(args[1] == "letters FC"){
-			var roster = message.content.split("f!modify letters FC ").slice(1,2000);
+		}if(args[1] == "letters_FC"){
+			var roster = message.content.split("f!modify letters_FC ").slice(1,2000);
 			lettersfc = roster;
 		}if(args[1] == "let"){
 			var roster = message.content.split("f!modify let ").slice(1,2000);
@@ -420,11 +420,11 @@ case "modify":
 		}if(args[1] == "letters"){
 			var roster = message.content.split("f!modify letters ").slice(1,2000);
 			lettersfc = roster;
-		}if(args[1] == "Letters FC"){
-			var roster = message.content.split("f!modify Letters FC" ).slice(1,2000);
+		}if(args[1] == "Letters_FC"){
+			var roster = message.content.split("f!modify Letters_FC" ).slice(1,2000);
 			lettersfc = roster;
-		}if(args[1] == "letters fc"){
-			var roster = message.content.split("f!modify letters fc ").slice(1,2000);
+		}if(args[1] == "letters_fc"){
+			var roster = message.content.split("f!modify letters_fc ").slice(1,2000);
 			lettersfc = roster;
 		}
 		
@@ -444,14 +444,14 @@ case "modify":
 		}if(args[1] == "int"){
 			var roster = message.content.split("f!modify int ").slice(1,2000);
 			inter = roster;
-		}if(args[1] == "Inter FC"){
-			var roster = message.content.split("f!modify Inter FC ").slice(1,2000);
+		}if(args[1] == "Inter_FC"){
+			var roster = message.content.split("f!modify Inter_FC ").slice(1,2000);
 			inter = roster;
-		}if(args[1] == "inter fc"){
-			var roster = message.content.split("f!modify inter fc ").slice(1,2000);
+		}if(args[1] == "inter_fc"){
+			var roster = message.content.split("f!modify inter_fc ").slice(1,2000);
 			inter = roster;
-		}if(args[1] == "INTER FC"){
-			var roster = message.content.split("f!modify INTER FC ").slice(1,2000);
+		}if(args[1] == "INTER_FC"){
+			var roster = message.content.split("f!modify INTER_FC ").slice(1,2000);
 			inter = roster;
 		}
 		
@@ -483,14 +483,14 @@ case "modify":
 		if(args[1] == "EAC"){
 			var roster = message.content.split("f!modify EAC ").slice(1,2000);
 			eaglesOfCarthage = roster;
-		}if(args[1] == "Eagles Of Carthage"){
-			var roster = message.content.split("f!modify Eagles Of Carthage ").slice(1,2000);
+		}if(args[1] == "Eagles_Of_Carthage"){
+			var roster = message.content.split("f!modify Eagles_Of_Carthage ").slice(1,2000);
 			eaglesOfCarthage = roster;
-		}if(args[1] == "eagles of carthage"){
-			var roster = message.content.split("f!modify eagles of carthage ").slice(1,2000);
+		}if(args[1] == "eagles_of_carthage"){
+			var roster = message.content.split("f!modify eagles_of_carthage ").slice(1,2000);
 			eaglesOfCarthage = roster;
-		}if(args[1] == "EAGLES OF CARTHAGE"){
-			var roster = message.content.split("f!modify EAGLES OF CARTHAGE ").slice(1,2000);
+		}if(args[1] == "EAGLES_OF_CARTHAGE"){
+			var roster = message.content.split("f!modify EAGLES_OF_CARTHAGE ").slice(1,2000);
 			eaglesOfCarthage = roster;
 		}if(args[1] == "eac"){
 			var roster = message.content.split("f!modify eac ").slice(1,2000);
@@ -513,6 +513,12 @@ case "modify":
 		}if(args[1] == "carthage"){
 			var roster = message.content.split("f!modify carthage ").slice(1,2000);
 			eaglesOfCarthage = roster;
+		}if(args[1] == "Eagles"){
+			var roster = message.content.split("f!modify Eagles ").slice(1,2000);
+			eaglesOfCarthage = roster;
+		}if(args[1] == "Carthage"){
+			var roster = message.content.split("f!modify Carthage ").slice(1,2000);
+			eaglesOfCarthage = roster;
 		}
 		
 		//CRVENA ZVEZDA
@@ -528,14 +534,14 @@ case "modify":
 		}if(args[1] == "cvz"){
 			var roster = message.content.split("f!modify cvz ").slice(1,2000);
 			crvenazvezda = roster;
-		}if(args[1] == "CRVENA ZVEZDA"){
-			var roster = message.content.split("f!modify CRVENA ZVEZDA ").slice(1,2000);
+		}if(args[1] == "CRVENA_ZVEZDA"){
+			var roster = message.content.split("f!modify CRVENA_ZVEZDA ").slice(1,2000);
 			crvenazvezda = roster;
-		}if(args[1] == "Crvena Zvezda"){
-			var roster = message.content.split("f!modify Crvena Zvezda ").slice(1,2000);
+		}if(args[1] == "Crvena_Zvezda"){
+			var roster = message.content.split("f!modify Crvena_Zvezda ").slice(1,2000);
 			crvenazvezda = roster;
-		}if(args[1] == "crvena zvezda"){
-			var roster = message.content.split("f!modify crvena zvezda ").slice(1,2000);
+		}if(args[1] == "crvena_zvezda"){
+			var roster = message.content.split("f!modify crvena_zvezda ").slice(1,2000);
 			crvenazvezda = roster;
 		}if(args[1] == "Crvena"){
 			var roster = message.content.split("f!modify Crvena ").slice(1,2000);
@@ -554,31 +560,31 @@ case "modify":
 		//BLACKOUT
 		if(args[1] == "BLA"){
 			var roster = message.content.split("f!modify BLA ").slice(1,2000);
-			crvenazvezda = roster;
+			blackout = roster;
 		}if(args[1] == "bla"){
 			var roster = message.content.split("f!modify bla ").slice(1,2000);
-			crvenazvezda = roster;
+			blackout = roster;
 		}if(args[1] == "BLACKOUT"){
 			var roster = message.content.split("f!modify BLACKOUT ").slice(1,2000);
-			crvenazvezda = roster;
+			blackout = roster;
 		}if(args[1] == "BlackOut"){
 			var roster = message.content.split("f!modify BlackOut ").slice(1,2000);
-			crvenazvezda = roster;
+			blackout = roster;
 		}if(args[1] == "blackout"){
 			var roster = message.content.split("f!modify blackout ").slice(1,2000);
-			crvenazvezda = roster;
-		}if(args[1] == "Black Out"){
-			var roster = message.content.split("f!modify Black Out ").slice(1,2000);
-			crvenazvezda = roster;
-		}if(args[1] == "black out"){
-			var roster = message.content.split("f!modify black out ").slice(1,2000);
-			crvenazvezda = roster;
-		}if(args[1] == "BLACK OUT"){
-			var roster = message.content.split("f!modify BLACK OUT" ).slice(1,2000);
-			crvenazvezda = roster;
+			blackout = roster;
+		}if(args[1] == "Black_Out"){
+			var roster = message.content.split("f!modify Black_Out ").slice(1,2000);
+			blackout = roster;
+		}if(args[1] == "black_out"){
+			var roster = message.content.split("f!modify black_out ").slice(1,2000);
+			blackout = roster;
+		}if(args[1] == "BLACK_OUT"){
+			var roster = message.content.split("f!modify BLACK_OUT" ).slice(1,2000);
+			blackout = roster;
 		}if(args[1] == "Blackout"){
 			var roster = message.content.split("f!modify Blackout ").slice(1,2000);
-			crvenazvezda = roster;
+			blackout = roster;
 		}
 		
 		
@@ -692,9 +698,11 @@ case "help":
         .setTitle("Commands:")
         .addField('**Server**', `**f!rules**: Display rules of server.
 **f!report**: Report somebody who broke the rules, or a bug in the client, or a certain mistake in the system.`)
-        .addField('**Bot**', `**f!online**: Displays the duration of the bot connection to the server.`)
+        .addField('**Bot**', `**f!online**: Displays the duration of the bot connection to the server.
+**f!ping**: Get bot ping.`)
         .addField('**League**', `**f!registration**: Shows the registeration criteria/instructions.`)
-        .addField('**System**', `**f!register**: Send a request to register in Futsal Stars Member.`)
+        .addField('**System**', `**f!register**: Send a request to register in Futsal Stars Member.
+**f!participe**: Used command to participe at a certain event. (Currently: Fun Cup #1)`)
         .setFooter('Command used by ' + message.author.username + "#" + message.author.discriminator)
        })
     } else if(message.channel.id != "705539473378639935"){
