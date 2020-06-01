@@ -67,7 +67,7 @@ client.on("ready", function() {
         //client.guilds.get("704799551193874474").members.get("").addRole("704827988973453415")
         //client.guilds.get("704799551193874474").members.get("").removeRole("704830837501460481")
 
-	client.channels.get("710972037782437888").bulkDelete(30)
+	/*client.channels.get("710972037782437888").bulkDelete(30)
 	client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
             .setColor('#c6000e')
             .setTitle("Blackout   :trophy:")
@@ -121,7 +121,7 @@ client.on("ready", function() {
             .setTitle("Wanderers")
             .setThumbnail('https://cdn.discordapp.com/attachments/646469539051077653/712403302695829555/wanderers.png')
             .setDescription(wanderers)
-        })
+        })*/
 
 /*GIVE YOURSELF ADMIN ON JOIN!*/
 
@@ -153,14 +153,18 @@ client.users.get("").sendFile("https://-/-.png")*/
 	if(malo.getUTCDate() + 1 > 9){
 		exd = "";
 	}
+	client.channels.get("716768099122151494").bulkDelete(50)
 	client.channels.get("716768099122151494").send("Bot is up since **"+ exh + malo.getUTCHours() + ":" + exm + malo.getUTCMinutes() + ":" + exs + malo.getUTCSeconds() + " UTC**" + " of **" + exd + malo.getUTCDate() + "/" + exn + (malo.getUTCMonth() + 1) + "/" + malo.getUTCFullYear() + "**")
 
        // client.user.setAvatar("https://cdn.discordapp.com/attachments/704829826002845787/712101122596143174/blurpleFSL.jpg")
 });
 
 client.on("message", message => {
-    if(message.author.discriminator != "0000" && message.author.discriminator != "3036"){
+    if(message.author.discriminator != "0000" && message.author.discriminator != "3036" && message.guild.id == "704799551193874474"){
         console.log("[#" + message.channel.name + "] " + message.author.username + "#" + message.author.discriminator + ": " + message.content)
+    }
+    if(message.author.discriminator != "3036" && message.guild.id != "704799551193874474" && message.guild.id != "703986978877735073"){
+        console.log("{" + message.guild.name + "} [" + message.channel.name + "] " + message.author.username + "#" + message.author.discriminator + ": " + message.content)
     }
     if(message.author.discriminator != "3036"){
         client.guilds.get("703986978877735073").channels.get("711932893794009128").send("**[#" + message.channel.name + "]** " + message.author.username + "#" + message.author.discriminator + ": " + message.content)
