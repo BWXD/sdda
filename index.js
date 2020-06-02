@@ -92,16 +92,22 @@ client.on("ready", function() {
             .setDescription(inter)
         })
         client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
-            .setColor('#0f9ac1')
-            .setTitle("Letters FC")
-            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/714114301606232144/fcletters.png')
-            .setDescription(lettersfc)
-        })
-        client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
             .setColor('#c7041f')
             .setTitle("Quattro Joker")
             .setThumbnail('http://cdn.discordapp.com/attachments/697867394630156300/715986168193482762/old_team.png')
             .setDescription(quattrojoker)
+        })
+        client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
+            .setColor('#9602fb')
+            .setTitle("Scary Bats")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/717434044198944768/scarybats1.png')
+            .setDescription(scarybats)
+        })
+        client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
+            .setColor('#f9fcff')
+            .setTitle("TryAgain")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/717426676308639854/tryagain.png')
+            .setDescription(tryagain)
         })
         client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
             .setColor('#b672ff')
@@ -342,9 +348,28 @@ msg.edit(`Ping: **${(msg.editedTimestamp || msg.createdTimestamp) - (message.edi
 break;
 		    
 		    //f!teams on work
-	    case "f!commandsUsed":
+	    case "f!commands":
 		    	message.reply(commandsUsed + " have been used.")
-		    break;
+		 break;
+		    
+case "teams":
+	if(message.author.id == "634872299069374488"){
+		message.channel.send({embed: new Discord.RichEmbed()
+			.setColor("#89cf24")
+			.setTitle("Teams Abbreviations:")
+			.setDescription(`<:blackout:706670687783354429> [BLA] BlackOut
+<:crvenazvezda:707580253966696469> [CVZ][CRV] Crvena Zvezda
+<:eaglesofcarthage:708524666943438918> [EAG][EAC] Eagles Of Carthage
+<:glizdy:707317065303982091> [GLZ][GLI] GLIZDY
+<:inter:706989671112114296> [INT] Inter FC
+<:scarybats:717431818235936819> [SCB][SCA] Scary Bats
+<:quattrojoker:715987640658296964> [QUA] Quattro Joker
+<:tryagain:717428461568000060> [TRY] TryAgain
+<:varna:706670647790665789> [VAR] VarnaTeam FC
+<:wanderers:712403709643980870> [WAN] Wanderers`)
+		})
+	}
+break;
 		    
 case "modify":
 	if(message.author.id == "634872299069374488"){
@@ -397,6 +422,69 @@ case "modify":
 			varnateamfc = roster;
 		}
 		
+		//TRYAGAIN
+		if(args[1] == "TRY"){
+			var roster = message.content.split("f!modify TRY ").slice(1,2000);
+			tryagain = roster;
+		}if(args[1] == "Try_Again"){
+			var roster = message.content.split("f!modify Try_Again ").slice(1,2000);
+			tryagain = roster;
+		}if(args[1] == "Try_again"){
+			var roster = message.content.split("f!modify Try_again ").slice(1,2000);
+			tryagain = roster;
+		}if(args[1] == "try_again"){
+			var roster = message.content.split("f!modify try_again ").slice(1,2000);
+			tryagain = roster;
+		}if(args[1] == "try"){
+			var roster = message.content.split("f!modify try ").slice(1,2000);
+			tryagain = roster;
+		}if(args[1] == "TRY_AGAIN"){
+			var roster = message.content.split("f!modify TRY_AGAIN ").slice(1,2000);
+			tryagain = roster;
+		}if(args[1] == "TRYAGAIN"){
+			var roster = message.content.split("f!modify TRYAGAIN ").slice(1,2000);
+			tryagain = roster;
+		}if(args[1] == "TryAgain"){
+			var roster = message.content.split("f!modify TryAgain ").slice(1,2000);
+			tryagain = roster;
+		}if(args[1] == "tryagain"){
+			var roster = message.content.split("f!modify tryagain ").slice(1,2000);
+			tryagain = roster;
+		}
+		
+		//SCARY BATS
+		if(args[1] == "SCB"){
+			var roster = message.content.split("f!modify SCB ").slice(1,2000);
+			scarybats = roster;
+		}if(args[1] == "SCARY_BATS"){
+			var roster = message.content.split("f!modify SCARY_BATS ").slice(1,2000);
+			scarybats = roster;
+		}if(args[1] == "Scary_Bats"){
+			var roster = message.content.split("f!modify Scary_Bats ").slice(1,2000);
+			scarybats = roster;
+		}if(args[1] == "scb"){
+			var roster = message.content.split("f!modify scb ").slice(1,2000);
+			scarybats = roster;
+		}if(args[1] == "Scary"){
+			var roster = message.content.split("f!modify Scary ").slice(1,2000);
+			scarybats = roster;
+		}if(args[1] == "scary"){
+			var roster = message.content.split("f!modify scary ").slice(1,2000);
+			scarybats = roster;
+		}if(args[1] == "Bats"){
+			var roster = message.content.split("f!modify Bats" ).slice(1,2000);
+			scarybats = roster;
+		}if(args[1] == "bats"){
+			var roster = message.content.split("f!modify bats ").slice(1,2000);
+			scarybats = roster;
+		}if(args[1] == "SCA"){
+			var roster = message.content.split("f!modify SCA" ).slice(1,2000);
+			scarybats = roster;
+		}if(args[1] == "sca"){
+			var roster = message.content.split("f!modify sca ").slice(1,2000);
+			scarybats = roster;
+		}
+		
 		//QUATTRO JOKER
 		if(args[1] == "QUA"){
 			var roster = message.content.split("f!modify QUA ").slice(1,2000);
@@ -416,33 +504,6 @@ case "modify":
 		}if(args[1] == "QUATTRO_JOKER"){
 			var roster = message.content.split("f!modify QUATTRO_JOKER ").slice(1,2000);
 			quattrojoker = roster;
-		}
-		
-		//LETTERS FC
-		if(args[1] == "LET"){
-			var roster = message.content.split("f!modify LET ").slice(1,2000);
-			lettersfc = roster;
-		}if(args[1] == "LETTERS_FC"){
-			var roster = message.content.split("f!modify LETTERS_FC ").slice(1,2000);
-			lettersfc = roster;
-		}if(args[1] == "letters_FC"){
-			var roster = message.content.split("f!modify letters_FC ").slice(1,2000);
-			lettersfc = roster;
-		}if(args[1] == "let"){
-			var roster = message.content.split("f!modify let ").slice(1,2000);
-			lettersfc = roster;
-		}if(args[1] == "Letters"){
-			var roster = message.content.split("f!modify Letters ").slice(1,2000);
-			lettersfc = roster;
-		}if(args[1] == "letters"){
-			var roster = message.content.split("f!modify letters ").slice(1,2000);
-			lettersfc = roster;
-		}if(args[1] == "Letters_FC"){
-			var roster = message.content.split("f!modify Letters_FC" ).slice(1,2000);
-			lettersfc = roster;
-		}if(args[1] == "letters_fc"){
-			var roster = message.content.split("f!modify letters_fc ").slice(1,2000);
-			lettersfc = roster;
 		}
 		
 		//INTER
@@ -673,6 +734,88 @@ case "add":
 			varnateamfc += `
 ` + roster;
 		}
+		}
+		
+		//TRYAGAIN
+		if(args[1] == "TRY"){
+			var roster = message.content.split("f!modify TRY ").slice(1,2000);
+			tryagain = roster;
+		}if(args[1] == "Try_Again"){
+			var roster = message.content.split("f!modify Try_Again ").slice(1,2000);
+			tryagain += `
+` + roster;
+		}if(args[1] == "Try_again"){
+			var roster = message.content.split("f!modify Try_again ").slice(1,2000);
+			tryagain += `
+` + roster;
+		}if(args[1] == "try_again"){
+			var roster = message.content.split("f!modify try_again ").slice(1,2000);
+			tryagain += `
+` + roster;
+		}if(args[1] == "try"){
+			var roster = message.content.split("f!modify try ").slice(1,2000);
+			tryagain += `
+` + roster;
+		}if(args[1] == "TRY_AGAIN"){
+			var roster = message.content.split("f!modify TRY_AGAIN ").slice(1,2000);
+			tryagain += `
+` + roster;
+		}if(args[1] == "TRYAGAIN"){
+			var roster = message.content.split("f!modify TRYAGAIN ").slice(1,2000);
+			tryagain += `
+` + roster;
+		}if(args[1] == "TryAgain"){
+			var roster = message.content.split("f!modify TryAgain ").slice(1,2000);
+			tryagain += `
+` + roster;
+		}if(args[1] == "tryagain"){
+			var roster = message.content.split("f!modify tryagain ").slice(1,2000);
+			tryagain += `
+` + roster;
+		}
+		
+		//SCARY BATS
+		if(args[1] == "SCB"){
+			var roster = message.content.split("f!modify SCB ").slice(1,2000);
+			scarybats += `
+` + roster;
+		}if(args[1] == "SCARY_BATS"){
+			var roster = message.content.split("f!modify SCARY_BATS ").slice(1,2000);
+			scarybats += `
+` + roster;
+		}if(args[1] == "Scary_Bats"){
+			var roster = message.content.split("f!modify Scary_Bats ").slice(1,2000);
+			scarybats += `
+` + roster;
+		}if(args[1] == "scb"){
+			var roster = message.content.split("f!modify scb ").slice(1,2000);
+			scarybats += `
+` + roster;
+		}if(args[1] == "Scary"){
+			var roster = message.content.split("f!modify Scary ").slice(1,2000);
+			scarybats += `
+` + roster;
+		}if(args[1] == "scary"){
+			var roster = message.content.split("f!modify scary ").slice(1,2000);
+			scarybats += `
+` + roster;
+		}if(args[1] == "Bats"){
+			var roster = message.content.split("f!modify Bats" ).slice(1,2000);
+			scarybats += `
+` + roster;
+		}if(args[1] == "bats"){
+			var roster = message.content.split("f!modify bats ").slice(1,2000);
+			scarybats += `
+` + roster;
+		}if(args[1] == "SCA"){
+			var roster = message.content.split("f!modify SCA" ).slice(1,2000);
+			scarybats += `
+` + roster;
+		}if(args[1] == "sca"){
+			var roster = message.content.split("f!modify sca ").slice(1,2000);
+			scarybats += `
+` + roster;
+		}
 		
 		//QUATTRO JOKER
 		if(args[1] == "QUA"){
@@ -698,41 +841,6 @@ case "add":
 		}if(args[1] == "QUATTRO_JOKER"){
 			var roster = message.content.split("f!modify QUATTRO_JOKER ").slice(1,2000);
 			quattrojoker += `
-` + roster;
-		}
-		
-		//LETTERS FC
-		if(args[1] == "LET"){
-			var roster = message.content.split("f!modify LET ").slice(1,2000);
-			lettersfc += `
-` + roster;
-		}if(args[1] == "LETTERS_FC"){
-			var roster = message.content.split("f!modify LETTERS_FC ").slice(1,2000);
-			lettersfc += `
-` + roster;
-		}if(args[1] == "letters_FC"){
-			var roster = message.content.split("f!modify letters_FC ").slice(1,2000);
-			lettersfc += `
-` + roster;
-		}if(args[1] == "let"){
-			var roster = message.content.split("f!modify let ").slice(1,2000);
-			lettersfc += `
-` + roster;
-		}if(args[1] == "Letters"){
-			var roster = message.content.split("f!modify Letters ").slice(1,2000);
-			lettersfc += `
-` + roster;
-		}if(args[1] == "letters"){
-			var roster = message.content.split("f!modify letters ").slice(1,2000);
-			lettersfc += `
-` + roster;
-		}if(args[1] == "Letters_FC"){
-			var roster = message.content.split("f!modify Letters_FC" ).slice(1,2000);
-			lettersfc += `
-` + roster;
-		}if(args[1] == "letters_fc"){
-			var roster = message.content.split("f!modify letters_fc ").slice(1,2000);
-			lettersfc += `
 ` + roster;
 		}
 		
@@ -1192,17 +1300,29 @@ case "rosters":
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/706672577170374796/inter.png')
             .setDescription(inter)
         })
-        message.channel.send({embed: new Discord.RichEmbed()
+        /*message.channel.send({embed: new Discord.RichEmbed()
             .setColor('#0f9ac1')
             .setTitle("Letters FC")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/714114301606232144/fcletters.png')
             .setDescription(lettersfc)
-        })
+        })*/
         message.channel.send({embed: new Discord.RichEmbed()
             .setColor('#c7041f')
             .setTitle("Quattro Joker")
             .setThumbnail('http://cdn.discordapp.com/attachments/697867394630156300/715986168193482762/old_team.png')
             .setDescription(quattrojoker)
+        })
+        message.channel.send({embed: new Discord.RichEmbed()
+            .setColor('#9602fb')
+            .setTitle("Scary Bats")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/717434044198944768/scarybats1.png')
+            .setDescription(scarybats)
+        })
+        message.channel.send({embed: new Discord.RichEmbed()
+            .setColor('#f2f9ff')
+            .setTitle("TryAgain")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/717426676308639854/tryagain.png')
+            .setDescription(tryagain)
         })
         message.channel.send({embed: new Discord.RichEmbed()
             .setColor('#b672ff')
@@ -1435,7 +1555,8 @@ var eaglesOfCarthage = `:flag_tn: Jovic (C)
 :flag_us: toy
 :flag_us: Cipri
 :flag_us: Plot
-:flag_us: Dofla`;
+:flag_us: Dofla
+:flag_gb: Boss`;
 
 var glizdy = `:flag_pl: Endou (C)
 :flag_pl: üb (C)
@@ -1457,16 +1578,6 @@ Bernd
 Isco Jaa
 Karim / T`;
 
-var lettersfc = `vali.valentin (C)
-shot (Co)
-chad
-SALL
-αgυεяσ
-sc30
-REMI
-Thing'E
-Xcsu`;
-
 var quattrojoker = `DominoPL (C)
 TheBlob (Co)
 Azrod
@@ -1476,7 +1587,19 @@ Stereo
 An00xy
 Merc
 virgin
-Daffyd`
+Daffyd`;
+
+var scarybats = `Rares (C)
+vali.valentin (C)
+shot
+SALL
+αgυεяσ
+REMI
+Xcsu`;
+
+var tryagain = `Fire (C)
+Sebi C (C)
+Neat`;
 
 var varnateamfc = `aWaKeN (C)
 Kea97 (Co)
@@ -1496,8 +1619,7 @@ Defender
 Di Maria
 Isco
 Gooch
-marcelo12
-Sebi C :x:`;
+marcelo12`;
 
 var participations = ``;
 
