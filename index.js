@@ -734,7 +734,6 @@ case "add":
 			varnateamfc += `
 ` + roster;
 		}
-		}
 		
 		//TRYAGAIN
 		if(args[1] == "TRY"){
@@ -1051,7 +1050,7 @@ case "add":
 ` + roster;
 		}
 		
-		
+    
 	}		    
 break;		    
 		    
@@ -1080,7 +1079,7 @@ break;
     break;*/
 
 case "rules":
-		    commandsUsed++;
+    commandsUsed++;
     if(message.channel.id == "704843204440358944"){
         message.delete();
         message.channel.send({embed: new Discord.RichEmbed()
