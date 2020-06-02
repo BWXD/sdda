@@ -337,11 +337,14 @@ msg.edit(`Ping: **${(msg.editedTimestamp || msg.createdTimestamp) - (message.edi
 		    
 	    case "me":
 		    if(message.author.id == "634872299069374488"){
-			    message.reply("f!rosters, f!modify [TEAM] {ROSTER}, f!add [TEAM] {PLAYER}, f!teams")
+			    message.reply("f!rosters, f!modify [TEAM] {ROSTER}, f!add [TEAM] {PLAYER}, f!teams, f!commandsUsed")
 		    }
 break;
 		    
 		    //f!teams on work
+	    case "f!commandsUsed":
+		    	message.reply(commandsUsed + " have been used.")
+		    break;
 		    
 case "modify":
 	if(message.author.id == "634872299069374488"){
