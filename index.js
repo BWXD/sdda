@@ -332,6 +332,7 @@ msg.edit(`Ping: **${(msg.editedTimestamp || msg.createdTimestamp) - (message.edi
 		    
 case "modify":
 	if(message.author.id == "634872299069374488"){
+		message.delete();
 		//WANDERERS
 		if(args[1] == "WAN"){
 			var roster = message.content.split("f!modify WAN ").slice(1,2000);
@@ -590,6 +591,347 @@ case "modify":
 		
 	}		    
 break;
+		    
+	    
+case "add":
+	if(message.author.id == "634872299069374488"){
+		message.delete();
+		//WANDERERS
+		if(args[1] == "WAN"){
+			var roster = message.content.split("f!modify WAN ").slice(1,2000);
+			wanderers += `
+` + roster;
+		}if(args[1] == "Wanderers"){
+			var roster = message.content.split("f!modify WAN ").slice(1,2000);
+			wanderers += `
+` + roster;
+		}if(args[1] == "wanderers"){
+			var roster = message.content.split("f!modify WAN ").slice(1,2000);
+			wanderers += `
+` + roster;
+		}if(args[1] == "WANDERERS"){
+			var roster = message.content.split("f!modify WANDERERS ").slice(1,2000);
+			wanderers += `
+` + roster;
+		}if(args[1] == "wan"){
+			var roster = message.content.split("f!modify WAN ").slice(1,2000);
+			wanderers += `
+` + roster;
+		}
+		
+		//VARNATEAM FC
+		if(args[1] == "VAR"){
+			var roster = message.content.split("f!modify VAR ").slice(1,2000);
+			varnateamfc += `
+` + roster;
+		}if(args[1] == "VarnaTeam_FC"){
+			var roster = message.content.split("f!modify VarnaTeam_FC ").slice(1,2000);
+			varnateamfc += `
+` + roster;
+		}if(args[1] == "varnateam_fc"){
+			var roster = message.content.split("f!modify varnateam_fc ").slice(1,2000);
+			varnateamfc += `
+` + roster;
+		}if(args[1] == "var"){
+			var roster = message.content.split("f!modify var ").slice(1,2000);
+			varnateamfc += `
+` + roster;
+		}if(args[1] == "Varna"){
+			var roster = message.content.split("f!modify Varna ").slice(1,2000);
+			varnateamfc += `
+` + roster;
+		}if(args[1] == "varna"){
+			var roster = message.content.split("f!modify varna ").slice(1,2000);
+			varnateamfc += `
+` + roster;
+		}if(args[1] == "Varna_FC"){
+			var roster = message.content.split("f!modify Varna_FC ").slice(1,2000);
+			varnateamfc += `
+` + roster;
+		}if(args[1] == "varna_fc"){
+			var roster = message.content.split("f!modify varna_fc ").slice(1,2000);
+			varnateamfc += `
+` + roster;
+		}if(args[1] == "VARNA"){
+			var roster = message.content.split("f!modify VARNA ").slice(1,2000);
+			varnateamfc += `
+` + roster;
+		}
+		
+		//QUATTRO JOKER
+		if(args[1] == "QUA"){
+			var roster = message.content.split("f!modify QUA ").slice(1,2000);
+			quattrojoker += `
+` + roster;
+		}if(args[1] == "Quattro_Joker"){
+			var roster = message.content.split("f!modify Quattro_Joker ").slice(1,2000);
+			quattrojoker += `
+` + roster;
+		}if(args[1] == "Quattro_joker"){
+			var roster = message.content.split("f!modify Quattro_joker ").slice(1,2000);
+			quattrojoker += `
+` + roster;
+		}if(args[1] == "quattro_joker"){
+			var roster = message.content.split("f!modify quattro_joker ").slice(1,2000);
+			quattrojoker += `
+` + roster;
+		}if(args[1] == "qua"){
+			var roster = message.content.split("f!modify qua ").slice(1,2000);
+			quattrojoker += `
+` + roster;
+		}if(args[1] == "QUATTRO_JOKER"){
+			var roster = message.content.split("f!modify QUATTRO_JOKER ").slice(1,2000);
+			quattrojoker += `
+` + roster;
+		}
+		
+		//LETTERS FC
+		if(args[1] == "LET"){
+			var roster = message.content.split("f!modify LET ").slice(1,2000);
+			lettersfc += `
+` + roster;
+		}if(args[1] == "LETTERS_FC"){
+			var roster = message.content.split("f!modify LETTERS_FC ").slice(1,2000);
+			lettersfc += `
+` + roster;
+		}if(args[1] == "letters_FC"){
+			var roster = message.content.split("f!modify letters_FC ").slice(1,2000);
+			lettersfc += `
+` + roster;
+		}if(args[1] == "let"){
+			var roster = message.content.split("f!modify let ").slice(1,2000);
+			lettersfc += `
+` + roster;
+		}if(args[1] == "Letters"){
+			var roster = message.content.split("f!modify Letters ").slice(1,2000);
+			lettersfc += `
+` + roster;
+		}if(args[1] == "letters"){
+			var roster = message.content.split("f!modify letters ").slice(1,2000);
+			lettersfc += `
+` + roster;
+		}if(args[1] == "Letters_FC"){
+			var roster = message.content.split("f!modify Letters_FC" ).slice(1,2000);
+			lettersfc += `
+` + roster;
+		}if(args[1] == "letters_fc"){
+			var roster = message.content.split("f!modify letters_fc ").slice(1,2000);
+			lettersfc += `
+` + roster;
+		}
+		
+		//INTER
+		if(args[1] == "INT"){
+			var roster = message.content.split("f!modify INT ").slice(1,2000);
+			inter += `
+` + roster;
+		}if(args[1] == "Inter"){
+			var roster = message.content.split("f!modify Inter ").slice(1,2000);
+			inter += `
+` + roster;
+		}if(args[1] == "inter"){
+			var roster = message.content.split("f!modify inter ").slice(1,2000);
+			inter += `
+` + roster;
+		}if(args[1] == "INTER"){
+			var roster = message.content.split("f!modify INTER ").slice(1,2000);
+			inter += `
+` + roster;
+		}if(args[1] == "int"){
+			var roster = message.content.split("f!modify int ").slice(1,2000);
+			inter += `
+` + roster;
+		}if(args[1] == "Inter_FC"){
+			var roster = message.content.split("f!modify Inter_FC ").slice(1,2000);
+			inter += `
+` + roster;
+		}if(args[1] == "inter_fc"){
+			var roster = message.content.split("f!modify inter_fc ").slice(1,2000);
+			inter += `
+` + roster;
+		}if(args[1] == "INTER_FC"){
+			var roster = message.content.split("f!modify INTER_FC ").slice(1,2000);
+			inter += `
+` + roster;
+		}
+		
+		//GLIZDY
+		if(args[1] == "GLZ"){
+			var roster = message.content.split("f!modify GLZ ").slice(1,2000);
+			glizdy += `
+` + roster;
+		}if(args[1] == "Glizdy"){
+			var roster = message.content.split("f!modify Glizdy ").slice(1,2000);
+			glizdy += `
+` + roster;
+		}if(args[1] == "glizdy"){
+			var roster = message.content.split("f!modify glizdy ").slice(1,2000);
+			glizdy += `
+` + roster;
+		}if(args[1] == "GLIZDY"){
+			var roster = message.content.split("f!modify GLIZDY ").slice(1,2000);
+			glizdy += `
+` + roster;
+		}if(args[1] == "glz"){
+			var roster = message.content.split("f!modify glz ").slice(1,2000);
+			glizdy += `
+` + roster;
+		}if(args[1] == "gli"){
+			var roster = message.content.split("f!modify gli ").slice(1,2000);
+			glizdy += `
+` + roster;
+		}if(args[1] == "GLI"){
+			var roster = message.content.split("f!modify GLI ").slice(1,2000);
+			glizdy += `
+` + roster;
+		}
+		
+		//EAGLES OF CARTHAGE
+		if(args[1] == "EAC"){
+			var roster = message.content.split("f!modify EAC ").slice(1,2000);
+			eaglesOfCarthage += `
+` + roster;
+		}if(args[1] == "Eagles_Of_Carthage"){
+			var roster = message.content.split("f!modify Eagles_Of_Carthage ").slice(1,2000);
+			eaglesOfCarthage += `
+` + roster;
+		}if(args[1] == "eagles_of_carthage"){
+			var roster = message.content.split("f!modify eagles_of_carthage ").slice(1,2000);
+			eaglesOfCarthage += `
+` + roster;
+		}if(args[1] == "EAGLES_OF_CARTHAGE"){
+			var roster = message.content.split("f!modify EAGLES_OF_CARTHAGE ").slice(1,2000);
+			eaglesOfCarthage += `
+` + roster;
+		}if(args[1] == "eac"){
+			var roster = message.content.split("f!modify eac ").slice(1,2000);
+			eaglesOfCarthage += `
+` + roster;
+		}if(args[1] == "eag"){
+			var roster = message.content.split("f!modify eag ").slice(1,2000);
+			eaglesOfCarthage += `
+` + roster;
+		}if(args[1] == "EAG"){
+			var roster = message.content.split("f!modify EAG ").slice(1,2000);
+			eaglesOfCarthage += `
+` + roster;
+		}if(args[1] == "EAGLES"){
+			var roster = message.content.split("f!modify EAGLES ").slice(1,2000);
+			eaglesOfCarthage += `
+` + roster;
+		}if(args[1] == "CARTHAGE"){
+			var roster = message.content.split("f!modify CARTHAGE ").slice(1,2000);
+			eaglesOfCarthage += `
+` + roster;
+		}if(args[1] == "eagles"){
+			var roster = message.content.split("f!modify eagles ").slice(1,2000);
+			eaglesOfCarthage += `
+` + roster;
+		}if(args[1] == "carthage"){
+			var roster = message.content.split("f!modify carthage ").slice(1,2000);
+			eaglesOfCarthage += `
+` + roster;
+		}if(args[1] == "Eagles"){
+			var roster = message.content.split("f!modify Eagles ").slice(1,2000);
+			eaglesOfCarthage += `
+` + roster;
+		}if(args[1] == "Carthage"){
+			var roster = message.content.split("f!modify Carthage ").slice(1,2000);
+			eaglesOfCarthage += `
+` +  roster;
+		}
+		
+		//CRVENA ZVEZDA
+		if(args[1] == "CRV"){
+			var roster = message.content.split("f!modify CRV ").slice(1,2000);
+			crvenazvezda += `
+` +  roster;
+		}if(args[1] == "crv"){
+			var roster = message.content.split("f!modify crv ").slice(1,2000);
+			crvenazvezda += `
+` +  roster;
+		}if(args[1] == "CVZ"){
+			var roster = message.content.split("f!modify CVZ ").slice(1,2000);
+			crvenazvezda += `
+` +  roster;
+		}if(args[1] == "cvz"){
+			var roster = message.content.split("f!modify cvz ").slice(1,2000);
+			crvenazvezda += `
+` +  roster;
+		}if(args[1] == "CRVENA_ZVEZDA"){
+			var roster = message.content.split("f!modify CRVENA_ZVEZDA ").slice(1,2000);
+			crvenazvezda += `
+` +  roster;
+		}if(args[1] == "Crvena_Zvezda"){
+			var roster = message.content.split("f!modify Crvena_Zvezda ").slice(1,2000);
+			crvenazvezda += `
+` +  roster;
+		}if(args[1] == "crvena_zvezda"){
+			var roster = message.content.split("f!modify crvena_zvezda ").slice(1,2000);
+			crvenazvezda += `
+` +  roster;
+		}if(args[1] == "Crvena"){
+			var roster = message.content.split("f!modify Crvena ").slice(1,2000);
+			crvenazvezda += `
+` +  roster;
+		}if(args[1] == "crvena"){
+			var roster = message.content.split("f!modify crvena ").slice(1,2000);
+			crvenazvezda += `
+` +  roster;
+		}if(args[1] == "Zvezda"){
+			var roster = message.content.split("f!modify Zvezda" ).slice(1,2000);
+			crvenazvezda += `
+` +  roster;
+		}if(args[1] == "zvezda"){
+			var roster = message.content.split("f!modify zvezda ").slice(1,2000);
+			crvenazvezda += `
+` +  roster;
+		}
+		
+		//BLACKOUT
+		if(args[1] == "BLA"){
+			var roster = message.content.split("f!modify BLA ").slice(1,2000);
+			blackout += `
+` +  roster;
+		}if(args[1] == "bla"){
+			var roster = message.content.split("f!modify bla ").slice(1,2000);
+			blackout += `
+` +  roster;
+		}if(args[1] == "BLACKOUT"){
+			var roster = message.content.split("f!modify BLACKOUT ").slice(1,2000);
+			blackout += `
+` +  roster;
+		}if(args[1] == "BlackOut"){
+			var roster = message.content.split("f!modify BlackOut ").slice(1,2000);
+			blackout += `
+` +  roster;
+		}if(args[1] == "blackout"){
+			var roster = message.content.split("f!modify blackout ").slice(1,2000);
+			blackout += `
+` +  roster;
+		}if(args[1] == "Black_Out"){
+			var roster = message.content.split("f!modify Black_Out ").slice(1,2000);
+			blackout += `
+` +  roster;
+		}if(args[1] == "black_out"){
+			var roster = message.content.split("f!modify black_out ").slice(1,2000);
+			blackout += `
+` + roster;
+		}if(args[1] == "BLACK_OUT"){
+			var roster = message.content.split("f!modify BLACK_OUT" ).slice(1,2000);
+			blackout += `
+` + roster;
+		}if(args[1] == "Blackout"){
+			var roster = message.content.split("f!modify Blackout ").slice(1,2000);
+			blackout += `
+` + roster;
+		}
+		
+		
+	}		    
+break;		    
+		    
+		    
 /*case "start":
     message.channel.send({embed: new Discord.RichEmbed()
         .setColor('#00FFFF')
