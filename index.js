@@ -343,12 +343,12 @@ msg.edit(`Ping: **${(msg.editedTimestamp || msg.createdTimestamp) - (message.edi
 		    
 	    case "me":
 		    if(message.author.id == "634872299069374488"){
-			    message.reply("f!rosters, f!modify [TEAM] {ROSTER}, f!add [TEAM] {PLAYER}, f!teams, f!commandsUsed")
+			    message.reply("f!rosters, f!modify [TEAM] {ROSTER}, f!add [TEAM] {PLAYER}, f!teams, f!commands")
 		    }
 break;
 		    
 		    //f!teams on work
-	    case "f!commands":
+	    case "commands":
 		    	message.reply(commandsUsed + " have been used.")
 		 break;
 		    
@@ -362,8 +362,8 @@ case "teams":
 <:eaglesofcarthage:708524666943438918> [EAG][EAC] Eagles Of Carthage
 <:glizdy:707317065303982091> [GLZ][GLI] GLIZDY
 <:inter:706989671112114296> [INT] Inter FC
-<:scarybats:717431818235936819> [SCB][SCA] Scary Bats
 <:quattrojoker:715987640658296964> [QUA] Quattro Joker
+<:scarybats:717431818235936819> [SCB][SCA] Scary Bats
 <:tryagain:717428461568000060> [TRY] TryAgain
 <:varna:706670647790665789> [VAR] VarnaTeam FC
 <:wanderers:712403709643980870> [WAN] Wanderers`)
