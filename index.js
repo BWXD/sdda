@@ -1554,7 +1554,8 @@ var eaglesOfCarthage = `:flag_tn: Jovic (C)
 :flag_us: Cipri
 :flag_us: Plot
 :flag_us: Dofla
-:flag_gb: Boss`;
+:flag_gb: Boss
+:flag_us: Gonzinho`;
 
 var glizdy = `:flag_pl: Endou (C)
 :flag_pl: üb (C)
