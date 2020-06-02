@@ -17,6 +17,8 @@ var embedMove = "off";
 var embedMove2 = "off";
 var bugProtectMode = "off";
 
+var commandsUsed = 0;
+
 var commitement = ""
 var theMonth = ""
 
@@ -328,6 +330,7 @@ client.on("message", async function(message) {
 			    //THE PROTECTION MODE IS OFF, COMMANDS NORMAL
 		    
 case "ping":
+		    commandsUsed++;
         const msg = await message.channel.send('Getting my ping...')
 msg.edit(`Ping: **${(msg.editedTimestamp || msg.createdTimestamp) - (message.editedTimestamp || message.createdTimestamp)}` + "ms**")
     break;
@@ -966,6 +969,7 @@ break;
     break;*/
 
 case "rules":
+		    commandsUsed++;
     if(message.channel.id == "704843204440358944"){
         message.delete();
         message.channel.send({embed: new Discord.RichEmbed()
@@ -991,6 +995,7 @@ case "rules":
 break;
 
 case "register":
+		    commandsUsed++;
         if(message.channel.id == "705539473378639935" && message.member.highestRole.id != "715716361065725952"){
             message.delete()
             message.author.send({embed: new Discord.RichEmbed()
@@ -1015,6 +1020,7 @@ break;
 		    
 
 case "participe":
+		    commandsUsed++;
 	if(participations.length < 16){
         message.delete()
 
@@ -1030,6 +1036,7 @@ break;
 		    
 	
 case "funcup":
+		    commandsUsed++;
 	if(message.author.id == "634872299069374488"){
 		message.channel.send(participations.length + " players has registered in the Fun Cup #1.")
 	}
@@ -1043,6 +1050,7 @@ break;
 		    
 
 case "help":
+		    commandsUsed++;
     if(message.channel.id == "705539473378639935"){
         message.delete();
     message.channel.send({embed: new Discord.RichEmbed()
@@ -1065,6 +1073,7 @@ case "help":
 break;
 		    
 	    case "online":
+		    commandsUsed++;
 		    
 		    if(d == 1){
 			ood = "";
