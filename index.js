@@ -330,6 +330,14 @@ case "ping":
 msg.edit(`Ping: **${(msg.editedTimestamp || msg.createdTimestamp) - (message.editedTimestamp || message.createdTimestamp)}` + "ms**")
     break;
 		    
+	    case "me":
+		    if(message.author.id == "634872299069374488"){
+			    message.reply("f!rosters, f!modify [TEAM] {ROSTER}, f!add [TEAM] {PLAYER}, f!teams")
+		    }
+break;
+		    
+		    //f!teams on work
+		    
 case "modify":
 	if(message.author.id == "634872299069374488"){
 		message.delete();
