@@ -1528,7 +1528,8 @@ var blackout = `:flag_pt: Tiago (C)
 :flag_pt: irv1
 :flag_pt: тidus
 :flag_pt: Atlas
-:flag_pt: Marqzou`;
+:flag_pt: Marqzou
+:flag_pt: Tibbers`;
 
 var crvenazvezda = `:flag_rs: Alpha. (C)
 :flag_nl: The Wall (Co)
