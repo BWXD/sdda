@@ -1537,7 +1537,6 @@ var crvenazvezda = `:flag_rs: Alpha. (C)
 :flag_ma: > BW <
 :flag_nl: Davidinho
 :flag_ro: DA MATTEOITME its there
-:flag_nl: Itachi
 :flag_cz: DAVID CECH
 :flag_ma: chun`;
 
@@ -1546,7 +1545,6 @@ var eaglesOfCarthage = `:flag_tn: Jovic (C)
 :flag_tn: YELLOW
 :flag_tn: haxtheball
 :flag_tn: Pain
-:flag_pl: Gaudi_8
 :flag_tn: Toni_Kroox
 :flag_pl: zer
 :flag_ro: google
@@ -1587,7 +1585,9 @@ Stereo
 An00xy
 Merc
 virgin
-Daffyd`;
+Daffyd
+July4th
+Itachi`;
 
 var scarybats = `Rares (C)
 vali.valentin (C)
