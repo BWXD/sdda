@@ -1597,7 +1597,12 @@ REMI
 Xcsu`;
 
 var tryagain = `Fire (C)
-Sebi C (C)
+Sebi c (Co)
+Van basten
+El matador
+Linde
+Marfert
+Porto
 Neat`;
 
 var varnateamfc = `aWaKeN (C)
