@@ -154,7 +154,12 @@ client.users.get("").sendFile("https://-/-.png")*/
 	}
 	client.channels.get("716768099122151494").bulkDelete(50)
 	client.channels.get("716768099122151494").send("Bot is up since **"+ exh + malo.getUTCHours() + ":" + exm + malo.getUTCMinutes() + ":" + exs + malo.getUTCSeconds() + " UTC**" + " of **" + exd + malo.getUTCDate() + "/" + exn + (malo.getUTCMonth() + 1) + "/" + malo.getUTCFullYear() + "**")
-
+	client.users.get("483228753200283649").send("```" + `yaml
+★ WELCOME IN FUTSAL STARS LEAGUE ★` + "```" + `
+**Hello,** your team ` + "` Toxic's`" + ` was invited to join Futsal Stars League for 4v4 Season 1 to replace a missing team.
+**So** please accept our invitation and join our discord server to register your team!
+http://futsal-stars-league.rf.gd/
+https://discord.gg/33MZZs8`)
        // client.user.setAvatar("https://cdn.discordapp.com/attachments/704829826002845787/712101122596143174/blurpleFSL.jpg")
 });
 
