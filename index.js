@@ -67,12 +67,6 @@ client.on("ready", function() {
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/706662392192565329/blackout.png')
             .setDescription(blackout)
         })
-	client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
-            .setColor('#d90512')
-            .setTitle("Crvena Zvezda")
-            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/707577909979906068/crvenazvezda.png')
-            .setDescription(crvenazvezda)
-        })
         client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
             .setColor('#ae0725')
             .setTitle("Eagles Of Carthage")
@@ -154,12 +148,7 @@ client.users.get("").sendFile("https://-/-.png")*/
 	}
 	client.channels.get("716768099122151494").bulkDelete(50)
 	client.channels.get("716768099122151494").send("Bot is up since **"+ exh + malo.getUTCHours() + ":" + exm + malo.getUTCMinutes() + ":" + exs + malo.getUTCSeconds() + " UTC**" + " of **" + exd + malo.getUTCDate() + "/" + exn + (malo.getUTCMonth() + 1) + "/" + malo.getUTCFullYear() + "**")
-	client.users.get("483228753200283649").send("```" + `yaml
-★ WELCOME IN FUTSAL STARS LEAGUE ★` + "```" + `
-**Hello,** your team ` + "` Toxic's`" + ` was invited to join Futsal Stars League for 4v4 Season 1 to replace a missing team.
-**So** please accept our invitation and join our discord server to register your team!
-http://futsal-stars-league.rf.gd/
-https://discord.gg/33MZZs8`)
+	
        // client.user.setAvatar("https://cdn.discordapp.com/attachments/704829826002845787/712101122596143174/blurpleFSL.jpg")
 });
 
@@ -1280,12 +1269,12 @@ case "rosters":
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/706662392192565329/blackout.png')
             .setDescription(blackout)
         })
-	message.channel.send({embed: new Discord.RichEmbed()
+	/*message.channel.send({embed: new Discord.RichEmbed()
             .setColor('#d90512')
             .setTitle("Crvena Zvezda")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/707577909979906068/crvenazvezda.png')
             .setDescription(crvenazvezda)
-        })
+        })*/
         message.channel.send({embed: new Discord.RichEmbed()
             .setColor('#ae0725')
             .setTitle("Eagles Of Carthage")
@@ -1536,14 +1525,14 @@ var blackout = `:flag_pt: Tiago (C)
 :flag_pt: Marqzou
 :flag_pt: Tibbers`;
 
-var crvenazvezda = `:flag_rs: Alpha. (C)
+/*var crvenazvezda = `:flag_rs: Alpha. (C)
 :flag_nl: The Wall (Co)
 :flag_nl: Pyro
 :flag_ma: > BW <
 :flag_nl: Davidinho
 :flag_ro: DA MATTEOITME its there
 :flag_cz: DAVID CECH
-:flag_ma: chun`;
+:flag_ma: chun`;*/
 
 var eaglesOfCarthage = `:flag_tn: Jovic (C)
 :flag_tn: AK-47
