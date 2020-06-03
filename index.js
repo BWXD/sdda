@@ -1551,7 +1551,6 @@ var eaglesOfCarthage = `:flag_tn: Jovic (C)
 :flag_hu: Vodkasprite
 :flag_pt: Ben Simmons
 :flag_us: toy
-:flag_us: Cipri
 :flag_us: Plot
 :flag_us: Dofla
 :flag_gb: Boss
@@ -1578,12 +1577,9 @@ Isco Jaa
 Karim / T`;
 
 var quattrojoker = `DominoPL (C)
-TheBlob (Co)
 Azrod
 Autentik
 Doliprune
-Stereo
-An00xy
 Merc
 virgin
 Daffyd
@@ -1596,7 +1592,8 @@ shot
 SALL
 αgυεяσ
 REMI
-Xcsu`;
+Xcsu
+ünder.`;
 
 var tryagain = `Fire (C)
 Sebi c (Co)
@@ -1604,7 +1601,6 @@ Van basten
 El matador
 Linde
 Marfert
-Porto
 Neat`;
 
 var varnateamfc = `aWaKeN (C)
