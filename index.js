@@ -67,6 +67,12 @@ client.on("ready", function() {
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/706662392192565329/blackout.png')
             .setDescription(blackout)
         })
+	message.channel.send({embed: new Discord.RichEmbed()
+            .setColor('#d90512')
+            .setTitle("Crvena Zvezda")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/707577909979906068/crvenazvezda.png')
+            .setDescription(crvenazvezda)
+        })
         client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
             .setColor('#ae0725')
             .setTitle("Eagles Of Carthage")
@@ -1269,12 +1275,12 @@ case "rosters":
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/706662392192565329/blackout.png')
             .setDescription(blackout)
         })
-	/*message.channel.send({embed: new Discord.RichEmbed()
+	message.channel.send({embed: new Discord.RichEmbed()
             .setColor('#d90512')
             .setTitle("Crvena Zvezda")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/707577909979906068/crvenazvezda.png')
             .setDescription(crvenazvezda)
-        })*/
+        })
         message.channel.send({embed: new Discord.RichEmbed()
             .setColor('#ae0725')
             .setTitle("Eagles Of Carthage")
@@ -1525,14 +1531,15 @@ var blackout = `:flag_pt: Tiago (C)
 :flag_pt: Marqzou
 :flag_pt: Tibbers`;
 
-/*var crvenazvezda = `:flag_rs: Alpha. (C)
+var crvenazvezda = `:flag_rs: Alpha (C)
 :flag_nl: The Wall (Co)
-:flag_nl: Pyro
-:flag_ma: > BW <
-:flag_nl: Davidinho
-:flag_ro: DA MATTEOITME its there
-:flag_cz: DAVID CECH
-:flag_ma: chun`;*/
+:flag_nl: pyro
+:flag_nl: Deacayy
+:flag_cz: David Cech
+:flag_ma: chun
+:flag_nl: 𝗛𝝠𝗪𝗞'
+:flag_ba: Asano
+:flag_dz: Diaz`;
 
 var eaglesOfCarthage = `:flag_tn: Jovic (C)
 :flag_tn: AK-47
