@@ -1254,11 +1254,11 @@ break;
 case "verify":
     message.delete()
     var member = message.mentions.members.first();
-    if(message.author.id == "634872299069374488"&&member){
+    if(message.member.hasPermission("MANAGE_NICKNAMES")&&member){
         member.addRole("704827988973453415")
         member.removeRole("704830837501460481")
     }
-    if(message.author.id == "585839295479152640"&&member){
+    if(message.member.hasPermission("MANAGE_NICKNAMES")&&member){
         member.addRole("704827988973453415")
         member.removeRole("704830837501460481")
     }
