@@ -1539,7 +1539,8 @@ var crvenazvezda = `:flag_rs: Alpha (C)
 :flag_ma: chun
 :flag_nl: 𝗛𝝠𝗪𝗞'
 :flag_ba: Asano
-:flag_dz: Diaz`;
+:flag_dz: Diaz
+:flag_tr: Manuel Fernandes`;
 
 var eaglesOfCarthage = `:flag_tn: Jovic (C)
 :flag_tn: AK-47
@@ -1615,10 +1616,9 @@ Matthaus`;
 var wanderers = `moß (C)
 MaKeKs
 Tadaum
-Inter
+Inter Fc
 Defender
 Di Maria
-Isco
 Gooch
 marcelo12`;
 
