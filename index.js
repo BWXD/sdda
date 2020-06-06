@@ -1554,7 +1554,6 @@ var eaglesOfCarthage = `:flag_tn: Jovic (C)
 :flag_us: toy
 :flag_us: Plot
 :flag_us: Dofla
-:flag_gb: Boss
 :flag_us: Gonzinho`;
 
 var glizdy = `:flag_pl: Endou (C)
@@ -1594,7 +1593,7 @@ SALL
 αgυεяσ
 REMI
 Xcsu
-ünder.`;
+nike`;
 
 var tryagain = `Fire (C)
 Sebi c (Co)
@@ -1611,7 +1610,6 @@ Kokain
 kevin
 shady
 Edge
-stoutpoop
 Matthaus`;
 
 var wanderers = `moß (C)
