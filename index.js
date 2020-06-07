@@ -364,7 +364,6 @@ case "teams":
 <:inter:706989671112114296> [INT] Inter FC
 <:quattrojoker:715987640658296964> [QUA] Quattro Joker
 <:scarybats:717431818235936819> [SCB][SCA] Scary Bats
-<:tryagain:717428461568000060> [TRY] TryAgain
 <:varna:706670647790665789> [VAR] VarnaTeam FC
 <:wanderers:712403709643980870> [WAN] Wanderers`)
 		})
@@ -422,7 +421,7 @@ case "modify":
 			varnateamfc = roster;
 		}
 		
-		//TRYAGAIN
+		/*//TRYAGAIN
 		if(args[1] == "TRY"){
 			var roster = message.content.split("f!modify TRY ").slice(1,2000);
 			tryagain = roster;
@@ -450,7 +449,7 @@ case "modify":
 		}if(args[1] == "tryagain"){
 			var roster = message.content.split("f!modify tryagain ").slice(1,2000);
 			tryagain = roster;
-		}
+		}*/
 		
 		//SCARY BATS
 		if(args[1] == "SCB"){
@@ -736,7 +735,7 @@ case "add":
 		}
 		
 		//TRYAGAIN
-		if(args[1] == "TRY"){
+		/*if(args[1] == "TRY"){
 			var roster = message.content.split("f!modify TRY ").slice(1,2000);
 			tryagain = roster;
 		}if(args[1] == "Try_Again"){
@@ -771,7 +770,7 @@ case "add":
 			var roster = message.content.split("f!modify tryagain ").slice(1,2000);
 			tryagain += `
 ` + roster;
-		}
+		}-*/
 		
 		//SCARY BATS
 		if(args[1] == "SCB"){
@@ -1317,12 +1316,12 @@ case "rosters":
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/717434044198944768/scarybats1.png')
             .setDescription(scarybats)
         })
-        message.channel.send({embed: new Discord.RichEmbed()
+        /*message.channel.send({embed: new Discord.RichEmbed()
             .setColor('#f2f9ff')
             .setTitle("TryAgain")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/717426676308639854/tryagain.png')
             .setDescription(tryagain)
-        })
+        })*/
         message.channel.send({embed: new Discord.RichEmbed()
             .setColor('#b672ff')
             .setTitle("VarnaTeam FC")
@@ -1587,8 +1586,7 @@ Daffyd
 July4th
 Itachi`;
 
-var scarybats = `Rares (C)
-vali.valentin (C)
+var scarybats = `vali.valentin (C)
 shot
 SALL
 αgυεяσ
@@ -1596,13 +1594,13 @@ REMI
 Xcsu
 nike`;
 
-var tryagain = `Fire (C)
+/*var tryagain = `Fire (C)
 Sebi c (Co)
 Van basten
 El matador
 Linde
 Marfert
-Neat`;
+Neat`;*/
 
 var varnateamfc = `aWaKeN (C)
 Kea97 (Co)
