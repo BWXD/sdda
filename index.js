@@ -103,11 +103,17 @@ client.on("ready", function() {
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/717434044198944768/scarybats1.png')
             .setDescription(scarybats)
         })
+        //client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
+            //.setColor('#f9fcff')
+            //.setTitle("TryAgain")
+            //.setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/717426676308639854/tryagain.png')
+            //.setDescription(tryagain)
+        //})
         client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
-            .setColor('#f9fcff')
-            .setTitle("TryAgain")
-            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/717426676308639854/tryagain.png')
-            .setDescription(tryagain)
+            .setColor('#fff2de')
+            .setTitle("Ultras")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/719256291708502086/ULTRAS.png')
+            .setDescription(ultras)
         })
         client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
             .setColor('#b672ff')
@@ -1323,6 +1329,12 @@ case "rosters":
             .setDescription(tryagain)
         })*/
         message.channel.send({embed: new Discord.RichEmbed()
+            .setColor('#fff2de')
+            .setTitle("Ultras")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/719256291708502086/ULTRAS.png')
+            .setDescription(ultras)
+        })
+        message.channel.send({embed: new Discord.RichEmbed()
             .setColor('#b672ff')
             .setTitle("VarnaTeam FC")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/706651727402762400/varna.png')
@@ -1601,6 +1613,14 @@ El matador
 Linde
 Marfert
 Neat`;*/
+
+var ultras = `Vinicius JR (C)
+James
+Hax
+Varela
+Human
+Reeds
+Chicao`;
 
 var varnateamfc = `aWaKeN (C)
 Kea97 (Co)
