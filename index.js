@@ -1618,8 +1618,8 @@ Hax
 Varela
 Human
 Reeds
-Chicao
-Jorginho`;
+Jorginho
+campionleo`;
 
 var varnateamfc = `aWaKeN (C)
 Kea97 (Co)
