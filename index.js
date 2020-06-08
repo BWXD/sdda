@@ -1551,11 +1551,11 @@ var crvenazvezda = `:flag_rs: Alpha (C)
 :flag_nl: 𝗛𝝠𝗪𝗞'
 :flag_ba: Asano
 :flag_dz: Diaz
-:flag_tr: Manuel Fernandes`;
+:flag_tr: Manuel Fernandes / R7`;
 
 var eaglesOfCarthage = `:flag_tn: Jovic (C)
+:flag_tn: YELLOW (Co)
 :flag_tn: AK-47
-:flag_tn: YELLOW
 :flag_tn: haxtheball
 :flag_tn: Pain
 :flag_tn: Toni_Kroox
@@ -1620,7 +1620,8 @@ Hax
 Varela
 Human
 Reeds
-Chicao`;
+Chicao
+Jorginho`;
 
 var varnateamfc = `aWaKeN (C)
 Kea97 (Co)
