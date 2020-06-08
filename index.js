@@ -1590,10 +1590,8 @@ Karim / T`;
 
 var quattrojoker = `DominoPL (C)
 Azrod
-Autentik
 Doliprune
 Merc
-virgin
 Daffyd
 July4th
 Itachi`;
