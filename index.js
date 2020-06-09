@@ -155,7 +155,7 @@ client.users.get("").sendFile("https://-/-.png")*/
 	if((malo.getUTCMonth() + 1) > 9){
 		exn = "";
 	}
-	if(malo.getUTCDate() + 1 > 9){
+	if(malo.getUTCDate() > 9){
 		exd = "";
 	}
 	client.channels.get("716768099122151494").bulkDelete(50)
