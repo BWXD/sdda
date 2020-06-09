@@ -1641,4 +1641,4 @@ marcelo12`;
 
 var participations = ``;
 
-client.login(process.env.TOKEN);
+//client.login(process.env.TOKEN);
