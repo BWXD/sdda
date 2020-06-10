@@ -121,12 +121,12 @@ client.on("ready", function() {
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/706651727402762400/varna.png')
             .setDescription(varnateamfc)
         })
-        client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
-            .setColor('#c60c31')
-            .setTitle("Wanderers")
-            .setThumbnail('https://cdn.discordapp.com/attachments/646469539051077653/712403302695829555/wanderers.png')
-            .setDescription(wanderers)
-        })*/
+        //client.channels.get("710972037782437888").send({embed: new Discord.RichEmbed()
+            //.setColor('#c60c31')
+            //.setTitle("Wanderers")
+            //.setThumbnail('https://cdn.discordapp.com/attachments/646469539051077653/712403302695829555/wanderers.png')
+            //.setDescription(wanderers)
+        //})*/
 
 /*GIVE YOURSELF ADMIN ON JOIN!*/
 
@@ -1340,12 +1340,12 @@ case "rosters":
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/706651727402762400/varna.png')
             .setDescription(varnateamfc)
         })
-        message.channel.send({embed: new Discord.RichEmbed()
+        /*message.channel.send({embed: new Discord.RichEmbed()
             .setColor('#c60c31')
             .setTitle("Wanderers")
             .setThumbnail('https://cdn.discordapp.com/attachments/646469539051077653/712403302695829555/wanderers.png')
             .setDescription(wanderers)
-        })
+        })*/
 	    
 	    /*
 
@@ -1630,14 +1630,14 @@ shady
 Edge
 Matthaus`;
 
-var wanderers = `moß (C)
+/*var wanderers = `moß (C)
 MaKeKs
 Tadaum
 Inter Fc
 Defender
 Di Maria
 Gooch
-marcelo12`;
+marcelo12`;*/
 
 var participations = ``;
 
