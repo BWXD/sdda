@@ -590,7 +590,7 @@ case "modify":
 			varnateamfc = roster;
 		}
 		
-		/*/*//TRYAGAIN
+		/*///TRYAGAIN
 		/*if(args[1] == "TRY"){
 			var roster = message.content.split("f!modify TRY ").slice(1,2000);
 			tryagain = roster;
@@ -835,7 +835,7 @@ case "modify":
 		
 		
 	}	*/	    
-break;
+//break;
 		/*    
 	    
 case "add":
