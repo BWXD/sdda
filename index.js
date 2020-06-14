@@ -1371,7 +1371,7 @@ case "rosters":
             .setDescription(legacy)
 	})
 	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
-            .setColor('#fefefe')
+            .setColor('#c7041f')
             .setTitle("Quattro Joker")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/721718336467238952/quattrojoker.png')
             .setDescription(quattrojoker)
