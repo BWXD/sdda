@@ -1348,7 +1348,7 @@ case "rosters":
         })*/
 	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#c6000e')
-            .setTitle("Black Out")
+            .setTitle("Black Out :trophy:")
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/721717590963257444/blackout.png')
             .setDescription(blackout)
 	})
