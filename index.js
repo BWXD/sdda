@@ -364,20 +364,183 @@ case "teams":
 			.setColor("#89cf24")
 			.setTitle("Teams Abbreviations:")
 			.setDescription(`<:blackout:706670687783354429> [BLA] BlackOut
-<:crvenazvezda:707580253966696469> [CVZ][CRV] Crvena Zvezda
-<:eaglesofcarthage:708524666943438918> [EAG][EAC] Eagles Of Carthage
-<:glizdy:707317065303982091> [GLZ][GLI] GLIZDY
+<:eagles:721726120965177424> [EAG] The Eagles
+<:legacy:721726178817212466> [LEG][LGC] Legacy FC
 <:inter:706989671112114296> [INT] Inter FC
-<:quattrojoker:715987640658296964> [QUA] Quattro Joker
-<:scarybats:717431818235936819> [SCB][SCA] Scary Bats
-<:varna:706670647790665789> [VAR] VarnaTeam FC
-<:wanderers:712403709643980870> [WAN] Wanderers`)
+<:quattrojoker:715987640658296964> [QUA] Quattro Joker`)
 		})
 	}
 break;
 		    
 case "modify":
+	
+//SEASON 2
 	if(message.author.id == "634872299069374488"){
+		message.delete();
+		
+		//QUATTRO JOKER
+		if(args[1] == "QUA"){
+			var roster = message.content.split("f!modify QUA ").slice(1,2000);
+			quattrojoker = roster;
+		}if(args[1] == "Quattro_Joker"){
+			var roster = message.content.split("f!modify Quattro_Joker ").slice(1,2000);
+			quattrojoker = roster;
+		}if(args[1] == "Quattro_joker"){
+			var roster = message.content.split("f!modify Quattro_joker ").slice(1,2000);
+			quattrojoker = roster;
+		}if(args[1] == "quattro_joker"){
+			var roster = message.content.split("f!modify quattro_joker ").slice(1,2000);
+			quattrojoker = roster;
+		}if(args[1] == "qua"){
+			var roster = message.content.split("f!modify qua ").slice(1,2000);
+			quattrojoker = roster;
+		}if(args[1] == "QUATTRO_JOKER"){
+			var roster = message.content.split("f!modify QUATTRO_JOKER ").slice(1,2000);
+			quattrojoker = roster;
+		}
+
+		//LEGACY
+		if(args[1] == "LEG"){
+			var roster = message.content.split("f!modify LEG ").slice(1,2000);
+			legacy = roster;
+		}if(args[1] == "leg"){
+			var roster = message.content.split("f!modify leg ").slice(1,2000);
+			legacy = roster;
+		}
+		if(args[1] == "LGC"){
+			var roster = message.content.split("f!modify LGC ").slice(1,2000);
+			legacy = roster;
+		}if(args[1] == "lgc"){
+			var roster = message.content.split("f!modify lgc ").slice(1,2000);
+			legacy = roster;
+		}
+		if(args[1] == "Leg"){
+			var roster = message.content.split("f!modify Leg ").slice(1,2000);
+			legacy = roster;
+		}if(args[1] == "Lgc"){
+			var roster = message.content.split("f!modify Lgc ").slice(1,2000);
+			legacy = roster;
+		}if(args[1] == "LEGACY"){
+			var roster = message.content.split("f!modify LEGACY ").slice(1,2000);
+			legacy = roster;
+		}if(args[1] == "Legacy"){
+			var roster = message.content.split("f!modify Legacy ").slice(1,2000);
+			legacy = roster;
+		}if(args[1] == "legacy"){
+			var roster = message.content.split("f!modify legacy ").slice(1,2000);
+			legacy = roster;
+		}if(args[1] == "Legacy_CF"){
+			var roster = message.content.split("f!modify Legacy_CF ").slice(1,2000);
+			legacy = roster;
+		}if(args[1] == "legacy_cf"){
+			var roster = message.content.split("f!modify legacy_cf ").slice(1,2000);
+			legacy = roster;
+		}if(args[1] == "LEGACY_CF"){
+			var roster = message.content.split("f!modify LEGACY_CF" ).slice(1,2000);
+			legacy = roster;
+		}if(args[1] == "Legacy_cf"){
+			var roster = message.content.split("f!modify Legacy_cf ").slice(1,2000);
+			legacy = roster;
+		}
+		
+		//INTER
+		if(args[1] == "INT"){
+			var roster = message.content.split("f!modify INT ").slice(1,2000);
+			inter = roster;
+		}if(args[1] == "Inter"){
+			var roster = message.content.split("f!modify Inter ").slice(1,2000);
+			inter = roster;
+		}if(args[1] == "inter"){
+			var roster = message.content.split("f!modify inter ").slice(1,2000);
+			inter = roster;
+		}if(args[1] == "INTER"){
+			var roster = message.content.split("f!modify INTER ").slice(1,2000);
+			inter = roster;
+		}if(args[1] == "int"){
+			var roster = message.content.split("f!modify int ").slice(1,2000);
+			inter = roster;
+		}if(args[1] == "Inter_FC"){
+			var roster = message.content.split("f!modify Inter_FC ").slice(1,2000);
+			inter = roster;
+		}if(args[1] == "inter_fc"){
+			var roster = message.content.split("f!modify inter_fc ").slice(1,2000);
+			inter = roster;
+		}if(args[1] == "INTER_FC"){
+			var roster = message.content.split("f!modify INTER_FC ").slice(1,2000);
+			inter = roster;
+		}
+		
+		//THE EAGLES
+		if(args[1] == "Eagles"){
+			var roster = message.content.split("f!modify Eagles ").slice(1,2000);
+			eagles = roster;
+		}if(args[1] == "eagles"){
+			var roster = message.content.split("f!modify eagles ").slice(1,2000);
+			eagles = roster;
+		}if(args[1] == "Eag"){
+			var roster = message.content.split("f!modify Eag ").slice(1,2000);
+			eagles = roster;
+		}if(args[1] == "eag"){
+			var roster = message.content.split("f!modify eag ").slice(1,2000);
+			eagles = roster;
+		}if(args[1] == "EAG"){
+			var roster = message.content.split("f!modify EAG ").slice(1,2000);
+			eagles = roster;
+		}if(args[1] == "EAGLES"){
+			var roster = message.content.split("f!modify EAGLES ").slice(1,2000);
+			eagles = roster;
+		}if(args[1] == "the_eagles"){
+			var roster = message.content.split("f!modify the_eagles ").slice(1,2000);
+			eagles = roster;
+		}if(args[1] == "The_eagles"){
+			var roster = message.content.split("f!modify The_eagles ").slice(1,2000);
+			eagles = roster;
+		}if(args[1] == "The_Eagles"){
+			var roster = message.content.split("f!modify The_Eagles ").slice(1,2000);
+			eagles = roster;
+		}if(args[1] == "THE_EAGLES"){
+			var roster = message.content.split("f!modify THE_EAGLES ").slice(1,2000);
+			eagles = roster;
+		}if(args[1] == "the_Eagles"){
+			var roster = message.content.split("f!modify the_Eagles ").slice(1,2000);
+			eagles = roster;
+		}
+
+		//BLACKOUT
+		if(args[1] == "BLA"){
+			var roster = message.content.split("f!modify BLA ").slice(1,2000);
+			blackout = roster;
+		}if(args[1] == "bla"){
+			var roster = message.content.split("f!modify bla ").slice(1,2000);
+			blackout = roster;
+		}if(args[1] == "BLACKOUT"){
+			var roster = message.content.split("f!modify BLACKOUT ").slice(1,2000);
+			blackout = roster;
+		}if(args[1] == "BlackOut"){
+			var roster = message.content.split("f!modify BlackOut ").slice(1,2000);
+			blackout = roster;
+		}if(args[1] == "blackout"){
+			var roster = message.content.split("f!modify blackout ").slice(1,2000);
+			blackout = roster;
+		}if(args[1] == "Black_Out"){
+			var roster = message.content.split("f!modify Black_Out ").slice(1,2000);
+			blackout = roster;
+		}if(args[1] == "black_out"){
+			var roster = message.content.split("f!modify black_out ").slice(1,2000);
+			blackout = roster;
+		}if(args[1] == "BLACK_OUT"){
+			var roster = message.content.split("f!modify BLACK_OUT" ).slice(1,2000);
+			blackout = roster;
+		}if(args[1] == "Blackout"){
+			var roster = message.content.split("f!modify Blackout ").slice(1,2000);
+			blackout = roster;
+		}
+		
+		
+	}	    
+		    
+//SEASON 1
+	/*if(message.author.id == "634872299069374488"){
 		message.delete();
 		//WANDERERS
 		if(args[1] == "WAN"){
@@ -427,8 +590,8 @@ case "modify":
 			varnateamfc = roster;
 		}
 		
-		/*//TRYAGAIN
-		if(args[1] == "TRY"){
+		/*/*//TRYAGAIN
+		/*if(args[1] == "TRY"){
 			var roster = message.content.split("f!modify TRY ").slice(1,2000);
 			tryagain = roster;
 		}if(args[1] == "Try_Again"){
@@ -458,7 +621,7 @@ case "modify":
 		}*/
 		
 		//SCARY BATS
-		if(args[1] == "SCB"){
+		/*if(args[1] == "SCB"){
 			var roster = message.content.split("f!modify SCB ").slice(1,2000);
 			scarybats = roster;
 		}if(args[1] == "SCARY_BATS"){
@@ -671,9 +834,9 @@ case "modify":
 		}
 		
 		
-	}		    
+	}	*/	    
 break;
-		    
+		/*    
 	    
 case "add":
 	if(message.author.id == "634872299069374488"){
@@ -776,10 +939,10 @@ case "add":
 			var roster = message.content.split("f!modify tryagain ").slice(1,2000);
 			tryagain += `
 ` + roster;
-		}-*/
+		}-*//*
 		
 		//SCARY BATS
-		if(args[1] == "SCB"){
+		/*if(args[1] == "SCB"){
 			var roster = message.content.split("f!modify SCB ").slice(1,2000);
 			scarybats += `
 ` + roster;
