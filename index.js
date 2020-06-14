@@ -1272,7 +1272,7 @@ break;
 case "rosters":
     if(message.author.id == "634872299069374488"){
         message.delete();
-        message.channel.bulkDelete(30)
+        client.channels.get("721482377989324902").bulkDelete(30)
   
         /*message.channel.send({embed: new Discord.RichEmbed()
             .setColor('#c6000e')
