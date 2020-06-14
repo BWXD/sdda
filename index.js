@@ -1274,7 +1274,7 @@ case "rosters":
         message.delete();
         message.channel.bulkDelete(30)
   
-        message.channel.send({embed: new Discord.RichEmbed()
+        /*message.channel.send({embed: new Discord.RichEmbed()
             .setColor('#c6000e')
             .setTitle("Blackout   :trophy:")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/706662392192565329/blackout.png')
@@ -1310,7 +1310,7 @@ case "rosters":
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/714114301606232144/fcletters.png')
             .setDescription(lettersfc)
         })*/
-        message.channel.send({embed: new Discord.RichEmbed()
+        /*message.channel.send({embed: new Discord.RichEmbed()
             .setColor('#c7041f')
             .setTitle("Quattro Joker")
             .setThumbnail('http://cdn.discordapp.com/attachments/697867394630156300/715986168193482762/old_team.png')
@@ -1328,7 +1328,7 @@ case "rosters":
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/717426676308639854/tryagain.png')
             .setDescription(tryagain)
         })*/
-        message.channel.send({embed: new Discord.RichEmbed()
+        /*message.channel.send({embed: new Discord.RichEmbed()
             .setColor('#fff2de')
             .setTitle("Ultras")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/719256291708502086/ULTRAS.png')
@@ -1346,6 +1346,37 @@ case "rosters":
             .setThumbnail('https://cdn.discordapp.com/attachments/646469539051077653/712403302695829555/wanderers.png')
             .setDescription(wanderers)
         })*/
+	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+            .setColor('#c6000e')
+            .setTitle("Black Out")
+            .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/721717590963257444/blackout.png')
+            .setDescription(inter)
+	})
+	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+            .setColor('#722c38')
+            .setTitle("The Eagles")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/721718721500151848/eagles.png')
+            .setDescription(eagles)
+	})
+	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+            .setColor('#0267ab')
+            .setTitle("Inter FC")
+            .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/721717027244474388/inter.png')
+            .setDescription(inter)
+	})
+	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+            .setColor('#010101')
+            .setTitle("Legacy CF")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/721719821338673252/legacy.png')
+            .setDescription(legacy)
+	})
+	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+            .setColor('#fefefe')
+            .setTitle("Quattro Joker")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/721718336467238952/quattrojoker.png')
+            .setDescription(quattrojoker)
+	})
+	  	
 	    
 	    /*
 
@@ -1530,7 +1561,72 @@ break;
 
 //ROSTERS
 
+// SEASON 2
+
 var blackout = `:flag_pt: Tiago (C)
+:flag_pt: Mesut
+:flag_pt: monteiro
+:flag_de: ozo jaa
+:flag_pt: Blastoyz
+:flag_pt: Suarez
+:flag_pt: irv1
+:flag_pt: Atlas
+:flag_pt: Marqzou
+:flag_pt: Tibbers`;
+
+var eagles = `Luka Jovic (C)
+Yellow (Co)
+Zer 
+Dofla
+Toy 
+Kenzo
+Hax The Ball
+Gonzo 
+9 
+Elko
+mlody
+mamma
+runner`;
+
+var inter = `:flag_pk: DELUXE (C)
+:flag_dz: Deku (Co)
+:flag_iq: T
+:flag_kg: Chun
+:flag_pt: Peter
+:flag_fr: Toshiba
+:flag_gb: Sea king
+:flag_us: 9ine
+:flag_nl: zDog`;
+
+var legacy = `DominoPL (C)
+Mr.Worldwide(Co)
+Lcn131 (Co)
+Milko
+Provdni
+Dj66
+Asano
+Exca
+Hawk
+bananas`;
+
+var quattrojoker = `:flag_nl:  Itachi (C)
+:flag_ro: Merc (Co)
+:flag_nl: stoutpoop (Co)
+:flag_ba: Defender
+:flag_de: PoP
+:flag_fr: doliprune 
+:flag_cz: IKVnho 
+:flag_nl: 58 
+:flag_gb: Ivo
+:flag_de: Total
+:flag_nl: Elmo
+:flag_gb: July4th
+:flag_gb: Daffyd
+:flag_nl:  Pyro`;
+
+// SEASON 1
+
+/*var blackout = `:flag_pt: Tiago (C)
 :flag_pt: Mesut
 :flag_pt: monteiro
 :flag_de: ozo jaa
@@ -1612,7 +1708,7 @@ Linde
 Marfert
 Neat`;*/
 
-var ultras = `Vinicius JR (C)
+/*var ultras = `Vinicius JR (C)
 James
 Hax
 Varela
