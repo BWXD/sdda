@@ -1270,7 +1270,7 @@ case "verify":
 break;
 
 case "rosters":
-    if(message.channel.id == "710972037782437888"){
+    if(message.author.id == "634872299069374488"){
         message.delete();
         message.channel.bulkDelete(30)
   
@@ -1445,7 +1445,7 @@ case "rosters":
             .setColor('#fefefe')
             .setTitle("Last Update: " + a.getUTCDate() + commitement + " " + theMonth + " at " + ahoh + a.getUTCHours() + ":" + ahom + a.getUTCMinutes())
         })*/
-    } else if(message.channel.id != "710972037782437888"){message.react('❌')
+    } else if(message.author.id != "634872299069374488"){message.react('❌')
     }
 break;
     
