@@ -1350,7 +1350,7 @@ case "rosters":
             .setColor('#c6000e')
             .setTitle("Black Out")
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/721717590963257444/blackout.png')
-            .setDescription(inter)
+            .setDescription(blackout)
 	})
 	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#722c38')
