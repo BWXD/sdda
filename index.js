@@ -378,6 +378,27 @@ case "modify":
 	if(message.author.id == "634872299069374488"){
 		message.delete();
 		
+		//SBR FC
+		if(args[1] == "SBR"){
+			var roster = message.content.split("f!modify SBR ").slice(1,2000);
+			sbr = roster;
+		}if(args[1] == "SBR_FC"){
+			var roster = message.content.split("f!modify SBR_FC ").slice(1,2000);
+			sbr = roster;
+		}if(args[1] == "Sbr_fc"){
+			var roster = message.content.split("f!modify Sbr_fc ").slice(1,2000);
+			sbr = roster;
+		}if(args[1] == "sbr_fc"){
+			var roster = message.content.split("f!modify sbr_fc ").slice(1,2000);
+			sbr = roster;
+		}if(args[1] == "sbr"){
+			var roster = message.content.split("f!modify sbr ").slice(1,2000);
+			sbr = roster;
+		}if(args[1] == "Sbr_FC"){
+			var roster = message.content.split("f!modify Sbr_FC ").slice(1,2000);
+			sbr = roster;
+		}
+		
 		//QUATTRO JOKER
 		if(args[1] == "QUA"){
 			var roster = message.content.split("f!modify QUA ").slice(1,2000);
@@ -1539,6 +1560,12 @@ case "rosters":
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/721718336467238952/quattrojoker.png')
             .setDescription(quattrojoker)
 	})
+	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+            .setColor('#f7d627')
+            .setTitle("SBR FC")
+            .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/722225682712756294/sbrB.png')
+            .setDescription(sbr)
+	})
 	  	
 	    
 	    /*
@@ -1737,7 +1764,7 @@ var blackout = `:flag_pt: Tiago (C)
 :flag_pt: Marqzou
 :flag_pt: Tibbers`;
 
-var eagles = `Luka Jovic (C)
+var eagles = `**Luka Jovic** (C)
 Yellow (Co)
 Zer 
 Dofla
@@ -1749,7 +1776,8 @@ Gonzo
 Elko
 mlody
 mamma
-runner`;
+runner
+**vasi162**`;
 
 var inter = `:flag_pk: DELUXE (C)
 :flag_dz: Deku (Co)
@@ -1772,12 +1800,12 @@ Exca
 Hawk
 bananas`;
 
-var quattrojoker = `:flag_nl:  Itachi (C)
+var quattrojoker = `:flag_nl:  **Itachi** (C)
 :flag_ro: Merc (Co)
 :flag_nl: stoutpoop (Co)
 :flag_ba: Defender
 :flag_de: PoP
-:flag_fr: doliprune 
+:flag_fr: **doliprune**
 :flag_cz: IKVnho 
 :flag_nl: 58 
 :flag_gb: Ivo
@@ -1786,6 +1814,20 @@ var quattrojoker = `:flag_nl:  Itachi (C)
 :flag_gb: July4th
 :flag_gb: Daffyd
 :flag_nl:  Pyro`;
+
+var sbr = `:flag_nl: **Yazuneh** (C)
+:flag_pt: **FD91** (Co)
+:flag_be: **Yi** (Co)
+:flag_pl: eve jaa
+:flag_hr: MaKeKs
+:flag_fr: Risky
+:flag_gb: architect
+:flag_nl: Dennis42
+:flag_dk: Elenaa
+:flag_cz: Zinek
+:flag_fr: Arlind
+:flag_us: 2Pac
+:flag_gb: Larry`;
 
 // SEASON 1
 
