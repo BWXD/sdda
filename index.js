@@ -1543,12 +1543,6 @@ case "rosters":
             .setDescription(blackout)
 	})
 	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
-            .setColor('#722c38')
-            .setTitle("The Eagles")
-            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/721718721500151848/eagles.png')
-            .setDescription(eagles)
-	})
-	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#0267ab')
             .setTitle("Inter FC")
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/721717027244474388/inter.png')
@@ -1573,6 +1567,12 @@ case "rosters":
             .setDescription(sbr)
 	})
 	  	
+	/*client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+            .setColor('#722c38')
+            .setTitle("The Eagles")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/721718721500151848/eagles.png')
+            .setDescription(eagles)
+	})*/
 	    
 	    /*
 
@@ -1778,21 +1778,6 @@ var blackout = `:flag_pt: Tiago (C)
 :flag_pt: Marqzou
 :flag_pt: Tibbers`;
 
-var eagles = `**Luka Jovic** (C)
-Yellow (Co)
-Zer 
-Dofla
-Toy 
-Kenzo
-Hax The Ball
-Gonzo 
-9 
-Elko
-mlody
-mamma
-runner
-**vasi162**`;
-
 var inter = `:flag_pk: DELUXE (C)
 :flag_dz: Deku (Co)
 :flag_iq: T
@@ -1842,6 +1827,21 @@ var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_fr: Arlind
 :flag_us: 2Pac
 :flag_gb: Larry`;
+
+/*var eagles = `**Luka Jovic** (C)
+Yellow (Co)
+Zer 
+Dofla
+Toy 
+Kenzo
+Hax The Ball
+Gonzo 
+9 
+Elko
+mlody
+mamma
+runner
+**vasi162**`;*/
 
 // SEASON 1
 
