@@ -1543,6 +1543,12 @@ case "rosters":
             .setDescription(blackout)
 	})
 	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+            .setColor('#74c7f1')
+            .setTitle("Dreaming Pirates")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/722460761137348678/dreamingpirates.png')
+            .setDescription(dreamingpirates)
+	})
+	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#0267ab')
             .setTitle("Inter FC")
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/721717027244474388/inter.png')
@@ -1777,6 +1783,13 @@ var blackout = `:flag_pt: Tiago (C)
 :flag_pt: Atlas
 :flag_pt: Marqzou
 :flag_pt: Tibbers`;
+
+var dreamingpirates = `:flag_it: Eren Yeager (C)
+:flag_it: micadron (Co)
+:flag_it: Scharm (Co)
+:flag_it: groovy
+:flag_it: bruceketta
+:flag_it: Alecs `;
 
 var inter = `:flag_pk: DELUXE (C)
 :flag_dz: Deku (Co)
