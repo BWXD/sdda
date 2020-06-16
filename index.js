@@ -491,40 +491,49 @@ case "modify":
 			inter = roster;
 		}
 		
-		//THE EAGLES
-		if(args[1] == "Eagles"){
-			var roster = message.content.split("f!modify Eagles ").slice(1,2000);
-			eagles = roster;
-		}if(args[1] == "eagles"){
-			var roster = message.content.split("f!modify eagles ").slice(1,2000);
-			eagles = roster;
-		}if(args[1] == "Eag"){
-			var roster = message.content.split("f!modify Eag ").slice(1,2000);
-			eagles = roster;
-		}if(args[1] == "eag"){
-			var roster = message.content.split("f!modify eag ").slice(1,2000);
-			eagles = roster;
-		}if(args[1] == "EAG"){
-			var roster = message.content.split("f!modify EAG ").slice(1,2000);
-			eagles = roster;
-		}if(args[1] == "EAGLES"){
-			var roster = message.content.split("f!modify EAGLES ").slice(1,2000);
-			eagles = roster;
-		}if(args[1] == "the_eagles"){
-			var roster = message.content.split("f!modify the_eagles ").slice(1,2000);
-			eagles = roster;
-		}if(args[1] == "The_eagles"){
-			var roster = message.content.split("f!modify The_eagles ").slice(1,2000);
-			eagles = roster;
-		}if(args[1] == "The_Eagles"){
-			var roster = message.content.split("f!modify The_Eagles ").slice(1,2000);
-			eagles = roster;
-		}if(args[1] == "THE_EAGLES"){
-			var roster = message.content.split("f!modify THE_EAGLES ").slice(1,2000);
-			eagles = roster;
-		}if(args[1] == "the_Eagles"){
-			var roster = message.content.split("f!modify the_Eagles ").slice(1,2000);
-			eagles = roster;
+		//DREAMING PIRATES
+		if(args[1] == "Dreaming"){
+			var roster = message.content.split("f!modify Dreaming ").slice(1,2000);
+			dreamingpirates = roster;
+		}if(args[1] == "dreaming"){
+			var roster = message.content.split("f!modify dreaming ").slice(1,2000);
+			dreamingpirates = roster;
+		}if(args[1] == "Dp"){
+			var roster = message.content.split("f!modify Dp ").slice(1,2000);
+			dreamingpirates = roster;
+		}if(args[1] == "dp"){
+			var roster = message.content.split("f!modify dp ").slice(1,2000);
+			dreamingpirates = roster;
+		}if(args[1] == "DP"){
+			var roster = message.content.split("f!modify DP ").slice(1,2000);
+			dreamingpirates = roster;
+		}if(args[1] == "DREAMING"){
+			var roster = message.content.split("f!modify DREAMING ").slice(1,2000);
+			dreamingpirates = roster;
+		}if(args[1] == "dreaming_pirates"){
+			var roster = message.content.split("f!modify dreaming_pirates ").slice(1,2000);
+			dreamingpirates = roster;
+		}if(args[1] == "Dreaming_pirates"){
+			var roster = message.content.split("f!modify Dreaming_pirates ").slice(1,2000);
+			dreamingpirates = roster;
+		}if(args[1] == "Dreaming_Pirates"){
+			var roster = message.content.split("f!modify Dreaming_Pirates ").slice(1,2000);
+			dreamingpirates = roster;
+		}if(args[1] == "DREAMING_PIRATES"){
+			var roster = message.content.split("f!modify DREAMING_PIRATES ").slice(1,2000);
+			dreamingpirates = roster;
+		}if(args[1] == "dreaming_Pirates"){
+			var roster = message.content.split("f!modify dreaming_Pirates ").slice(1,2000);
+			dreamingpirates = roster;
+		}if(args[1] == "dreamingpirates"){
+			var roster = message.content.split("f!modify dreamingpirates ").slice(1,2000);
+			dreamingpirates = roster;
+		}if(args[1] == "DREAMINGPIRATES"){
+			var roster = message.content.split("f!modify DREAMINGPIRATES ").slice(1,2000);
+			dreamingpirates = roster;
+		}if(args[1] == "Dreamingpirates"){
+			var roster = message.content.split("f!modify Dreamingpirates ").slice(1,2000);
+			dreamingpirates = roster;
 		}
 
 		//BLACKOUT
@@ -557,6 +566,47 @@ case "modify":
 			blackout = roster;
 		}
 		
+		//ANONYMOUS FC
+		if(args[1] == "ANO"){
+			var roster = message.content.split("f!modify ANO ").slice(1,2000);
+			anonymous = roster;
+		}if(args[1] == "ano"){
+			var roster = message.content.split("f!modify ano ").slice(1,2000);
+			anonymous = roster;
+		}if(args[1] == "Ano"){
+			var roster = message.content.split("f!modify Ano ").slice(1,2000);
+			anonymous = roster;
+		}if(args[1] == "ANY"){
+			var roster = message.content.split("f!modify ANY ").slice(1,2000);
+			anonymous = roster;
+		}if(args[1] == "any"){
+			var roster = message.content.split("f!modify any ").slice(1,2000);
+			anonymous = roster;
+		}if(args[1] == "Any"){
+			var roster = message.content.split("f!modify Any ").slice(1,2000);
+			anonymous = roster;
+		}if(args[1] == "ANONYMOUS"){
+			var roster = message.content.split("f!modify ANONYMOUS ").slice(1,2000);
+			anonymous = roster;
+		}if(args[1] == "Anonymous"){
+			var roster = message.content.split("f!modify Anonymous ").slice(1,2000);
+			anonymous = roster;
+		}if(args[1] == "anonymous"){
+			var roster = message.content.split("f!modify anonymous ").slice(1,2000);
+			anonymous = roster;
+		}if(args[1] == "Anonymous_FC"){
+			var roster = message.content.split("f!modify Anonymous_FC ").slice(1,2000);
+			anonymous = roster;
+		}if(args[1] == "anonymous_fc"){
+			var roster = message.content.split("f!modify anonymous_fc ").slice(1,2000);
+			anonymous = roster;
+		}if(args[1] == "ANONYMOUS_FC"){
+			var roster = message.content.split("f!modify ANONYMOUS_FC" ).slice(1,2000);
+			anonymous = roster;
+		}if(args[1] == "Blackout"){
+			var roster = message.content.split("f!modify Blackout ").slice(1,2000);
+			anonymous = roster;
+		}
 		
 	}	    
 		    
