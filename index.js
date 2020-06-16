@@ -1531,6 +1531,12 @@ case "rosters":
             .setDescription(wanderers)
         })*/
 	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+            .setColor('#010101')
+            .setTitle("Anonymous FC")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/722436153952698388/anonymous.png')
+            .setDescription(anonymous)
+	})
+	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#c6000e')
             .setTitle("Black Out :trophy:")
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/721717590963257444/blackout.png')
@@ -1752,6 +1758,14 @@ break;
 //ROSTERS
 
 // SEASON 2
+
+var anonymous = `:flag_gb: HaxJNB (C)
+:flag_gb: xTimmy (C)
+:flag_gb: Mate™ (Co)
+:flag_gb: xDanny
+:flag_nl: Xichema
+:flag_gb: jako
+:flag_gb: N`;
 
 var blackout = `:flag_pt: Tiago (C)
 :flag_pt: Mesut
