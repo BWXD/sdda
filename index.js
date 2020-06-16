@@ -366,8 +366,8 @@ case "teams":
 			.setDescription(`<:anonymous:722461090432155679> [ANO][ANY] Anonymous FC
 <:blackout:706670687783354429> [BLA] BlackOut
 <:dreamingpirates:722461023038211053> [DP] Dreaming Pirates
-<:legacy:721726178817212466> [LEG][LGC] Legacy FC
 <:inter:706989671112114296> [INT] Inter FC
+<:legacy:721726178817212466> [LEG][LGC] Legacy FC
 <:quattrojoker:715987640658296964> [QUA] Quattro Joker
 <:sbrfc:722461133025443910> [SBR] SBR FC`)
 		})
