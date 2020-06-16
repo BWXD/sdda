@@ -1601,6 +1601,12 @@ case "rosters":
             .setDescription(dreamingpirates)
 	})
 	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+            .setColor('#b900ae')
+            .setTitle("HTH Idolo FC")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/722550751842402305/hthidolofc.png')
+            .setDescription(hthidolo)
+	})
+	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#0267ab')
             .setTitle("Inter FC")
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/721717027244474388/inter.png')
@@ -1836,12 +1842,24 @@ var blackout = `:flag_pt: Tiago (C)
 :flag_pt: Marqzou
 :flag_pt: Tibbers`;
 
-var dreamingpirates = `:flag_it: Eren Yeager (C)
-:flag_it: micadron (Co)
+var dreamingpirates = `:flag_it: **Eren Yeager** (C)
+:flag_it: **micadron** (Co)
 :flag_it: Scharm (Co)
 :flag_it: groovy
-:flag_it: bruceketta
-:flag_it: Alecs `;
+:flag_it: **bruceketta**
+:flag_it: **Alecs**
+:flag_it: **Marineford97**
+:flag_it: dead`;
+
+var hthidolo = `:flag_gb: Mac (C)
+:flag_gb: lemq the baller
+:flag_se: halal
+:flag_it: simonepadoin_
+:flag_fr: Davida
+:flag_gb: E.Halaand
+:flag_gb: Sav
+:flag_es: A
+:flag_us: Aleje`;
 
 var inter = `:flag_pk: DELUXE (C)
 :flag_dz: Deku (Co)
