@@ -2002,7 +2002,7 @@ var dreamingpirates = `:flag_it: **Eren Yeager** (C)
 :flag_it: **dead**
 :flag_it: **Tonx**`;
 
-var gambaosaka = `:flag_nl: Warrior (C)
+var gambaosaka = `:flag_nl: **Warrior** (C)
 :flag_gb: Ivo (Co)
 :flag_nl: Itachi
 :flag_ba: Defender
@@ -2029,15 +2029,15 @@ var gaston = `:flag_fr: **Doliprune** (C)
 :flag_fr: Lancelotdulac
 :flag_fr: Akira`;
 
-var hthidolo = `:flag_gb: Mac (C)
-:flag_gb: lemq the baller
+var hthidolo = `:flag_gb: **Mac** (C)
+:flag_gb: **lemq the baller**
 :flag_se: halal
 :flag_it: simonepadoin_
 :flag_fr: Davida
-:flag_gb: E.Halaand
+:flag_gb: **L.Martinez**
 :flag_gb: Sav
 :flag_es: A
-:flag_us: Aleje`;
+:flag_us: **Aleje**`;
 
 var inter = `:flag_pk: DELUXE (C)
 :flag_dz: Deku (Co)
