@@ -368,6 +368,7 @@ case "teams":
 <:dreamingpirates:722461023038211053> [DP] Dreaming Pirates
 <:gambaosaka:722857586222956574> [GAO][GMO] Gamba Osaka
 <:gaston:722854770863374437> [GAS][GST] FC Gaston
+<:hthidolo:722890284777865388> [HTH][IDO] HTH Idolo FC
 <:inter:706989671112114296> [INT] Inter FC
 <:legacy:721726178817212466> [LEG][LGC] Legacy FC
 <:sbr:722461133025443910> [SBR] SBR FC`)
@@ -492,6 +493,50 @@ case "modify":
 		}if(args[1] == "INTER_FC"){
 			var roster = message.content.split("f!modify INTER_FC ").slice(1,2000);
 			inter = roster;
+		}
+		
+		//HTH IDOLO FC
+		if(args[1] == "HTH"){
+			var roster = message.content.split("f!modify HTH ").slice(1,2000);
+			hthidolo = roster;
+		}if(args[1] == "hth"){
+			var roster = message.content.split("f!modify hth ").slice(1,2000);
+			hthidolo = roster;
+		}
+		if(args[1] == "IDO"){
+			var roster = message.content.split("f!modify IDO ").slice(1,2000);
+			hthidolo = roster;
+		}if(args[1] == "ido"){
+			var roster = message.content.split("f!modify ido ").slice(1,2000);
+			hthidolo = roster;
+		}
+		if(args[1] == "Ido"){
+			var roster = message.content.split("f!modify Ido ").slice(1,2000);
+			hthidolo = roster;
+		}if(args[1] == "Hth"){
+			var roster = message.content.split("f!modify Hth ").slice(1,2000);
+			hthidolo = roster;
+		}if(args[1] == "HTH_IDOLO"){
+			var roster = message.content.split("f!modify HTH_IDOLO ").slice(1,2000);
+			hthidolo = roster;
+		}if(args[1] == "Hth_idolo"){
+			var roster = message.content.split("f!modify Hth_idolo ").slice(1,2000);
+			hthidolo = roster;
+		}if(args[1] == "hth_idolo"){
+			var roster = message.content.split("f!modify hth_idolo ").slice(1,2000);
+			hthidolo = roster;
+		}if(args[1] == "Hth_Idolo"){
+			var roster = message.content.split("f!modify Hth_Idolo ").slice(1,2000);
+			hthidolo = roster;
+		}if(args[1] == "hth_idolo_fc"){
+			var roster = message.content.split("f!modify hth_idolo_fc ").slice(1,2000);
+			hthidolo = roster;
+		}if(args[1] == "HTH_IDOLO_FC"){
+			var roster = message.content.split("f!modify HTH_IDOLO_FC" ).slice(1,2000);
+			hthidolo = roster;
+		}if(args[1] == "Hth_Idolo_Fc"){
+			var roster = message.content.split("f!modify Hth_Idolo_Fc ").slice(1,2000);
+			hthidolo = roster;
 		}
 		
 		//FC GASTON
@@ -1710,6 +1755,12 @@ case "rosters":
             .setTitle("FC Gaston")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/722854245996560514/gastonfc.png')
             .setDescription(gaston)
+	})
+	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+            .setColor('#b900ae')
+            .setTitle("HTH Idolo FC")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/722550751842402305/hthidolofc.png')
+            .setDescription(hthidolo)
 	})
 	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#0267ab')
