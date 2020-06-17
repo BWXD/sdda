@@ -366,10 +366,10 @@ case "teams":
 			.setDescription(`<:anonymous:722461090432155679> [ANO][ANY] Anonymous FC
 <:blackout:706670687783354429> [BLA] BlackOut
 <:dreamingpirates:722461023038211053> [DP] Dreaming Pirates
-<:hthidolo:722552563437797396> [HTH][IDO] HTH Idolo FC
+<:gambaosaka:722857586222956574> [GAO][GMO] Gamba Osaka
+<:gaston:722854770863374437> [GAS][GST] Gaston FC
 <:inter:706989671112114296> [INT] Inter FC
 <:legacy:721726178817212466> [LEG][LGC] Legacy FC
-<:quattrojoker:715987640658296964> [QUA] Quattro Joker
 <:sbr:722461133025443910> [SBR] SBR FC`)
 		})
 	}
@@ -1646,10 +1646,16 @@ case "rosters":
             .setDescription(dreamingpirates)
 	})
 	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
-            .setColor('#b900ae')
-            .setTitle("HTH Idolo FC")
-            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/722550751842402305/hthidolofc.png')
-            .setDescription(hthidolo)
+            .setColor('#2A4CA5')
+            .setTitle("Gamba Osaka")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/722855201278656623/gambaosaka.png')
+            .setDescription(gambaosaka)
+	})
+	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+            .setColor('#FFA300')
+            .setTitle("Gaston FC")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/722854245996560514/gastonfc.png')
+            .setDescription(gaston)
 	})
 	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#0267ab')
@@ -1662,12 +1668,6 @@ case "rosters":
             .setTitle("Legacy CF")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/721719821338673252/legacy.png')
             .setDescription(legacy)
-	})
-	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
-            .setColor('#c7041f')
-            .setTitle("Quattro Joker")
-            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/721718336467238952/quattrojoker.png')
-            .setDescription(quattrojoker)
 	})
 	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#f7d627')
@@ -1889,22 +1889,34 @@ var blackout = `:flag_pt: Tiago (C)
 
 var dreamingpirates = `:flag_it: **Eren Yeager** (C)
 :flag_it: **micadron** (Co)
-:flag_it: Scharm (Co)
-:flag_it: groovy
+:flag_it: **Scharm** (Co)
+:flag_it: **groovy**
 :flag_it: **bruceketta**
 :flag_it: **Alecs**
 :flag_it: **Marineford97**
-:flag_it: dead`;
+:flag_it: **dead**
+:flag_it: **Tonx**`;
 
-var hthidolo = `:flag_gb: Mac (C)
-:flag_gb: lemq the baller
-:flag_se: halal
-:flag_it: simonepadoin_
-:flag_fr: Davida
-:flag_gb: E.Halaand
-:flag_gb: Sav
-:flag_es: A
-:flag_us: Aleje`;
+var gambaosaka = `:flag_nl: Warrior (C)
+:flag_gb: Ivo (Co)
+:flag_nl: Itachi
+:flag_ba: Defender
+:flag_nl: 58
+:flag_gb: Mate
+:flag_de: vesy
+:flag_it: eronuovodelposto
+:flag_ro: Merc
+:flag_de: Total
+:flag_nl: Pyro
+:flag_cz: IKVnho
+:flag_fr: pax ` + "`☮️`" + `
+:flag_nl: Rajzojee'`;
+
+var gaston = `:flag_fr: 𝐃𝐨𝐥𝐢𝐩𝐫𝐮𝐧𝐞 (C)
+:flag_fr: Krasiuc (Co)
+:flag_gb: dindindindi 
+:flag_fr: Just_Azr0d
+:flag_ro: Sebi C`;
 
 var inter = `:flag_pk: DELUXE (C)
 :flag_dz: Deku (Co)
@@ -1921,13 +1933,27 @@ Mr.Worldwide(Co)
 Lcn131 (Co)
 Milko
 Provdni
-Dj66
+Dj666
 Asano
 Exca
 Hawk
 bananas`;
 
-var quattrojoker = `:flag_nl:  **Itachi** (C)
+var sbr = `:flag_nl: **Yazuneh** (C)
+:flag_pt: **FD91** (Co)
+:flag_be: **Yi** (Co)
+:flag_pl: **eve jaa**
+:flag_hr: **MaKeKs**
+:flag_fr: Risky
+:flag_gb: architect
+:flag_nl: Dennis42
+:flag_dk: Elenaa
+:flag_cz: Zinek
+:flag_fr: Arlind
+:flag_us: 2Pac
+:flag_gb: **Larry**`;
+
+/*var quattrojoker = `:flag_nl:  **Itachi** (C)
 :flag_ro: Merc (Co)
 :flag_nl: stoutpoop (Co)
 :flag_ba: Defender
@@ -1940,21 +1966,18 @@ var quattrojoker = `:flag_nl:  **Itachi** (C)
 :flag_nl: Elmo
 :flag_gb: July4th
 :flag_gb: Daffyd
-:flag_nl:  Pyro`;
+:flag_nl:  Pyro`;*/
 
-var sbr = `:flag_nl: **Yazuneh** (C)
-:flag_pt: **FD91** (Co)
-:flag_be: **Yi** (Co)
-:flag_pl: eve jaa
-:flag_hr: MaKeKs
-:flag_fr: Risky
-:flag_gb: architect
-:flag_nl: Dennis42
-:flag_dk: Elenaa
-:flag_cz: Zinek
-:flag_fr: Arlind
-:flag_us: 2Pac
-:flag_gb: Larry`;
+/*
+var hthidolo = `:flag_gb: Mac (C)
+:flag_gb: lemq the baller
+:flag_se: halal
+:flag_it: simonepadoin_
+:flag_fr: Davida
+:flag_gb: E.Halaand
+:flag_gb: Sav
+:flag_es: A
+:flag_us: Aleje`;*/
 
 /*var eagles = `**Luka Jovic** (C)
 Yellow (Co)
