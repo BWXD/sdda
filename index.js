@@ -1978,6 +1978,16 @@ var gaston = `:flag_fr: **Doliprune** (C)
 :flag_fr: Lancelotdulac
 :flag_fr: Akira`;
 
+var hthidolo = `:flag_gb: Mac (C)
+:flag_gb: lemq the baller
+:flag_se: halal
+:flag_it: simonepadoin_
+:flag_fr: Davida
+:flag_gb: E.Halaand
+:flag_gb: Sav
+:flag_es: A
+:flag_us: Aleje`;
+
 var inter = `:flag_pk: DELUXE (C)
 :flag_dz: Deku (Co)
 :flag_iq: T
@@ -1989,14 +1999,14 @@ var inter = `:flag_pk: DELUXE (C)
 
 var legacy = `:flag_pl: DominoPL (C)
 :flag_ie: Mr.Worldwide (Co)
-:flag_eu: Lcn131 (Co)
-:flag_eu: Milko
+:flag_white: Lcn131 (Co)
+:flag_white: Milko
 :flag_rs: Providini
 :flag_es: Dj666
 :flag_ba: Asano
-:flag_eu: Exca
+:flag_white: Exca
 :flag_be: Hawk
-:flag_eu: bananas`;
+:flag_white: bananas`;
 
 var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_pt: **FD91** (Co)
@@ -2026,17 +2036,6 @@ var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_gb: July4th
 :flag_gb: Daffyd
 :flag_nl:  Pyro`;*/
-
-/*
-var hthidolo = `:flag_gb: Mac (C)
-:flag_gb: lemq the baller
-:flag_se: halal
-:flag_it: simonepadoin_
-:flag_fr: Davida
-:flag_gb: E.Halaand
-:flag_gb: Sav
-:flag_es: A
-:flag_us: Aleje`;*/
 
 /*var eagles = `**Luka Jovic** (C)
 Yellow (Co)
