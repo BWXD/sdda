@@ -1982,7 +1982,6 @@ var inter = `:flag_pk: DELUXE (C)
 :flag_dz: Deku (Co)
 :flag_iq: T
 :flag_kg: Chun
-:flag_pt: Peter
 :flag_fr: Toshiba
 :flag_gb: Sea king
 :flag_us: 9ine
