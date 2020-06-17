@@ -1987,16 +1987,16 @@ var inter = `:flag_pk: DELUXE (C)
 :flag_us: 9ine
 :flag_nl: zDog`;
 
-var legacy = `DominoPL (C)
-Mr.Worldwide(Co)
-Lcn131 (Co)
-Milko
-Provdni
-Dj666
-Asano
-Exca
-Hawk
-bananas`;
+var legacy = `:flag_pl: DominoPL (C)
+:flag_ie: Mr.Worldwide (Co)
+:flag_eu: Lcn131 (Co)
+:flag_eu: Milko
+:flag_rs: Providini
+:flag_es: Dj666
+:flag_ba: Asano
+:flag_eu: Exca
+:flag_be: Hawk
+:flag_eu: bananas`;
 
 var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_pt: **FD91** (Co)
