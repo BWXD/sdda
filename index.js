@@ -367,7 +367,7 @@ case "teams":
 <:blackout:706670687783354429> [BLA] BlackOut
 <:dreamingpirates:722461023038211053> [DP] Dreaming Pirates
 <:gambaosaka:722857586222956574> [GAO][GMO] Gamba Osaka
-<:gaston:722854770863374437> [GAS][GST] Gaston FC
+<:gaston:722854770863374437> [GAS][GST] FC Gaston
 <:inter:706989671112114296> [INT] Inter FC
 <:legacy:721726178817212466> [LEG][LGC] Legacy FC
 <:sbr:722461133025443910> [SBR] SBR FC`)
@@ -494,7 +494,7 @@ case "modify":
 			inter = roster;
 		}
 		
-		//GASTON FC
+		//FC GASTON
 		if(args[1] == "GAS"){
 			var roster = message.content.split("f!modify GAS ").slice(1,2000);
 			gaston = roster;
@@ -1707,7 +1707,7 @@ case "rosters":
 	})
 	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#FFA300')
-            .setTitle("Gaston FC")
+            .setTitle("FC Gaston")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/722854245996560514/gastonfc.png')
             .setDescription(gaston)
 	})
@@ -1966,11 +1966,18 @@ var gambaosaka = `:flag_nl: Warrior (C)
 :flag_fr: pax ` + "`☮️`" + `
 :flag_nl: Rajzojee'`;
 
-var gaston = `:flag_fr: 𝐃𝐨𝐥𝐢𝐩𝐫𝐮𝐧𝐞 (C)
-:flag_fr: Krasiuc (Co)
-:flag_gb: dindindindi 
-:flag_fr: Just_Azr0d
-:flag_ro: Sebi C`;
+var gaston = `:flag_fr: Doliprune (C)
+:flag_fr: Citizenk (Co)
+:flag_fr: Lilian
+:flag_fr: Walt Disquette
+:flag_fr: Sosa
+:flag_fr: Rockfeller
+:flag_fr: Krasiuc
+:flag_fr: Furya
+:flag_fr: Toshiba
+:flag_fr: Wass
+:flag_fr: Lancelotdulac
+:flag_fr: Akira`;
 
 var inter = `:flag_pk: DELUXE (C)
 :flag_dz: Deku (Co)
