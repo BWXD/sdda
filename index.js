@@ -1966,7 +1966,7 @@ var gambaosaka = `:flag_nl: Warrior (C)
 :flag_fr: pax ` + "`☮️`" + `
 :flag_nl: Rajzojee'`;
 
-var gaston = `:flag_fr: Doliprune (C)
+var gaston = `:flag_fr: **Doliprune** (C)
 :flag_fr: Citizenk (Co)
 :flag_fr: Lilian
 :flag_fr: Walt Disquette
@@ -1974,7 +1974,6 @@ var gaston = `:flag_fr: Doliprune (C)
 :flag_fr: Rockfeller
 :flag_fr: Krasiuc
 :flag_fr: Furya
-:flag_fr: Toshiba
 :flag_fr: Wass
 :flag_fr: Lancelotdulac
 :flag_fr: Akira`;
