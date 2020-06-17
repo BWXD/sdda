@@ -494,48 +494,102 @@ case "modify":
 			inter = roster;
 		}
 		
-		//HTH IDOLO FC
-		if(args[1] == "HTH"){
-			var roster = message.content.split("f!modify HTH ").slice(1,2000);
-			hthidolo = roster;
-		}if(args[1] == "hth"){
-			var roster = message.content.split("f!modify hth ").slice(1,2000);
-			hthidolo = roster;
+		//GASTON FC
+		if(args[1] == "GAS"){
+			var roster = message.content.split("f!modify GAS ").slice(1,2000);
+			gaston = roster;
+		}if(args[1] == "gas"){
+			var roster = message.content.split("f!modify gas ").slice(1,2000);
+			gaston = roster;
 		}
-		if(args[1] == "IDO"){
-			var roster = message.content.split("f!modify IDO ").slice(1,2000);
-			hthidolo = roster;
-		}if(args[1] == "ido"){
-			var roster = message.content.split("f!modify ido ").slice(1,2000);
-			hthidolo = roster;
+		if(args[1] == "GST"){
+			var roster = message.content.split("f!modify GST ").slice(1,2000);
+			gaston = roster;
+		}if(args[1] == "gst"){
+			var roster = message.content.split("f!modify gst ").slice(1,2000);
+			gaston = roster;
 		}
-		if(args[1] == "Ido"){
-			var roster = message.content.split("f!modify Ido ").slice(1,2000);
-			hthidolo = roster;
-		}if(args[1] == "Hth"){
-			var roster = message.content.split("f!modify Hth ").slice(1,2000);
-			hthidolo = roster;
-		}if(args[1] == "HTH_IDOLO"){
-			var roster = message.content.split("f!modify HTH_IDOLO ").slice(1,2000);
-			hthidolo = roster;
-		}if(args[1] == "Hth_idolo"){
-			var roster = message.content.split("f!modify Hth_idolo ").slice(1,2000);
-			hthidolo = roster;
-		}if(args[1] == "hth_idolo"){
-			var roster = message.content.split("f!modify hth_idolo ").slice(1,2000);
-			hthidolo = roster;
-		}if(args[1] == "Hth_Idolo"){
-			var roster = message.content.split("f!modify Hth_Idolo ").slice(1,2000);
-			hthidolo = roster;
-		}if(args[1] == "hth_idolo_fc"){
-			var roster = message.content.split("f!modify hth_idolo_fc ").slice(1,2000);
-			hthidolo = roster;
-		}if(args[1] == "HTH_IDOLO_FC"){
-			var roster = message.content.split("f!modify HTH_IDOLO_FC" ).slice(1,2000);
-			hthidolo = roster;
-		}if(args[1] == "Hth_Idolo_Fc"){
-			var roster = message.content.split("f!modify Hth_Idolo_Fc ").slice(1,2000);
-			hthidolo = roster;
+		if(args[1] == "Gas"){
+			var roster = message.content.split("f!modify Gas ").slice(1,2000);
+			gaston = roster;
+		}if(args[1] == "Gst"){
+			var roster = message.content.split("f!modify Gst ").slice(1,2000);
+			gaston = roster;
+		}if(args[1] == "GASTON"){
+			var roster = message.content.split("f!modify GASTON ").slice(1,2000);
+			gaston = roster;
+		}if(args[1] == "Gaston"){
+			var roster = message.content.split("f!modify Gaston ").slice(1,2000);
+			gaston = roster;
+		}if(args[1] == "gaston"){
+			var roster = message.content.split("f!modify gaston ").slice(1,2000);
+			gaston = roster;
+		}if(args[1] == "Gaston_FC"){
+			var roster = message.content.split("f!modify Gaston_FC ").slice(1,2000);
+			gaston = roster;
+		}if(args[1] == "gaston_fc"){
+			var roster = message.content.split("f!modify gaston_fc ").slice(1,2000);
+			gaston = roster;
+		}if(args[1] == "GASTON_FC"){
+			var roster = message.content.split("f!modify GASTON_FC" ).slice(1,2000);
+			gaston = roster;
+		}if(args[1] == "Gaston_fc"){
+			var roster = message.content.split("f!modify Gaston_fc ").slice(1,2000);
+			gaston = roster;
+		}
+		
+		//GAMBA OSAKA
+		if(args[1] == "Gamba"){
+			var roster = message.content.split("f!modify Gamba ").slice(1,2000);
+			gambaosaka = roster;
+		}if(args[1] == "gamba"){
+			var roster = message.content.split("f!modify gamba ").slice(1,2000);
+			gambaosaka = roster;
+		}if(args[1] == "Gao"){
+			var roster = message.content.split("f!modify Gao ").slice(1,2000);
+			gambaosaka = roster;
+		}if(args[1] == "gao"){
+			var roster = message.content.split("f!modify gao ").slice(1,2000);
+			gambaosaka = roster;
+		}if(args[1] == "GAO"){
+			var roster = message.content.split("f!modify GAO ").slice(1,2000);
+			gambaosaka = roster;
+		}if(args[1] == "Gmo"){
+			var roster = message.content.split("f!modify Gmo ").slice(1,2000);
+			gambaosaka = roster;
+		}if(args[1] == "gmo"){
+			var roster = message.content.split("f!modify gmo ").slice(1,2000);
+			gambaosaka = roster;
+		}if(args[1] == "GMO"){
+			var roster = message.content.split("f!modify GMO ").slice(1,2000);
+			gambaosaka = roster;
+		}if(args[1] == "GAMBA"){
+			var roster = message.content.split("f!modify GAMBA ").slice(1,2000);
+			gambaosaka = roster;
+		}if(args[1] == "gamba_osaka"){
+			var roster = message.content.split("f!modify gamba_osaka ").slice(1,2000);
+			gambaosaka = roster;
+		}if(args[1] == "Gamba_osaka"){
+			var roster = message.content.split("f!modify Gamba_osaka ").slice(1,2000);
+			gambaosaka = roster;
+		}if(args[1] == "Gamba_Osaka"){
+			var roster = message.content.split("f!modify Gamba_Osaka ").slice(1,2000);
+			gambaosaka = roster;
+		}if(args[1] == "GAMBA_OSAKA"){
+			var roster = message.content.split("f!modify GAMBA_OSAKA ").slice(1,2000);
+			gambaosaka = roster;
+		}if(args[1] == "gamba_Osaka"){
+			var roster = message.content.split("f!modify gamba_Osaka ").slice(1,2000);
+			gambaosaka = roster;
+		}if(args[1] == "gambaosaka"){
+			var roster = message.content.split("f!modify gambaosaka ").slice(1,2000);
+			gambaosaka = roster;
+		}if(args[1] == "GAMBAOSAKA"){
+			var roster = message.content.split("f!modify GAMBAOSAKA ").slice(1,2000);
+			gambaosaka = roster;
+		}if(args[1] == "Gambaosaka"){
+			var roster = message.content.split("f!modify Gambaosaka ").slice(1,2000);
+			gambaosaka = roster;
 		}
 		
 		//DREAMING PIRATES
