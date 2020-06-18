@@ -2049,10 +2049,10 @@ var gambaosaka = `:flag_nl: **Warrior** (C)
 :flag_gb: Ivo (Co)
 :flag_nl: Itachi
 :flag_ba: Defender
-:flag_nl: 58
+:flag_nl: **58**
 :flag_gb: Mate
 :flag_de: vesy
-:flag_it: eronuovodelposto
+:flag_it: **eronuovodelposto**
 :flag_ro: Merc
 :flag_de: Total
 :flag_nl: Pyro
@@ -2074,7 +2074,7 @@ var gaston = `:flag_fr: **Doliprune** (C)
 
 var hthidolo = `:flag_gb: **Mac** (C)
 :flag_gb: **lemq the baller**
-:flag_se: halal
+:flag_se: **halal**
 :flag_it: simonepadoin_
 :flag_fr: Davida
 :flag_gb: **L.Martinez**
