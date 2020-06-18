@@ -2016,12 +2016,13 @@ break;
 
 // SEASON 2
 
-var anonymous = `:flag_gb: HaxJNB (C)
-:flag_gb: xTimmy (C)
+var anonymous = `:flag_gb: **HaxJNB** (C)
+:flag_gb: NKG (C)
+:flag_gb: xTimmy (Co)
 :flag_gb: Mate™ (Co)
-:flag_gb: xDanny
+:flag_nl: xd2
 :flag_nl: Xichema
-:flag_gb: jako
+:flag_gb: **jako**
 :flag_gb: N`;
 
 var blackout = `:flag_pt: Tiago (C)
