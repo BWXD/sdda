@@ -371,7 +371,8 @@ case "teams":
 <:hthidolo:722890284777865388> [HTH][IDO] HTH Idolo FC
 <:inter:706989671112114296> [INT] Inter FC
 <:legacy:721726178817212466> [LEG][LGC] Legacy FC
-<:sbr:722461133025443910> [SBR] SBR FC`)
+<:sbr:722461133025443910> [SBR] SBR FC
+<:tryagain:723109476596449320> [TRY] TryAgain`)
 		})
 	}
 break;
@@ -381,6 +382,39 @@ case "modify":
 //SEASON 2
 	if(message.author.id == "634872299069374488"){
 		message.delete();
+		
+		//TRYAGAIN
+		if(args[1] == "TRY"){
+			var roster = message.content.split("f!modify TRY ").slice(1,2000);
+			tryagain = roster;
+		}if(args[1] == "try"){
+			var roster = message.content.split("f!modify try ").slice(1,2000);
+			tryagain = roster;
+		}if(args[1] == "Try"){
+			var roster = message.content.split("f!modify Try ").slice(1,2000);
+			tryagain = roster;
+		}if(args[1] == "TRYAGAIN"){
+			var roster = message.content.split("f!modify TRYAGAIN ").slice(1,2000);
+			tryagain = roster;
+		}if(args[1] == "TryAgain"){
+			var roster = message.content.split("f!modify TryAgain ").slice(1,2000);
+			tryagain = roster;
+		}if(args[1] == "tryagain"){
+			var roster = message.content.split("f!modify tryagain ").slice(1,2000);
+			tryagain = roster;
+		}if(args[1] == "Try_Again"){
+			var roster = message.content.split("f!modify Try_Again ").slice(1,2000);
+			tryagain = roster;
+		}if(args[1] == "try_again"){
+			var roster = message.content.split("f!modify try_again ").slice(1,2000);
+			tryagain = roster;
+		}if(args[1] == "TRY_AGAIN"){
+			var roster = message.content.split("f!modify TRY_AGAIN" ).slice(1,2000);
+			tryagain = roster;
+		}if(args[1] == "Tryagain"){
+			var roster = message.content.split("f!modify Tryagain ").slice(1,2000);
+			tryagain = roster;
+		}
 		
 		//SBR FC
 		if(args[1] == "SBR"){
@@ -689,6 +723,9 @@ case "modify":
 		}if(args[1] == "bla"){
 			var roster = message.content.split("f!modify bla ").slice(1,2000);
 			blackout = roster;
+		}if(args[1] == "Bla"){
+			var roster = message.content.split("f!modify Bla ").slice(1,2000);
+			blackout = roster;
 		}if(args[1] == "BLACKOUT"){
 			var roster = message.content.split("f!modify BLACKOUT ").slice(1,2000);
 			blackout = roster;
@@ -749,8 +786,8 @@ case "modify":
 		}if(args[1] == "ANONYMOUS_FC"){
 			var roster = message.content.split("f!modify ANONYMOUS_FC" ).slice(1,2000);
 			anonymous = roster;
-		}if(args[1] == "Blackout"){
-			var roster = message.content.split("f!modify Blackout ").slice(1,2000);
+		}if(args[1] == "anonymous_FC"){
+			var roster = message.content.split("f!modify anonymous_FC ").slice(1,2000);
 			anonymous = roster;
 		}
 		
@@ -1780,6 +1817,12 @@ case "rosters":
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/722225682712756294/sbrB.png')
             .setDescription(sbr)
 	})
+	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+            .setColor('#C99545')
+            .setTitle("TryAgain")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/723108631335272508/tryagain.png')
+            .setDescription(tryagain)
+	})
 	  	
 	/*client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#722c38')
@@ -2072,6 +2115,13 @@ var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_fr: Arlind
 :flag_us: 2Pac
 :flag_gb: **Larry**`;
+
+var tryagain = `:flag_ro: Fire (C)
+:flag_ro: Google
+:flag_ro: Niser
+:flag_ro: LVL
+:flag_ro: **Sebi c**
+:flag_fr: **El Matador**`;
 
 /*var quattrojoker = `:flag_nl:  **Itachi** (C)
 :flag_ro: Merc (Co)
