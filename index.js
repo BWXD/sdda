@@ -365,6 +365,7 @@ case "teams":
 			.setTitle("Teams Abbreviations:")
 			.setDescription(`<:anonymous:722461090432155679> [ANO][ANY] Anonymous FC
 <:blackout:706670687783354429> [BLA] BlackOut
+<:crvenazvezda:723249483177263175> [CRV][CVZ] Crvena Zvezda
 <:dreamingpirates:722461023038211053> [DP] Dreaming Pirates
 <:gambaosaka:722857586222956574> [GAO][GMO] Gamba Osaka
 <:gaston:722854770863374437> [GAS][GST] FC Gaston
@@ -714,6 +715,42 @@ case "modify":
 		}if(args[1] == "Dreamingpirates"){
 			var roster = message.content.split("f!modify Dreamingpirates ").slice(1,2000);
 			dreamingpirates = roster;
+		}
+		
+		//CRVENA ZVEZDA
+		if(args[1] == "CRV"){
+			var roster = message.content.split("f!modify CRV ").slice(1,2000);
+			crvenazvezda = roster;
+		}if(args[1] == "crv"){
+			var roster = message.content.split("f!modify crv ").slice(1,2000);
+			crvenazvezda = roster;
+		}if(args[1] == "CVZ"){
+			var roster = message.content.split("f!modify CVZ ").slice(1,2000);
+			crvenazvezda = roster;
+		}if(args[1] == "cvz"){
+			var roster = message.content.split("f!modify cvz ").slice(1,2000);
+			crvenazvezda = roster;
+		}if(args[1] == "CRVENA_ZVEZDA"){
+			var roster = message.content.split("f!modify CRVENA_ZVEZDA ").slice(1,2000);
+			crvenazvezda = roster;
+		}if(args[1] == "Crvena_Zvezda"){
+			var roster = message.content.split("f!modify Crvena_Zvezda ").slice(1,2000);
+			crvenazvezda = roster;
+		}if(args[1] == "crvena_zvezda"){
+			var roster = message.content.split("f!modify crvena_zvezda ").slice(1,2000);
+			crvenazvezda = roster;
+		}if(args[1] == "Crvena"){
+			var roster = message.content.split("f!modify Crvena ").slice(1,2000);
+			crvenazvezda = roster;
+		}if(args[1] == "crvena"){
+			var roster = message.content.split("f!modify crvena ").slice(1,2000);
+			crvenazvezda = roster;
+		}if(args[1] == "Zvezda"){
+			var roster = message.content.split("f!modify Zvezda" ).slice(1,2000);
+			crvenazvezda = roster;
+		}if(args[1] == "zvezda"){
+			var roster = message.content.split("f!modify zvezda ").slice(1,2000);
+			crvenazvezda = roster;
 		}
 
 		//BLACKOUT
@@ -1776,6 +1813,12 @@ case "rosters":
             .setDescription(blackout)
 	})
 	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+            .setColor('#d90512')
+            .setTitle("Crvena Zvezda")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/707577909979906068/crvenazvezda.png')
+            .setDescription(crvenazvezda)
+	})
+	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#74c7f1')
             .setTitle("Dreaming Pirates")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/722460761137348678/dreamingpirates.png')
@@ -2035,6 +2078,17 @@ var blackout = `:flag_pt: Tiago (C)
 :flag_pt: Atlas
 :flag_pt: Marqzou
 :flag_pt: Tibbers`;
+
+var crvenazvezda = `:flag_rs: Alpha (C)
+:flag_nl: The Wall (Co)
+:flag_nl: Deacayy
+:flag_cz: David Cech
+:flag_nl: 𝗛𝝠𝗪𝗞'
+:flag_ma: Haddad
+:flag_tr: R7
+:flag_tr: Smurf
+:flag_ma: chun
+:flag_bg: Moti`;
 
 var dreamingpirates = `:flag_it: **Eren Yeager** (C)
 :flag_it: **micadron** (Co)
