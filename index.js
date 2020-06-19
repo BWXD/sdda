@@ -2062,8 +2062,8 @@ break;
 var anonymous = `:flag_gb: **HaxJNB** (C)
 :flag_gb: NKG (C)
 :flag_gb: xTimmy (Co)
-:flag_gb: Mate™ (Co)
-:flag_nl: xd2
+:flag_gb: **Mate™** (Co)
+:flag_nl: **xd2**
 :flag_nl: Xichema
 :flag_gb: **jako**
 :flag_gb: N`;
@@ -2079,16 +2079,14 @@ var blackout = `:flag_pt: Tiago (C)
 :flag_pt: Marqzou
 :flag_pt: Tibbers`;
 
-var crvenazvezda = `:flag_rs: Alpha (C)
-:flag_nl: The Wall (Co)
-:flag_nl: Deacayy
-:flag_cz: David Cech
-:flag_nl: 𝗛𝝠𝗪𝗞'
-:flag_ma: Haddad
+var crvenazvezda = `:flag_rs: **Alpha** (C)
+:flag_nl: **The Wall** (Co)
+:flag_nl: **Deacayy**
+:flag_cz: DAVID CECH
+:flag_ma: **Haddad**
 :flag_tr: R7
-:flag_tr: Smurf
-:flag_ma: chun
-:flag_bg: Moti`;
+:flag_tr: **Smurf**
+:flag_ma: **chun**`;
 
 var dreamingpirates = `:flag_it: **Eren Yeager** (C)
 :flag_it: **micadron** (Co)
@@ -2098,7 +2096,8 @@ var dreamingpirates = `:flag_it: **Eren Yeager** (C)
 :flag_it: **Alecs**
 :flag_it: **Marineford97**
 :flag_it: **dead**
-:flag_it: **Tonx**`;
+:flag_it: **Tonx**
+:flag_it: **Nenè.**`;
 
 var gambaosaka = `:flag_nl: **Warrior** (C)
 :flag_gb: Ivo (Co)
@@ -2108,12 +2107,12 @@ var gambaosaka = `:flag_nl: **Warrior** (C)
 :flag_gb: Mate
 :flag_de: vesy
 :flag_it: **eronuovodelposto**
-:flag_ro: Merc
 :flag_de: Total
 :flag_nl: Pyro
 :flag_cz: IKVnho
 :flag_fr: pax ` + "`☮️`" + `
-:flag_nl: Rajzojee'`;
+:flag_nl: Rajzojee'
+:flag_bg: **Moti**`;
 
 var gaston = `:flag_fr: **Doliprune** (C)
 :flag_fr: Citizenk (Co)
@@ -2137,25 +2136,27 @@ var hthidolo = `:flag_gb: **Mac** (C)
 :flag_es: A
 :flag_us: **Aleje**`;
 
-var inter = `:flag_pk: DELUXE (C)
-:flag_dz: Deku (Co)
+var inter = `:flag_pk: **DELUXE** (C)
+:flag_dz: **Deku** (Co)
 :flag_iq: T
 :flag_kg: Chun
 :flag_fr: Toshiba
 :flag_gb: Sea king
 :flag_us: 9ine
-:flag_nl: zDog`;
+:flag_nl: **zDog**
+:flag_pt: **Chazeiro**
+:flag_de: **Lucas°**`;
 
 var legacy = `:flag_pl: DominoPL (C)
-:flag_ie: Mr.Worldwide (Co)
+:flag_ie: **Mr.Worldwide** (Co)
 :flag_white: Lcn131 (Co)
 :flag_white: Milko
-:flag_rs: Providini
-:flag_es: Dj666
-:flag_ba: Asano
-:flag_white: Exca
-:flag_be: Hawk
-:flag_white: bananas`;
+:flag_rs: **Providini**
+:flag_es: **Dj666**
+:flag_ba: **Asano**
+:flag_white: **Exca**
+:flag_be: **HAWK**
+:flag_white: **BananaSS**`;
 
 var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_pt: **FD91** (Co)
@@ -2169,7 +2170,8 @@ var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_cz: Zinek
 :flag_fr: Arlind
 :flag_us: 2Pac
-:flag_gb: **Larry**`;
+:flag_gb: **Larry**
+:flag_ma: **> BW <**`;
 
 var tryagain = `:flag_ro: Fire (C)
 :flag_ro: Google
