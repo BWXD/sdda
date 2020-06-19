@@ -2101,7 +2101,7 @@ var dreamingpirates = `:flag_it: **Eren Yeager** (C)
 
 var gambaosaka = `:flag_nl: **Warrior** (C)
 :flag_gb: Ivo (Co)
-:flag_nl: Itachi
+:flag_nl: **Itachi**
 :flag_ba: Defender
 :flag_nl: **58**
 :flag_gb: Mate
