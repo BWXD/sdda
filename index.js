@@ -368,7 +368,6 @@ case "teams":
 <:crvenazvezda:723249483177263175> [CRV][CVZ] Crvena Zvezda
 <:dreamingpirates:722461023038211053> [DP] Dreaming Pirates
 <:gambaosaka:722857586222956574> [GAO][GMO] Gamba Osaka
-<:gaston:722854770863374437> [GAS][GST] FC Gaston
 <:hthidolo:722890284777865388> [HTH][IDO] HTH Idolo FC
 <:inter:706989671112114296> [INT] Inter FC
 <:legacy:721726178817212466> [LEG][LGC] Legacy FC
@@ -575,7 +574,7 @@ case "modify":
 		}
 		
 		//FC GASTON
-		if(args[1] == "GAS"){
+		/*if(args[1] == "GAS"){
 			var roster = message.content.split("f!modify GAS ").slice(1,2000);
 			gaston = roster;
 		}if(args[1] == "gas"){
@@ -616,7 +615,7 @@ case "modify":
 		}if(args[1] == "Gaston_fc"){
 			var roster = message.content.split("f!modify Gaston_fc ").slice(1,2000);
 			gaston = roster;
-		}
+		}*/
 		
 		//GAMBA OSAKA
 		if(args[1] == "Gamba"){
@@ -1830,12 +1829,12 @@ case "rosters":
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/722855201278656623/gambaosaka.png')
             .setDescription(gambaosaka)
 	})
-	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+	/*client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#FFA300')
             .setTitle("FC Gaston")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/722854245996560514/gastonfc.png')
             .setDescription(gaston)
-	})
+	})*/
 	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#b900ae')
             .setTitle("HTH Idolo FC")
@@ -2114,7 +2113,7 @@ var gambaosaka = `:flag_nl: **Warrior** (C)
 :flag_nl: Rajzojee'
 :flag_bg: **Moti**`;
 
-var gaston = `:flag_fr: **Doliprune** (C)
+/*var gaston = `:flag_fr: **Doliprune** (C)
 :flag_fr: Citizenk (Co)
 :flag_fr: Lilian
 :flag_fr: Walt Disquette
@@ -2124,7 +2123,7 @@ var gaston = `:flag_fr: **Doliprune** (C)
 :flag_fr: Furya
 :flag_fr: Wass
 :flag_fr: Lancelotdulac
-:flag_fr: Akira`;
+:flag_fr: Akira`;/*/
 
 var hthidolo = `:flag_gb: **Mac** (C)
 :flag_gb: **lemq the baller**
