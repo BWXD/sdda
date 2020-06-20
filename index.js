@@ -2103,7 +2103,6 @@ var gambaosaka = `:flag_nl: **Warrior** (C)
 :flag_nl: **Itachi**
 :flag_ba: Defender
 :flag_nl: **58**
-:flag_gb: Mate
 :flag_de: vesy
 :flag_it: **eronuovodelposto**
 :flag_de: Total
@@ -2140,7 +2139,7 @@ var inter = `:flag_pk: **DELUXE** (C)
 :flag_kg: Chun
 :flag_fr: Toshiba
 :flag_gb: Sea king
-:flag_us: 9ine
+:flag_us: **9ine**
 :flag_nl: **zDog**
 :flag_pt: **Chazeiro**
 :flag_de: **Lucas°**`;
@@ -2162,13 +2161,12 @@ var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_pl: **eve jaa**
 :flag_hr: **MaKeKs**
 :flag_fr: Risky
-:flag_fr: Doliprune
-:flag_gb: Mac
-:flag_gb: **Larry**
-:flag_ma: **> BW <**`;
+:flag_fr: **Doliprune**
+:flag_gb: **Mac**
+:flag_gb: **Larry**`;
 
 var tryagain = `:flag_ro: Fire (C)
-:flag_ro: Google
+:flag_ro: **Google**
 :flag_ro: Niser
 :flag_ro: LVL
 :flag_ro: **Sebi c**
