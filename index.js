@@ -2125,8 +2125,7 @@ var gambaosaka = `:flag_nl: **Warrior** (C)
 :flag_fr: Lancelotdulac
 :flag_fr: Akira`;/*/
 
-var hthidolo = `:flag_gb: **Mac** (C)
-:flag_gb: **lemq the baller**
+var hthidolo = `:flag_gb: **lemq the baller**
 :flag_se: **halal**
 :flag_it: simonepadoin_
 :flag_fr: Davida
@@ -2137,7 +2136,7 @@ var hthidolo = `:flag_gb: **Mac** (C)
 
 var inter = `:flag_pk: **DELUXE** (C)
 :flag_dz: **Deku** (Co)
-:flag_iq: T
+:flag_iq: **T**
 :flag_kg: Chun
 :flag_fr: Toshiba
 :flag_gb: Sea king
@@ -2163,12 +2162,8 @@ var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_pl: **eve jaa**
 :flag_hr: **MaKeKs**
 :flag_fr: Risky
-:flag_gb: architect
-:flag_nl: Dennis42
-:flag_dk: Elenaa
-:flag_cz: Zinek
-:flag_fr: Arlind
-:flag_us: 2Pac
+:flag_fr: Doliprune
+:flag_gb: Mac
 :flag_gb: **Larry**
 :flag_ma: **> BW <**`;
 
