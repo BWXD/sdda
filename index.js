@@ -2097,16 +2097,17 @@ var anonymous = `:flag_gb: **HaxJNB** (C)
 :flag_nl: Xichema
 :flag_gb: N`;
 
-var blackout = `:flag_pt: Tiago (C)
+var blackout = `:flag_pt: **Tiago** (C)
 :flag_pt: Mesut
-:flag_pt: monteiro
-:flag_de: ozo jaa
+:flag_pt: **monteiro**
+:flag_de: **ozo jaa**
 :flag_pt: Blastoyz
 :flag_pt: Suarez
 :flag_pt: irv1
 :flag_pt: Atlas
 :flag_pt: Marqzou
-:flag_pt: Tibbers`;
+:flag_pt: **Tibbers**
+:flag_pl: **üb**`;
 
 var crvenazvezda = `:flag_rs: **Alpha** (C)
 :flag_nl: **The Wall** (Co)
@@ -2115,7 +2116,8 @@ var crvenazvezda = `:flag_rs: **Alpha** (C)
 :flag_ma: **Haddad**
 :flag_tr: R7
 :flag_tr: **Smurf**
-:flag_ma: **chun**`;
+:flag_ma: **chun**
+:flag_gb: **Jako**`;
 
 var dreamingpirates = `:flag_it: **Eren Yeager** (C)
 :flag_it: **micadron** (Co)
