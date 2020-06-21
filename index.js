@@ -1627,7 +1627,7 @@ case "participe":
 break;	
 		    
 		    
-	
+	/*
 case "funcup":
 		    commandsUsed++;
 	if(message.author.id == "634872299069374488"){
@@ -1635,7 +1635,7 @@ case "funcup":
 	}
 break;		    
 		    
-		    
+		    */
 		    
 		    
 		    
@@ -2104,7 +2104,7 @@ var blackout = `:flag_pt: **Tiago** (C)
 :flag_pt: Blastoyz
 :flag_pt: Suarez
 :flag_pt: irv1
-:flag_pt: Atlas
+:flag_pt: **Atlas**
 :flag_pt: Marqzou
 :flag_pt: **Tibbers**
 :flag_pl: **üb**`;
@@ -2112,7 +2112,7 @@ var blackout = `:flag_pt: **Tiago** (C)
 var crvenazvezda = `:flag_rs: **Alpha** (C)
 :flag_nl: **The Wall** (Co)
 :flag_nl: **Deacayy**
-:flag_cz: DAVID CECH
+:flag_cz: **DAVID CECH**
 :flag_ma: **Haddad**
 :flag_tr: R7
 :flag_tr: **Smurf**
@@ -2150,7 +2150,7 @@ var glizdy = `:flag_pl: zaQu (C)
 :flag_pl: omgg
 :flag_pl: Meireles
 :flag_rs: dzonika
-:flag_ba: Xaroth`;
+:flag_ba: **Xaroth**`;
 
 /*var gaston = `:flag_fr: **Doliprune** (C)
 :flag_fr: Citizenk (Co)
