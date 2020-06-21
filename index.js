@@ -2144,12 +2144,11 @@ var gambaosaka = `:flag_nl: **Warrior** (C)
 :flag_nl: Rajzojee'
 :flag_bg: **Moti**`;
 
-var glizdy = `:flag_pl: zaQu (C)
+var glizdy = `:flag_pl: **zaQu** (C)
 :flag_hr: **pirlo** (C)
 :flag_pl: **yennefer** (Co)
-:flag_pl: omgg
+:flag_pl: **omgg**
 :flag_pl: Meireles
-:flag_rs: dzonika
 :flag_ba: **Xaroth**`;
 
 /*var gaston = `:flag_fr: **Doliprune** (C)
