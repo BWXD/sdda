@@ -2098,7 +2098,7 @@ var anonymous = `:flag_gb: **HaxJNB** (C)
 :flag_gb: N`;
 
 var blackout = `:flag_pt: **Tiago** (C)
-:flag_pt: Mesut
+:flag_pt: **Mesut**
 :flag_pt: **monteiro**
 :flag_de: **ozo jaa**
 :flag_pt: Blastoyz
@@ -2126,7 +2126,6 @@ var dreamingpirates = `:flag_it: **Eren Yeager** (C)
 :flag_it: **bruceketta**
 :flag_it: **Alecs**
 :flag_it: **Marineford97**
-:flag_it: **dead**
 :flag_it: **Tonx**
 :flag_it: **Nenè.**`;
 
