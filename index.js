@@ -2244,12 +2244,12 @@ var legacy = `:flag_pl: DominoPL (C)
 :flag_be: **HAWK**
 :flag_white: **BananaSS**`;
 
-var qnrunners = `:flag_white: Raress (C)
-:flag_white: shot (Co)
-:flag_white: **vali.valentin/s.** (Co)
-:flag_white: **aguero**
-:flag_white: zar1
-:flag_white: SC30`;
+var qnrunners = `:flag_ro: **Raress** (C)
+:flag_ro: shot (Co)
+:flag_ro: **vali.valentin/s.** (Co)
+:flag_ro: **aguero**
+:flag_ro: zar1
+:flag_ro: SC30`;
 
 var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_pt: **FD91** (Co)
