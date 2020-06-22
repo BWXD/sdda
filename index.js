@@ -2248,8 +2248,9 @@ var qnrunners = `:flag_ro: **Raress** (C)
 :flag_ro: shot (Co)
 :flag_ro: **vali.valentin/s.** (Co)
 :flag_ro: **aguero**
-:flag_ro: zar1
-:flag_ro: SC30`;
+:flag_ro: **Merc**
+:flag_ro: **zar1**
+:flag_ro: **SC30**`;
 
 var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_pt: **FD91** (Co)
@@ -2265,8 +2266,7 @@ var sbr = `:flag_nl: **Yazuneh** (C)
 var tryagain = `:flag_ro: **Fire** (C)
 :flag_ro: **Google**
 :flag_ro: **Sebi c**
-:flag_fr: **El Matador**
-:flag_ro: **Merc**`;
+:flag_fr: **El Matador**`;
 
 /*var quattrojoker = `:flag_nl:  **Itachi** (C)
 :flag_ro: Merc (Co)
