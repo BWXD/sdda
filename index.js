@@ -372,6 +372,7 @@ case "teams":
 <:hthidolo:722890284777865388> [HTH][IDO] HTH Idolo FC
 <:inter:706989671112114296> [INT] Inter FC
 <:legacy:721726178817212466> [LEG][LGC] Legacy FC
+<:qnrunners:724714425541591050> [QNR] QN Runners
 <:sbr:722461133025443910> [SBR] SBR FC
 <:tryagain:723109476596449320> [TRY] TryAgain`)
 		})
@@ -438,8 +439,53 @@ case "modify":
 			sbr = roster;
 		}
 		
+		//QN RUNNERS
+		if(args[1] == "QNR"){
+			var roster = message.content.split("f!modify QNR ").slice(1,2000);
+			qnrunners = roster;
+		}if(args[1] == "qnr"){
+			var roster = message.content.split("f!modify qnr ").slice(1,2000);
+			qnrunners = roster;
+		}if(args[1] == "Qnr"){
+			var roster = message.content.split("f!modify Qnr ").slice(1,2000);
+			qnrunners = roster;
+		}if(args[1] == "QNr"){
+			var roster = message.content.split("f!modify QNr ").slice(1,2000);
+			qnrunners = roster;
+		}if(args[1] == "qnR"){
+			var roster = message.content.split("f!modify qnR ").slice(1,2000);
+			qnrunners = roster;
+		}if(args[1] == "QnR"){
+			var roster = message.content.split("f!modify QnR ").slice(1,2000);
+			qnrunners = roster;
+		}if(args[1] == "QN_RUNNERS"){
+			var roster = message.content.split("f!modify QN_RUNNERS ").slice(1,2000);
+			qnrunners = roster;
+		}if(args[1] == "QN_Runners"){
+			var roster = message.content.split("f!modify QN_Runners ").slice(1,2000);
+			qnrunners = roster;
+		}if(args[1] == "qn_runners"){
+			var roster = message.content.split("f!modify qn_runners ").slice(1,2000);
+			qnrunners = roster;
+		}if(args[1] == "QNRUNNERS"){
+			var roster = message.content.split("f!modify QNRUNNERS ").slice(1,2000);
+			qnrunners = roster;
+		}if(args[1] == "QNRunners"){
+			var roster = message.content.split("f!modify QNRunners ").slice(1,2000);
+			qnrunners = roster;
+		}if(args[1] == "qnrunners"){
+			var roster = message.content.split("f!modify qnrunners" ).slice(1,2000);
+			qnrunners = roster;
+		}if(args[1] == "QNrunners"){
+			var roster = message.content.split("f!modify QNrunners ").slice(1,2000);
+			qnrunners = roster;
+		}if(args[1] == "QN_runners"){
+			var roster = message.content.split("f!modify QN_runners ").slice(1,2000);
+			qnrunners = roster;
+		}
+		
 		//QUATTRO JOKER
-		if(args[1] == "QUA"){
+		/*if(args[1] == "QUA"){
 			var roster = message.content.split("f!modify QUA ").slice(1,2000);
 			quattrojoker = roster;
 		}if(args[1] == "Quattro_Joker"){
@@ -457,7 +503,7 @@ case "modify":
 		}if(args[1] == "QUATTRO_JOKER"){
 			var roster = message.content.split("f!modify QUATTRO_JOKER ").slice(1,2000);
 			quattrojoker = roster;
-		}
+		}*/
 
 		//LEGACY
 		if(args[1] == "LEG"){
@@ -1885,6 +1931,12 @@ case "rosters":
             .setDescription(legacy)
 	})
 	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+            .setColor('#fefefe')
+            .setTitle("QN Runners")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/724716092131639406/qnrunners.png')
+            .setDescription(qnrunners)
+	})
+	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#f7d627')
             .setTitle("SBR FC")
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/722225682712756294/sbrB.png')
@@ -2192,6 +2244,13 @@ var legacy = `:flag_pl: DominoPL (C)
 :flag_white: **Exca**
 :flag_be: **HAWK**
 :flag_white: **BananaSS**`;
+
+var qnrunners = `:flag_white: Raress (C)
+:flag_white: shot (Co)
+:flag_white: vali.valentin/s. (Co)
+:flag_white: aguero
+:flag_white: zar1
+:flag_white: SC30`;
 
 var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_pt: **FD91** (Co)
