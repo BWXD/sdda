@@ -2256,7 +2256,6 @@ var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_be: **Yi** (Co)
 :flag_pl: **eve jaa**
 :flag_hr: **MaKeKs**
-:flag_fr: Risky
 :flag_fr: **Doliprune**
 :flag_gb: **Mac**
 :flag_gb: **Larry**
