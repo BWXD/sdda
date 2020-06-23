@@ -2265,7 +2265,8 @@ var sbr = `:flag_nl: **Yazuneh** (C)
 var tryagain = `:flag_ro: **Fire** (C)
 :flag_ro: **Google**
 :flag_ro: **Sebi c**
-:flag_fr: **El Matador**`;
+:flag_fr: **El Matador**
+:flag_white: Marfert`;
 
 /*var quattrojoker = `:flag_nl:  **Itachi** (C)
 :flag_ro: Merc (Co)
