@@ -2199,7 +2199,7 @@ var glizdy = `:flag_pl: **zaQu** (C)
 :flag_pl: **omgg**
 :flag_pl: Meireles
 :flag_ba: **Xaroth**
-:flag_nl: stoutpoop`;
+:flag_nl: **stoutpoop**`;
 
 /*var gaston = `:flag_fr: **Doliprune** (C)
 :flag_fr: Citizenk (Co)
