@@ -2216,17 +2216,12 @@ var hthidolo = `:flag_gb: **lemq the baller** (C)
 :flag_gb: **L.Martinez** (C)
 :flag_se: **halal**
 :flag_it: simonepadoin_
-:flag_fr: Davida
-:flag_gb: Sav
-:flag_es: A
+:flag_fr: **Davida**
 :flag_us: **Aleje**`;
 
 var inter = `:flag_pk: **DELUXE** (C)
 :flag_dz: **Deku** (Co)
 :flag_iq: **T**
-:flag_kg: Chun
-:flag_fr: Toshiba
-:flag_gb: Sea king
 :flag_us: **9ine**
 :flag_nl: **zDog**
 :flag_pt: **Chazeiro**
@@ -2265,7 +2260,8 @@ var tryagain = `:flag_ro: **Fire** (C)
 :flag_ro: **Google**
 :flag_ro: **Sebi c**
 :flag_fr: **El Matador**
-:flag_white: Marfert`;
+:flag_ro: Marfert (???)
+:flag_ro: **Dar1us=.=**`;
 
 /*var quattrojoker = `:flag_nl:  **Itachi** (C)
 :flag_ro: Merc (Co)
