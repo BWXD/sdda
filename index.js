@@ -2140,23 +2140,16 @@ break;
 // SEASON 2
 
 var anonymous = `:flag_gb: **HaxJNB** (C)
-:flag_gb: NKG (C)
-:flag_gb: xTimmy (Co)
 :flag_gb: **Mate™** (Co)
-:flag_nl: **xd2**
-:flag_nl: Xichema
-:flag_gb: **Jako**
-:flag_gb: N`;
+:flag_gb: **Jako**`;
 
 var blackout = `:flag_pt: **Tiago** (C)
 :flag_pt: **Mesut**
 :flag_pt: **monteiro**
 :flag_de: **ozo jaa**
-:flag_pt: Blastoyz
 :flag_pt: **Suarez**
-:flag_pt: irv1
 :flag_pt: **Atlas**
-:flag_pt: Marqzou
+:flag_pt: **Marqzou**
 :flag_pt: **Tibbers**
 :flag_pl: **üb**`;
 
@@ -2179,45 +2172,17 @@ var dreamingpirates = `:flag_it: **Eren Yeager** (C)
 :flag_it: **Nenè.**`;
 
 var gambaosaka = `:flag_nl: **Warrior** (C)
-:flag_gb: Ivo (Co)
 :flag_nl: **Itachi**
-:flag_ba: Defender
 :flag_nl: **58**
-:flag_de: vesy
 :flag_it: **eronuovodelposto**
-:flag_de: Total
-:flag_nl: Pyro
-:flag_cz: IKVnho
-:flag_fr: pax ` + "`☮️`" + `
-:flag_nl: Rajzojee'
 :flag_bg: **Moti**`;
 
 var glizdy = `:flag_pl: **zaQu** (C)
 :flag_hr: **pirlo** (C)
 :flag_pl: **yennefer** (Co)
 :flag_pl: **omgg**
-:flag_pl: Meireles
 :flag_ba: **Xaroth**
 :flag_nl: **stoutpoop**`;
-
-/*var gaston = `:flag_fr: **Doliprune** (C)
-:flag_fr: Citizenk (Co)
-:flag_fr: Lilian
-:flag_fr: Walt Disquette
-:flag_fr: Sosa
-:flag_fr: Rockfeller
-:flag_fr: Krasiuc
-:flag_fr: Furya
-:flag_fr: Wass
-:flag_fr: Lancelotdulac
-:flag_fr: Akira`;/*/
-
-/*var hthidolo = `:flag_gb: **lemq the baller** (C)
-:flag_gb: **L.Martinez** (C)
-:flag_se: **halal**
-:flag_it: simonepadoin_
-:flag_fr: **Davida**
-:flag_us: **Aleje**`;*/
 
 var inter = `:flag_pk: **DELUXE** (C)
 :flag_dz: **Deku** (Co)
@@ -2226,17 +2191,6 @@ var inter = `:flag_pk: **DELUXE** (C)
 :flag_nl: **zDog**
 :flag_pt: **Chazeiro**
 :flag_de: **Lucas°**`;
-
-/*var legacy = `:flag_pl: DominoPL (C)
-:flag_ie: **Mr.Worldwide** (Co)
-:flag_white: Lcn131 (Co)
-:flag_white: Milko
-:flag_rs: **Providini**
-:flag_es: **Dj666**
-:flag_ba: **Asano**
-:flag_white: **Exca**
-:flag_be: **HAWK**
-:flag_white: **BananaSS**`;*/
 
 var qnrunners = `:flag_ro: **Raress** (C)
 :flag_ro: **shot** (Co)
@@ -2260,7 +2214,38 @@ var tryagain = `:flag_ro: **Fire** (C)
 :flag_ro: **Google**
 :flag_ro: **Sebi c**
 :flag_fr: **El Matador**
-:flag_ro: **Marfert**`;
+:flag_ro: **Marfert**
+:flag_pt: **Ferrão**`;
+
+/*var legacy = `:flag_pl: DominoPL (C)
+:flag_ie: **Mr.Worldwide** (Co)
+:flag_white: Lcn131 (Co)
+:flag_white: Milko
+:flag_rs: **Providini**
+:flag_es: **Dj666**
+:flag_ba: **Asano**
+:flag_white: **Exca**
+:flag_be: **HAWK**
+:flag_white: **BananaSS**`;*/
+
+/*var gaston = `:flag_fr: **Doliprune** (C)
+:flag_fr: Citizenk (Co)
+:flag_fr: Lilian
+:flag_fr: Walt Disquette
+:flag_fr: Sosa
+:flag_fr: Rockfeller
+:flag_fr: Krasiuc
+:flag_fr: Furya
+:flag_fr: Wass
+:flag_fr: Lancelotdulac
+:flag_fr: Akira`;/*/
+
+/*var hthidolo = `:flag_gb: **lemq the baller** (C)
+:flag_gb: **L.Martinez** (C)
+:flag_se: **halal**
+:flag_it: simonepadoin_
+:flag_fr: **Davida**
+:flag_us: **Aleje**`;*/
 
 /*var quattrojoker = `:flag_nl:  **Itachi** (C)
 :flag_ro: Merc (Co)
