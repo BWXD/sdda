@@ -369,7 +369,6 @@ case "teams":
 <:dreamingpirates:722461023038211053> [DP] Dreaming Pirates
 <:gambaosaka:722857586222956574> [GAO][GMO] Gamba Osaka
 <:glizdy:724247937315504148> [GLI][GLZ] GLIZDY
-<:hthidolo:722890284777865388> [HTH][IDO] HTH Idolo FC
 <:inter:706989671112114296> [INT] Inter FC
 <:qnrunners:724714425541591050> [QNR] QN Runners
 <:sbr:722461133025443910> [SBR] SBR FC
@@ -576,7 +575,7 @@ case "modify":
 		}
 		
 		//HTH IDOLO FC
-		if(args[1] == "HTH"){
+		/*if(args[1] == "HTH"){
 			var roster = message.content.split("f!modify HTH ").slice(1,2000);
 			hthidolo = roster;
 		}if(args[1] == "hth"){
@@ -617,7 +616,7 @@ case "modify":
 		}if(args[1] == "Hth_Idolo_Fc"){
 			var roster = message.content.split("f!modify Hth_Idolo_Fc ").slice(1,2000);
 			hthidolo = roster;
-		}
+		}/*/
 		
 		//FC GASTON
 		/*if(args[1] == "GAS"){
@@ -1911,12 +1910,12 @@ case "rosters":
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/722854245996560514/gastonfc.png')
             .setDescription(gaston)
 	})*/
-	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+	/*client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#b900ae')
             .setTitle("HTH Idolo FC")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/722550751842402305/hthidolofc.png')
             .setDescription(hthidolo)
-	})
+	})*/
 	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#0267ab')
             .setTitle("Inter FC")
@@ -2154,7 +2153,7 @@ var blackout = `:flag_pt: **Tiago** (C)
 :flag_pt: **monteiro**
 :flag_de: **ozo jaa**
 :flag_pt: Blastoyz
-:flag_pt: Suarez
+:flag_pt: **Suarez**
 :flag_pt: irv1
 :flag_pt: **Atlas**
 :flag_pt: Marqzou
@@ -2213,12 +2212,12 @@ var glizdy = `:flag_pl: **zaQu** (C)
 :flag_fr: Lancelotdulac
 :flag_fr: Akira`;/*/
 
-var hthidolo = `:flag_gb: **lemq the baller** (C)
+/*var hthidolo = `:flag_gb: **lemq the baller** (C)
 :flag_gb: **L.Martinez** (C)
 :flag_se: **halal**
 :flag_it: simonepadoin_
 :flag_fr: **Davida**
-:flag_us: **Aleje**`;
+:flag_us: **Aleje**`;*/
 
 var inter = `:flag_pk: **DELUXE** (C)
 :flag_dz: **Deku** (Co)
@@ -2261,8 +2260,7 @@ var tryagain = `:flag_ro: **Fire** (C)
 :flag_ro: **Google**
 :flag_ro: **Sebi c**
 :flag_fr: **El Matador**
-:flag_ro: Marfert (???)
-:flag_ro: **Dar1us=.=**`;
+:flag_ro: **Marfert**`;
 
 /*var quattrojoker = `:flag_nl:  **Itachi** (C)
 :flag_ro: Merc (Co)
