@@ -2205,7 +2205,7 @@ var legacy = `:flag_pl: **Domino** (C)
 :flag_gb: Lcn131 (Co)
 :flag_be: **Exca**
 :flag_es: Dj666
-:flag_whtie: redhood
+:flag_white: redhood
 :flag_white: Bananas
 :flag_rs: **Providini**
 :flag_ba: Asano`;
