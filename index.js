@@ -2175,7 +2175,8 @@ var gambaosaka = `:flag_nl: **Warrior** (C)
 :flag_nl: **Itachi**
 :flag_nl: **58**
 :flag_it: **eronuovodelposto**
-:flag_bg: **Moti**`;
+:flag_bg: **Moti**
+:flag_white: **aMp**`;
 
 var glizdy = `:flag_pl: **zaQu** (C)
 :flag_hr: **pirlo** (C)
