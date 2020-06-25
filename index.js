@@ -2140,7 +2140,6 @@ break;
 // SEASON 2
 
 var anonymous = `:flag_gb: **HaxJNB** (C)
-:flag_gb: **Mate™** (Co)
 :flag_gb: **Jako**
 :flag_gb: Sancho`;
 
@@ -2182,7 +2181,8 @@ var gambaosaka = `:flag_nl: **Warrior** (C)
 :flag_it: **eronuovodelposto**
 :flag_bg: **Moti**
 :flag_white: **aMp**
-:flag_de: **mY_ruleZ^**`;
+:flag_de: **mY_ruleZ^**
+:flag_gb: **Mate™**`;
 
 var glizdy = `:flag_pl: **zaQu** (C)
 :flag_hr: **pirlo** (C)
