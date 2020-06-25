@@ -372,8 +372,7 @@ case "teams":
 <:inter:706989671112114296> [INT] Inter FC
 <:legacy:725797821923459072> [LEG][LGC] Legacy
 <:qnrunners:724714425541591050> [QNR] QN Runners
-<:sbr:722461133025443910> [SBR] SBR FC
-<:tryagain:723109476596449320> [TRY] TryAgain`)
+<:sbr:722461133025443910> [SBR] SBR FC`)
 		})
 	}
 break;
@@ -2208,7 +2207,8 @@ var legacy = `:flag_pl: **Domino** (C)
 :flag_white: redhood
 :flag_white: Bananas
 :flag_rs: **Providini**
-:flag_ba: Asano`;
+:flag_ba: Asano
+:flag_white: Dominus`;
 
 var qnrunners = `:flag_ro: **Raress** (C)
 :flag_ro: **vali.valentin/s.** (Co)
