@@ -2158,12 +2158,12 @@ var crvenazvezda = `:flag_rs: **Alpha** (C)
 :flag_nl: **The Wall** (Co)
 :flag_nl: **Deacayy**
 :flag_cz: **DAVID CECH**
-:flag_ma: **Haddad**
 :flag_tr: **Smurf**
 :flag_ma: **chun**
 :flag_white: **chad**
 :flag_gb: **nightking**
-:flag_white: **Qwe**`;
+:flag_white: **Qwe**
+:flag_white: **y9**`;
 
 var dreamingpirates = `:flag_it: **Eren Yeager** (C)
 :flag_it: **micadron** (Co)
@@ -2208,7 +2208,7 @@ var legacy = `:flag_pl: **Domino** (C)
 :flag_white: Bananas
 :flag_rs: **Providini**
 :flag_ba: Asano
-:flag_white: Dominus`;
+:flag_white: **Dominus**`;
 
 var qnrunners = `:flag_ro: **Raress** (C)
 :flag_ro: **vali.valentin/s.** (Co)
