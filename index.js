@@ -2141,7 +2141,8 @@ break;
 
 var anonymous = `:flag_gb: **HaxJNB** (C)
 :flag_gb: **Mate™** (Co)
-:flag_gb: **Jako**`;
+:flag_gb: **Jako**
+:flag_gb: Sancho`;
 
 var blackout = `:flag_pt: **Tiago** (C)
 :flag_pt: **Mesut**
@@ -2151,7 +2152,8 @@ var blackout = `:flag_pt: **Tiago** (C)
 :flag_pt: **Atlas**
 :flag_pt: **Marqzou**
 :flag_pt: **Tibbers**
-:flag_pl: **üb**`;
+:flag_pl: **üb**
+:flag_pt: **wassup**`;
 
 var crvenazvezda = `:flag_rs: **Alpha** (C)
 :flag_nl: **The Wall** (Co)
@@ -2159,7 +2161,9 @@ var crvenazvezda = `:flag_rs: **Alpha** (C)
 :flag_cz: **DAVID CECH**
 :flag_ma: **Haddad**
 :flag_tr: **Smurf**
-:flag_ma: **chun**`;
+:flag_ma: **chun**
+:flag_white: **chad**
+:flag_gb: **nightking**`;
 
 var dreamingpirates = `:flag_it: **Eren Yeager** (C)
 :flag_it: **micadron** (Co)
@@ -2176,7 +2180,8 @@ var gambaosaka = `:flag_nl: **Warrior** (C)
 :flag_nl: **58**
 :flag_it: **eronuovodelposto**
 :flag_bg: **Moti**
-:flag_white: **aMp**`;
+:flag_white: **aMp**
+:flag_de: **mY_ruleZ^**`;
 
 var glizdy = `:flag_pl: **zaQu** (C)
 :flag_hr: **pirlo** (C)
@@ -2194,12 +2199,12 @@ var inter = `:flag_pk: **DELUXE** (C)
 :flag_de: **Lucas°**`;
 
 var qnrunners = `:flag_ro: **Raress** (C)
-:flag_ro: **shot** (Co)
 :flag_ro: **vali.valentin/s.** (Co)
 :flag_ro: **aguero**
 :flag_ro: **Merc**
 :flag_ro: **zar1**
-:flag_ro: **SC30**`;
+:flag_ro: **SC30**
+:flag_ro: **soul**`;
 
 var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_pt: **FD91** (Co)
