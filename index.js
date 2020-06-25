@@ -370,6 +370,7 @@ case "teams":
 <:gambaosaka:722857586222956574> [GAO][GMO] Gamba Osaka
 <:glizdy:724247937315504148> [GLI][GLZ] GLIZDY
 <:inter:706989671112114296> [INT] Inter FC
+<:legacy:725797821923459072> [LEG][LGC] Legacy
 <:qnrunners:724714425541591050> [QNR] QN Runners
 <:sbr:722461133025443910> [SBR] SBR FC
 <:tryagain:723109476596449320> [TRY] TryAgain`)
@@ -384,7 +385,7 @@ case "modify":
 		message.delete();
 		
 		//TRYAGAIN
-		if(args[1] == "TRY"){
+		/*if(args[1] == "TRY"){
 			var roster = message.content.split("f!modify TRY ").slice(1,2000);
 			tryagain = roster;
 		}if(args[1] == "try"){
@@ -414,7 +415,7 @@ case "modify":
 		}if(args[1] == "Tryagain"){
 			var roster = message.content.split("f!modify Tryagain ").slice(1,2000);
 			tryagain = roster;
-		}
+		}*/
 		
 		//SBR FC
 		if(args[1] == "SBR"){
@@ -504,7 +505,7 @@ case "modify":
 		}*/
 
 		//LEGACY
-		/*if(args[1] == "LEG"){
+		if(args[1] == "LEG"){
 			var roster = message.content.split("f!modify LEG ").slice(1,2000);
 			legacy = roster;
 		}if(args[1] == "leg"){
@@ -545,7 +546,7 @@ case "modify":
 		}if(args[1] == "Legacy_cf"){
 			var roster = message.content.split("f!modify Legacy_cf ").slice(1,2000);
 			legacy = roster;
-		}*/
+		}
 		
 		//INTER
 		if(args[1] == "INT"){
@@ -1922,12 +1923,12 @@ case "rosters":
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/721717027244474388/inter.png')
             .setDescription(inter)
 	})
-	/*client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#010101')
             .setTitle("Legacy CF")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/721719821338673252/legacy.png')
             .setDescription(legacy)
-	})*/
+	})
 	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#fefefe')
             .setTitle("QN Runners")
@@ -1940,12 +1941,12 @@ case "rosters":
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/722225682712756294/sbrB.png')
             .setDescription(sbr)
 	})
-	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+	/*client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#C99545')
             .setTitle("TryAgain")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/723108631335272508/tryagain.png')
             .setDescription(tryagain)
-	})
+	})*/
 	  	
 	/*client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#722c38')
@@ -2163,7 +2164,8 @@ var crvenazvezda = `:flag_rs: **Alpha** (C)
 :flag_tr: **Smurf**
 :flag_ma: **chun**
 :flag_white: **chad**
-:flag_gb: **nightking**`;
+:flag_gb: **nightking**
+:flag_white: **Qwe**`;
 
 var dreamingpirates = `:flag_it: **Eren Yeager** (C)
 :flag_it: **micadron** (Co)
@@ -2198,6 +2200,16 @@ var inter = `:flag_pk: **DELUXE** (C)
 :flag_pt: **Chazeiro**
 :flag_de: **Lucas°**`;
 
+var legacy = `:flag_pl: **Domino** (C)
+:flag_ie: Mr.Worldwide (Co)
+:flag_gb: Lcn131 (Co)
+:flag_be: **Exca**
+:flag_es: Dj666
+:flag_whtie: redhood
+:flag_white: Bananas
+:flag_rs: **Providini**
+:flag_ba: Asano`;
+
 var qnrunners = `:flag_ro: **Raress** (C)
 :flag_ro: **vali.valentin/s.** (Co)
 :flag_ro: **aguero**
@@ -2216,12 +2228,12 @@ var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_gb: **Larry**
 :flag_nl: **Yujio**`;
 
-var tryagain = `:flag_ro: **Fire** (C)
+/*var tryagain = `:flag_ro: **Fire** (C)
 :flag_ro: **Google**
 :flag_ro: **Sebi c**
 :flag_fr: **El Matador**
 :flag_ro: **Marfert**
-:flag_pt: **Ferrão**`;
+:flag_pt: **Ferrão**`;*/
 
 /*var legacy = `:flag_pl: DominoPL (C)
 :flag_ie: **Mr.Worldwide** (Co)
