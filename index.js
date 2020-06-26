@@ -854,7 +854,7 @@ case "modify":
 		}
 		
 		//ANONYMOUS FC
-		if(args[1] == "ANO"){
+		/*if(args[1] == "ANO"){
 			var roster = message.content.split("f!modify ANO ").slice(1,2000);
 			anonymous = roster;
 		}if(args[1] == "ano"){
@@ -893,7 +893,7 @@ case "modify":
 		}if(args[1] == "anonymous_FC"){
 			var roster = message.content.split("f!modify anonymous_FC ").slice(1,2000);
 			anonymous = roster;
-		}
+		}*/
 		
 	}	    
 		    
@@ -1867,12 +1867,12 @@ case "rosters":
             .setThumbnail('https://cdn.discordapp.com/attachments/646469539051077653/712403302695829555/wanderers.png')
             .setDescription(wanderers)
         })*/
-	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+	/*client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#010101')
             .setTitle("Anonymous FC")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/722436153952698388/anonymous.png')
             .setDescription(anonymous)
-	})
+	})*/
 	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#c6000e')
             .setTitle("Black Out :trophy:")
@@ -2138,10 +2138,6 @@ break;
 
 // SEASON 2
 
-var anonymous = `:flag_gb: **HaxJNB** (C)
-:flag_gb: **Jako**
-:flag_gb: Sancho`;
-
 var blackout = `:flag_pt: **Tiago** (C)
 :flag_pt: **Mesut**
 :flag_pt: **monteiro**
@@ -2162,7 +2158,8 @@ var crvenazvezda = `:flag_rs: **Alpha** (C)
 :flag_white: **chad**
 :flag_gb: **nightking**
 :flag_white: **Qwe**
-:flag_white: **y9**`;
+:flag_white: **y9**
+:flag_ro: **google♥**`;
 
 var dreamingpirates = `:flag_it: **Eren Yeager** (C)
 :flag_it: **micadron** (Co)
@@ -2187,7 +2184,8 @@ var inter = `:flag_pk: **DELUXE** (C)
 :flag_us: **9ine**
 :flag_nl: **zDog**
 :flag_pt: **Chazeiro**
-:flag_de: **Lucas°**`;
+:flag_de: **Lucas°**
+:flag_ba: Defender`;
 
 var legacy = `:flag_pl: **Domino** (C)
 :flag_ie: Mr.Worldwide (Co)
@@ -2206,7 +2204,7 @@ var qnrunners = `:flag_ro: **Raress** (C)
 :flag_ro: **Merc**
 :flag_ro: **zar1**
 :flag_ro: **SC30**
-:flag_ro: **soul**`;
+:flag_ro: **kvn10**`;
 
 var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_pt: **FD91** (Co)
@@ -2217,6 +2215,10 @@ var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_gb: **Mac**
 :flag_gb: **Larry**
 :flag_nl: **Yujio**`;
+
+/*var anonymous = `:flag_gb: **HaxJNB** (C)
+:flag_gb: **Jako**
+:flag_gb: Sancho`;*/
 
 /*var gambaosaka = `:flag_nl: **Warrior** (C)
 :flag_nl: **Itachi**
