@@ -367,7 +367,6 @@ case "teams":
 <:blackout:706670687783354429> [BLA] BlackOut
 <:crvenazvezda:723249483177263175> [CRV][CVZ] Crvena Zvezda
 <:dreamingpirates:722461023038211053> [DP] Dreaming Pirates
-<:gambaosaka:722857586222956574> [GAO][GMO] Gamba Osaka
 <:glizdy:724247937315504148> [GLI][GLZ] GLIZDY
 <:inter:706989671112114296> [INT] Inter FC
 <:legacy:725797821923459072> [LEG][LGC] Legacy
@@ -687,7 +686,7 @@ case "modify":
 		}
 		
 		//GAMBA OSAKA
-		if(args[1] == "Gamba"){
+		/*if(args[1] == "Gamba"){
 			var roster = message.content.split("f!modify Gamba ").slice(1,2000);
 			gambaosaka = roster;
 		}if(args[1] == "gamba"){
@@ -738,7 +737,7 @@ case "modify":
 		}if(args[1] == "Gambaosaka"){
 			var roster = message.content.split("f!modify Gambaosaka ").slice(1,2000);
 			gambaosaka = roster;
-		}
+		}*/
 		
 		//DREAMING PIRATES
 		if(args[1] == "Dreaming"){
@@ -1893,29 +1892,11 @@ case "rosters":
             .setDescription(dreamingpirates)
 	})
 	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
-            .setColor('#2A4CA5')
-            .setTitle("Gamba Osaka")
-            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/722855201278656623/gambaosaka.png')
-            .setDescription(gambaosaka)
-	})
-	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#149d3c')
             .setTitle("GLIZDY")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/724245331797213184/glizdy.png')
             .setDescription(glizdy)
 	})
-	/*client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
-            .setColor('#FFA300')
-            .setTitle("FC Gaston")
-            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/722854245996560514/gastonfc.png')
-            .setDescription(gaston)
-	})*/
-	/*client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
-            .setColor('#b900ae')
-            .setTitle("HTH Idolo FC")
-            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/722550751842402305/hthidolofc.png')
-            .setDescription(hthidolo)
-	})*/
 	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#0267ab')
             .setTitle("Inter FC")
@@ -1940,6 +1921,24 @@ case "rosters":
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/722225682712756294/sbrB.png')
             .setDescription(sbr)
 	})
+	/*client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+            .setColor('#2A4CA5')
+            .setTitle("Gamba Osaka")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/722855201278656623/gambaosaka.png')
+            .setDescription(gambaosaka)
+	})*/
+	/*client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+            .setColor('#FFA300')
+            .setTitle("FC Gaston")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/722854245996560514/gastonfc.png')
+            .setDescription(gaston)
+	})*/
+	/*client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+            .setColor('#b900ae')
+            .setTitle("HTH Idolo FC")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/722550751842402305/hthidolofc.png')
+            .setDescription(hthidolo)
+	})*/
 	/*client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#C99545')
             .setTitle("TryAgain")
@@ -2175,15 +2174,6 @@ var dreamingpirates = `:flag_it: **Eren Yeager** (C)
 :flag_it: **Tonx**
 :flag_it: **Nenè.**`;
 
-var gambaosaka = `:flag_nl: **Warrior** (C)
-:flag_nl: **Itachi**
-:flag_nl: **58**
-:flag_it: **eronuovodelposto**
-:flag_bg: **Moti**
-:flag_white: **aMp**
-:flag_de: **mY_ruleZ^**
-:flag_gb: **Mate™**`;
-
 var glizdy = `:flag_pl: **zaQu** (C)
 :flag_hr: **pirlo** (C)
 :flag_pl: **yennefer** (Co)
@@ -2227,6 +2217,15 @@ var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_gb: **Mac**
 :flag_gb: **Larry**
 :flag_nl: **Yujio**`;
+
+/*var gambaosaka = `:flag_nl: **Warrior** (C)
+:flag_nl: **Itachi**
+:flag_nl: **58**
+:flag_it: **eronuovodelposto**
+:flag_bg: **Moti**
+:flag_white: **aMp**
+:flag_de: **mY_ruleZ^**
+:flag_gb: **Mate™**`;*/
 
 /*var tryagain = `:flag_ro: **Fire** (C)
 :flag_ro: **Google**
