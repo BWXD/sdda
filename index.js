@@ -363,8 +363,7 @@ case "teams":
 		message.channel.send({embed: new Discord.RichEmbed()
 			.setColor("#89cf24")
 			.setTitle("Teams Abbreviations:")
-			.setDescription(`<:anonymous:722461090432155679> [ANO][ANY] Anonymous FC
-<:blackout:706670687783354429> [BLA] BlackOut
+			.setDescription(`<:blackout:706670687783354429> [BLA] BlackOut
 <:crvenazvezda:723249483177263175> [CRV][CVZ] Crvena Zvezda
 <:dreamingpirates:722461023038211053> [DP] Dreaming Pirates
 <:glizdy:724247937315504148> [GLI][GLZ] GLIZDY
@@ -2155,11 +2154,10 @@ var crvenazvezda = `:flag_rs: **Alpha** (C)
 :flag_cz: **DAVID CECH**
 :flag_tr: **Smurf**
 :flag_ma: **chun**
-:flag_white: **chad**
 :flag_gb: **nightking**
 :flag_white: **Qwe**
 :flag_white: **y9**
-:flag_ro: **google♥**`;
+:flag_ro: **google**`;
 
 var dreamingpirates = `:flag_it: **Eren Yeager** (C)
 :flag_it: **micadron** (Co)
@@ -2204,7 +2202,8 @@ var qnrunners = `:flag_ro: **Raress** (C)
 :flag_ro: **Merc**
 :flag_ro: **zar1**
 :flag_ro: **SC30**
-:flag_ro: **kvn10**`;
+:flag_ro: **kvn10**
+:flag_ro: **chad**`;
 
 var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_pt: **FD91** (Co)
