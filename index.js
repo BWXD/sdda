@@ -2182,19 +2182,19 @@ var inter = `:flag_pk: **DELUXE** (C)
 :flag_us: **9ine**
 :flag_nl: **zDog**
 :flag_pt: **Chazeiro**
-:flag_de: **Lucas°**
-:flag_ba: Defender`;
+:flag_de: **Lucas°**`;
 
 var legacy = `:flag_pl: **Domino** (C)
 :flag_ie: Mr.Worldwide (Co)
 :flag_gb: Lcn131 (Co)
 :flag_be: **Exca**
+:flag_rs: **Providini**
+:flag_white: **Dominus**
+:flag_nl: **Itachi**
 :flag_es: Dj666
 :flag_white: redhood
 :flag_white: Bananas
-:flag_rs: **Providini**
-:flag_ba: Asano
-:flag_white: **Dominus**`;
+:flag_ba: Asano`;
 
 var qnrunners = `:flag_ro: **Raress** (C)
 :flag_ro: **vali.valentin/s.** (Co)
