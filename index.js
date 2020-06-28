@@ -365,10 +365,10 @@ case "teams":
 			.setTitle("Teams Abbreviations:")
 			.setDescription(`<:blackout:706670687783354429> [BLA] BlackOut
 <:crvenazvezda:723249483177263175> [CRV][CVZ] Crvena Zvezda
-<:dreamingpirates:722461023038211053> [DP] Dreaming Pirates
 <:glizdy:724247937315504148> [GLI][GLZ] GLIZDY
 <:inter:706989671112114296> [INT] Inter FC
 <:legacy:725797821923459072> [LEG][LGC] Legacy
+<:masters:726860432715022386> [MAS] Master FC
 <:qnrunners:724714425541591050> [QNR] QN Runners
 <:sbr:722461133025443910> [SBR] SBR FC`)
 		})
@@ -739,7 +739,7 @@ case "modify":
 		}*/
 		
 		//DREAMING PIRATES
-		if(args[1] == "Dreaming"){
+		/*if(args[1] == "Dreaming"){
 			var roster = message.content.split("f!modify Dreaming ").slice(1,2000);
 			dreamingpirates = roster;
 		}if(args[1] == "dreaming"){
@@ -781,7 +781,7 @@ case "modify":
 		}if(args[1] == "Dreamingpirates"){
 			var roster = message.content.split("f!modify Dreamingpirates ").slice(1,2000);
 			dreamingpirates = roster;
-		}
+		}*/
 		
 		//CRVENA ZVEZDA
 		if(args[1] == "CRV"){
@@ -1909,6 +1909,12 @@ case "rosters":
             .setDescription(legacy)
 	})
 	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+            .setColor('#959595')
+            .setTitle("Masters FC")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/726860275776487554/masters.png')
+            .setDescription(masters)
+	})
+	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#fefefe')
             .setTitle("QN Runners")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/724716092131639406/qnrunners.png')
@@ -2159,15 +2165,6 @@ var crvenazvezda = `:flag_rs: **Alpha** (C)
 :flag_white: **y9**
 :flag_ro: **google**`;
 
-var dreamingpirates = `:flag_it: **Eren Yeager** (C)
-:flag_it: **micadron** (Co)
-:flag_it: **Scharm** (Co)
-:flag_it: **bruceketta**
-:flag_it: **Alecs**
-:flag_it: **Marineford97**
-:flag_it: **Nenè.**
-:flag_it: J.Ilicic`;
-
 var glizdy = `:flag_pl: **zaQu** (C)
 :flag_hr: **pirlo** (C)
 :flag_pl: **yennefer** (Co)
@@ -2195,6 +2192,15 @@ var legacy = `:flag_pl: **Domino** (C)
 :flag_white: redhood
 :flag_ba: Asano`;
 
+var masters = `:flag_nl: Decayy' (C)
+:flag_nl: xDanny
+:flag_nl: ImGay123
+:flag_de: Olivier Giroud
+:flag_ie: hamzaa
+:flag_rs: dindindindi
+:flag_nl: D3
+:flag_ba: Ogulin`;
+
 var qnrunners = `:flag_ro: **Raress** (C)
 :flag_ro: **vali.valentin/s.** (Co)
 :flag_ro: **aguero**
@@ -2215,6 +2221,15 @@ var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_nl: **Yujio**
 :flag_gb: **n?**
 :scotland: **Kenzo**`;
+
+/*var dreamingpirates = `:flag_it: **Eren Yeager** (C)
+:flag_it: **micadron** (Co)
+:flag_it: **Scharm** (Co)
+:flag_it: **bruceketta**
+:flag_it: **Alecs**
+:flag_it: **Marineford97**
+:flag_it: **Nenè.**
+:flag_it: **J.Ilicic**`;*/
 
 /*var anonymous = `:flag_gb: **HaxJNB** (C)
 :flag_gb: **Jako**
