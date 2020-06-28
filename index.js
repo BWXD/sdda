@@ -2162,12 +2162,11 @@ var crvenazvezda = `:flag_rs: **Alpha** (C)
 var dreamingpirates = `:flag_it: **Eren Yeager** (C)
 :flag_it: **micadron** (Co)
 :flag_it: **Scharm** (Co)
-:flag_it: **groovy**
 :flag_it: **bruceketta**
 :flag_it: **Alecs**
 :flag_it: **Marineford97**
-:flag_it: **Tonx**
-:flag_it: **Nenè.**`;
+:flag_it: **Nenè.**
+:flag_it: J.Ilicic`;
 
 var glizdy = `:flag_pl: **zaQu** (C)
 :flag_hr: **pirlo** (C)
