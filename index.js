@@ -2190,10 +2190,10 @@ var legacy = `:flag_pl: **Domino** (C)
 :flag_be: **Exca**
 :flag_rs: **Providini**
 :flag_white: **Dominus**
+:flag_white: **BananaSS**
 :flag_nl: **Itachi**
 :flag_es: Dj666
 :flag_white: redhood
-:flag_white: Bananas
 :flag_ba: Asano`;
 
 var qnrunners = `:flag_ro: **Raress** (C)
@@ -2214,7 +2214,8 @@ var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_gb: **Mac**
 :flag_gb: **Larry**
 :flag_nl: **Yujio**
-:flag_gb: **n?**`;
+:flag_gb: **n?**
+:scotland: **Kenzo**`;
 
 /*var anonymous = `:flag_gb: **HaxJNB** (C)
 :flag_gb: **Jako**
