@@ -2156,7 +2156,6 @@ var blackout = `:flag_pt: **Tiago** (C)
 
 var crvenazvezda = `:flag_rs: **Alpha** (C)
 :flag_nl: **The Wall** (Co)
-:flag_nl: **Deacayy**
 :flag_cz: **DAVID CECH**
 :flag_tr: **Smurf**
 :flag_ma: **chun**
@@ -2173,12 +2172,10 @@ var glizdy = `:flag_pl: **zaQu** (C)
 :flag_nl: **stoutpoop**`;
 
 var inter = `:flag_pk: **DELUXE** (C)
-:flag_dz: **Deku** (Co)
 :flag_iq: **T**
 :flag_us: **9ine**
 :flag_nl: **zDog**
-:flag_pt: **Chazeiro**
-:flag_de: **Lucas°**`;
+:flag_pt: **Chazeiro**`;
 
 var legacy = `:flag_pl: **Domino** (C)
 :flag_ie: Mr.Worldwide (Co)
@@ -2192,7 +2189,9 @@ var legacy = `:flag_pl: **Domino** (C)
 :flag_white: redhood
 :flag_ba: Asano`;
 
-var masters = `:flag_nl: Decayy' (C)
+var masters = `:flag_nl: **Decayy'** (C)
+:flag_de: **Lucas°**
+:flag_dz: **Deku**
 :flag_nl: xDanny
 :flag_nl: ImGay123
 :flag_de: Olivier Giroud
@@ -2220,7 +2219,8 @@ var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_gb: **Larry**
 :flag_nl: **Yujio**
 :flag_gb: **n?**
-:scotland: **Kenzo**`;
+:scotland: **Kenzo**
+:flag_de: **mY_ruleZ^**`;
 
 /*var dreamingpirates = `:flag_it: **Eren Yeager** (C)
 :flag_it: **micadron** (Co)
