@@ -2189,8 +2189,8 @@ var legacy = `:flag_pl: **Domino** (C)
 :flag_gb: Lcn131 (Co)
 :flag_be: **Exca**
 :flag_rs: **Providini**
-:flag_white: **Dominus**
-:flag_white: **BananaSS**
+:flag_pt: **Dominus**
+:flag_pl: **BananaSS**
 :flag_nl: **Itachi**
 :flag_es: Dj666
 :flag_white: redhood
