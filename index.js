@@ -2176,7 +2176,7 @@ var inter = `:flag_pk: **DELUXE** (C)
 :flag_iq: **T**
 :flag_us: **9ine**
 :flag_nl: **zDog**
-:flag_pt: **Chazeiro**`;
+:flag_pt: Ferrão`;
 
 var legacy = `:flag_pl: **Domino** (C)
 :flag_be: **Exca**
