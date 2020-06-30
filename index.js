@@ -366,6 +366,7 @@ case "teams":
 			.setDescription(`<:blackout:706670687783354429> [BLA] BlackOut
 <:crvenazvezda:723249483177263175> [CRV][CVZ] Crvena Zvezda
 <:glizdy:724247937315504148> [GLI][GLZ] GLIZDY
+<:hydra:727585462323118180> [HYD] Hydra FC
 <:legacy:725797821923459072> [LEG][LGC] Legacy
 <:masters:726860432715022386> [MAS] Master FC
 <:qnrunners:724714425541591050> [QNR] QN Runners
@@ -2183,8 +2184,7 @@ var hydra = `:flag_nl: **Itachi** (C)
 :flag_fr: Krasiuc
 :flag_ba: Defender
 :flag_cz: IKV
-:flag_pt: Ben Simmons
-:flag_tn: Luka Jovic
+:flag_pt: **Ben Simmons**
 :flag_ba: lisko
 :flag_rs: Tadaum
 :flag_white: Anime 
