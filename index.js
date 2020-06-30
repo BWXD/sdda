@@ -1896,6 +1896,12 @@ case "rosters":
             .setDescription(glizdy)
 	})
 	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+            .setColor('#E7283A')
+            .setTitle("Hydra FC")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/727584954967523419/hydra.png')
+            .setDescription(hydra)
+	})
+	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#010101')
             .setTitle("Legacy CF")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/721719821338673252/legacy.png')
@@ -2167,15 +2173,29 @@ var glizdy = `:flag_pl: **zaQu** (C)
 :flag_hr: **pirlo** (C)
 :flag_pl: **yennefer** (Co)
 :flag_pl: **omgg**
-:flag_ba: **Xaroth**
-:flag_nl: **stoutpoop**`;
+:flag_ba: **Xaroth**`;
+
+var hydra = `:flag_nl: **Itachi** (C)
+:flag_nl: **58** (Co)
+:flag_fr: **doliprune** (Co)
+:flag_nl: **stoutpoop**
+:flag_ro: Juni
+:flag_fr: Krasiuc
+:flag_ba: Defender
+:flag_cz: IKV
+:flag_pt: Ben Simmons
+:flag_tn: Luka Jovic
+:flag_ba: lisko
+:flag_rs: Tadaum
+:flag_white: Anime 
+:flag_nl: Elmo
+:flag_nl: The Wall`;
 
 var legacy = `:flag_pl: **Domino** (C)
 :flag_be: **Exca**
 :flag_rs: **Providini**
 :flag_pt: **Dominus**
-:flag_pl: **BananaSS**
-:flag_nl: **Itachi**`;
+:flag_pl: **BananaSS**`;
 
 var masters = `:flag_nl: **Decayy'** (C)
 :flag_de: **Lucas°**
@@ -2202,14 +2222,13 @@ var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_be: **Yi** (Co)
 :flag_pl: **eve jaa**
 :flag_hr: **MaKeKs**
-:flag_fr: **Doliprune**
 :flag_gb: **Mac**
 :flag_gb: **Larry**
 :flag_nl: **Yujio**
 :flag_gb: **n?**
 :scotland: **Kenzo**
 :flag_de: **mY_ruleZ^**
-:flag_white: **Zain**`;
+:flag_pl: **Zain**`;
 
 /*var inter = `:flag_pk: **DELUXE** (C)
 :flag_dz: **Deku** (Co)
