@@ -366,7 +366,6 @@ case "teams":
 			.setDescription(`<:blackout:706670687783354429> [BLA] BlackOut
 <:crvenazvezda:723249483177263175> [CRV][CVZ] Crvena Zvezda
 <:glizdy:724247937315504148> [GLI][GLZ] GLIZDY
-<:inter:706989671112114296> [INT] Inter FC
 <:legacy:725797821923459072> [LEG][LGC] Legacy
 <:masters:726860432715022386> [MAS] Master FC
 <:qnrunners:724714425541591050> [QNR] QN Runners
@@ -546,7 +545,7 @@ case "modify":
 		}
 		
 		//INTER
-		if(args[1] == "INT"){
+		/*if(args[1] == "INT"){
 			var roster = message.content.split("f!modify INT ").slice(1,2000);
 			inter = roster;
 		}if(args[1] == "Inter"){
@@ -570,7 +569,7 @@ case "modify":
 		}if(args[1] == "INTER_FC"){
 			var roster = message.content.split("f!modify INTER_FC ").slice(1,2000);
 			inter = roster;
-		}
+		}*/
 		
 		//HTH IDOLO FC
 		/*if(args[1] == "HTH"){
@@ -1897,12 +1896,6 @@ case "rosters":
             .setDescription(glizdy)
 	})
 	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
-            .setColor('#0267ab')
-            .setTitle("Inter FC")
-            .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/721717027244474388/inter.png')
-            .setDescription(inter)
-	})
-	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#010101')
             .setTitle("Legacy CF")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/721719821338673252/legacy.png')
@@ -1926,6 +1919,12 @@ case "rosters":
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/722225682712756294/sbrB.png')
             .setDescription(sbr)
 	})
+	/*client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+            .setColor('#0267ab')
+            .setTitle("Inter FC")
+            .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/721717027244474388/inter.png')
+            .setDescription(inter)
+	})*/
 	/*client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#2A4CA5')
             .setTitle("Gamba Osaka")
@@ -2171,13 +2170,6 @@ var glizdy = `:flag_pl: **zaQu** (C)
 :flag_ba: **Xaroth**
 :flag_nl: **stoutpoop**`;
 
-var inter = `:flag_pk: **DELUXE** (C)
-:flag_dz: **Deku** (Co)
-:flag_iq: **T**
-:flag_us: **9ine**
-:flag_nl: **zDog**
-:flag_pt: Ferrão`;
-
 var legacy = `:flag_pl: **Domino** (C)
 :flag_be: **Exca**
 :flag_rs: **Providini**
@@ -2187,6 +2179,7 @@ var legacy = `:flag_pl: **Domino** (C)
 
 var masters = `:flag_nl: **Decayy'** (C)
 :flag_de: **Lucas°**
+:flag_dz: **Deku**
 :flag_nl: xDanny
 :flag_nl: ImGay123
 :flag_de: Olivier Giroud
@@ -2217,6 +2210,13 @@ var sbr = `:flag_nl: **Yazuneh** (C)
 :scotland: **Kenzo**
 :flag_de: **mY_ruleZ^**
 :flag_white: **Zain**`;
+
+/*var inter = `:flag_pk: **DELUXE** (C)
+:flag_dz: **Deku** (Co)
+:flag_iq: **T**
+:flag_us: **9ine**
+:flag_nl: **zDog**
+:flag_pt: Ferrão`;*/
 
 /*var dreamingpirates = `:flag_it: **Eren Yeager** (C)
 :flag_it: **micadron** (Co)
