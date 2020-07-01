@@ -2185,7 +2185,7 @@ var hydra = `:flag_nl: **Itachi** (C)
 :flag_ba: Defender
 :flag_cz: IKV
 :flag_pt: **Ben Simmons**
-:flag_ba: lisko
+:flag_ba: **lisko**
 :flag_rs: Tadaum
 :flag_white: Anime 
 :flag_nl: Elmo
