@@ -2187,7 +2187,7 @@ var hydra = `:flag_nl: **Itachi** (C)
 :flag_pt: **Ben Simmons**
 :flag_ba: **lisko**
 :flag_rs: Tadaum
-:flag_white: Anime 
+:flag_jp: Anime 
 :flag_nl: Elmo
 :flag_nl: The Wall`;
 
@@ -2201,6 +2201,7 @@ var masters = `:flag_nl: **Decayy'** (C)
 :flag_de: **Lucas°**
 :flag_dz: **Deku**
 :flag_nl: xDanny
+:flag_white: **thechosen1**
 :flag_nl: ImGay123
 :flag_de: Olivier Giroud
 :flag_ie: hamzaa
