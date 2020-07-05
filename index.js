@@ -2180,16 +2180,15 @@ var hydra = `:flag_nl: **Itachi** (C)
 :flag_nl: **58** (Co)
 :flag_fr: **doliprune** (Co)
 :flag_nl: **stoutpoop**
+:flag_cz: **IKV**
+:flag_pt: **Ben Simmons**
+:flag_ba: **lisko**
+:flag_nl: **Elmo**
 :flag_ro: Juni
 :flag_fr: Krasiuc
 :flag_ba: Defender
-:flag_cz: IKV
-:flag_pt: **Ben Simmons**
-:flag_ba: **lisko**
 :flag_rs: Tadaum
-:flag_jp: Anime 
-:flag_nl: **Elmo**
-:flag_nl: The Wall`;
+:flag_jp: Anime`;
 
 var legacy = `:flag_pl: **Domino** (C)
 :flag_be: **Exca**
@@ -2202,13 +2201,10 @@ var masters = `:flag_nl: **Decayy'** (C)
 :flag_dz: **Deku**
 :flag_white: **thechosen1**
 :flag_ba: **Kyuashu**
-:flag_nl: ImGay123
-:flag_de: Olivier Giroud
-:flag_ie: hamzaa
-:flag_rs: dindindindi`;
+:flag_ro: Sebi c
+:flag_ie: hamzaa`;
 
 var qnrunners = `:flag_ro: **Raress** (C)
-:flag_ro: **vali.valentin/s.** (Co)
 :flag_ro: **aguero**
 :flag_ro: **Merc**
 :flag_ro: **zar1**
