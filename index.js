@@ -2185,16 +2185,22 @@ var hydra = `:flag_nl: **Itachi** (C)
 :flag_ba: **lisko**
 :flag_nl: **Elmo**
 :flag_ro: Juni
-:flag_fr: Krasiuc
 :flag_ba: Defender
 :flag_rs: Tadaum
 :flag_jp: Anime`;
 
 var legacy = `:flag_pl: **Domino** (C)
-:flag_be: **Exca**
-:flag_rs: **Providini**
+:flag_rs: **Providini** (Co)
+:flag_pk: **Deluxe** (Co)
+:flag_pt: **Chicao**
 :flag_pt: **Dominus**
-:flag_pl: **BananaSS**`;
+:flag_pl: **BananaSS**
+:flag_white: redhood
+:flag_white: **wee**
+:flag_nl: zDog
+:flag_pl: **zer**
+:flag_be: **Exca**
+:flag_es: dj666`;
 
 var masters = `:flag_nl: **Decayy'** (C)
 :flag_de: **Lucas°**
@@ -2223,7 +2229,8 @@ var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_gb: **n?**
 :scotland: **Kenzo**
 :flag_de: **mY_ruleZ^**
-:flag_pl: **Zain**`;
+:flag_pl: **Zain**
+:flag_white: **didi**`;
 
 /*var inter = `:flag_pk: **DELUXE** (C)
 :flag_dz: **Deku** (Co)
