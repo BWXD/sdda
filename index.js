@@ -6,11 +6,11 @@ var client = new Discord.Client();
 var usersInGuild = client.users.size - 4;
 
 client.on("guildMemberAdd", function(){
-    client.user.setActivity(`${client.users.size - 4} users`,{type: "WATCHING"});
+    client.user.setActivity(`${client.users.size} users`,{type: "WATCHING"});
 })
 
 client.on("guildMemberRemove", function(){
-    client.user.setActivity(`${client.users.size - 4} users`,{type: "WATCHING"});
+    client.user.setActivity(`${client.users.size} users`,{type: "WATCHING"});
 })
 
 var embedMove = "off";
@@ -358,7 +358,7 @@ break;
 		    	message.reply(commandsUsed + " have been used.")
 		 break;
 		    
-case "teams":
+/*case "teams":
 	if(message.author.id == "634872299069374488"){
 		message.channel.send({embed: new Discord.RichEmbed()
 			.setColor("#89cf24")
@@ -415,7 +415,7 @@ case "modify":
 		}*/
 		
 		//SBR FC
-		if(args[1] == "SBR"){
+		/*if(args[1] == "SBR"){
 			var roster = message.content.split("f!modify SBR ").slice(1,2000);
 			sbr = roster;
 		}if(args[1] == "SBR_FC"){
@@ -502,7 +502,7 @@ case "modify":
 		}*/
 
 		//LEGACY
-		if(args[1] == "LEG"){
+		/*if(args[1] == "LEG"){
 			var roster = message.content.split("f!modify LEG ").slice(1,2000);
 			legacy = roster;
 		}if(args[1] == "leg"){
@@ -661,7 +661,7 @@ case "modify":
 		}*/
 		
 		//GLIZDY
-		if(args[1] == "GLZ"){
+		/*if(args[1] == "GLZ"){
 			var roster = message.content.split("f!modify GLZ ").slice(1,2000);
 			glizdy = roster;
 		}if(args[1] == "Glizdy"){
@@ -784,7 +784,7 @@ case "modify":
 		}*/
 		
 		//CRVENA ZVEZDA
-		if(args[1] == "CRV"){
+		/*if(args[1] == "CRV"){
 			var roster = message.content.split("f!modify CRV ").slice(1,2000);
 			crvenazvezda = roster;
 		}if(args[1] == "crv"){
@@ -1602,7 +1602,7 @@ break;
                          })
 
     break;*/
-
+/*
 case "rules":
     commandsUsed++;
     if(message.channel.id == "704843204440358944"){
@@ -1627,7 +1627,7 @@ case "rules":
         message.react('❌')
     }
 
-break;
+break;*/
 
 case "register":
 		    commandsUsed++;
@@ -1653,7 +1653,7 @@ Thank you.`)
         }
 break;
 		    
-
+/*
 case "participe":
 		    commandsUsed++;
 	if(participations.length < 16){
@@ -1683,7 +1683,7 @@ break;
 		    
 		    
 		    
-
+/*
 case "help":
 		    commandsUsed++;
     if(message.channel.id == "705539473378639935"){
@@ -1705,7 +1705,7 @@ case "help":
         message.react('❌')
     }
 
-break;
+break;*/
 		    
 	    case "online":
 		    commandsUsed++;
@@ -1872,7 +1872,7 @@ case "rosters":
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/722436153952698388/anonymous.png')
             .setDescription(anonymous)
 	})*/
-	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+	/*client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#c6000e')
             .setTitle("Black Out :trophy:")
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/721717590963257444/blackout.png')
@@ -1890,7 +1890,7 @@ case "rosters":
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/722460761137348678/dreamingpirates.png')
             .setDescription(dreamingpirates)
 	})*/
-	client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
+	/*client.channels.get("721482377989324902").send({embed: new Discord.RichEmbed()
             .setColor('#149d3c')
             .setTitle("GLIZDY")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/724245331797213184/glizdy.png')
@@ -1963,6 +1963,31 @@ case "rosters":
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/721718721500151848/eagles.png')
             .setDescription(eagles)
 	})*/
+	    
+	client.channels.get("731094652748562453").send({embed: new Discord.RichEmbed()
+            .setColor('#010101')
+            .setTitle("Legacy CF")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/731131075211952160/legacy.png')
+            .setDescription(legacy)
+	})
+	client.channels.get("731094652748562453").send({embed: new Discord.RichEmbed()
+            .setColor('#c6040f')
+            .setTitle("Niño Joker")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/731131551085101106/ninojoker.png')
+            .setDescription(ninojoker)
+	})
+	client.channels.get("731094652748562453").send({embed: new Discord.RichEmbed()
+            .setColor('#dd0202')
+            .setTitle("Red Dragons")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/731131600968089640/reddragons.png')
+            .setDescription(reddragons)
+	})
+	client.channels.get("731094652748562453").send({embed: new Discord.RichEmbed()
+            .setColor('#f7d627')
+            .setTitle("SBR FC")
+            .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/731131638381281280/sbrFC.png')
+            .setDescription(sbr)
+	})
 	    
 	    /*
 
@@ -2147,9 +2172,71 @@ break;
 
 //ROSTERS
 
-// SEASON 2
+// SEASON 2 (CURRENT)
 
-var blackout = `:flag_pt: **Tiago** (C)
+var legacy = `:flag_pl: DominoPL (C)
+:flag_pl: Banananas (Co)
+:flag_ie: Mr.Worldwide
+:flag_rs: Providini
+:flag_es: dj66
+:flag_be: Exca
+:flag_pl: zer
+:flag_pk: DELUXE
+:flag_nl: zDog
+:flag_white: Redhood
+:flag_pt: chicao
+:flag_white: wee`;
+
+var ninojoker = `:flag_nl: Itachi (C)
+:flag_nl: 58 (C)
+:flag_gb: nightking' (Co)
+:flag_fr: doliprune (Co)
+:flag_cz: IKV
+:flag_ba: lisko
+:flag_pt: Anime
+:flag_ro: Juni
+:flag_nl: MR.ABC
+:flag_cp: Hooper.fr
+:flag_nl: Stoutpoop
+:flag_fr: Sosa
+:flag_nl: Xichema
+:flag_gb: JNB
+:flag_nl: tsukuyomi.`;
+
+var reddragons = `**MrScandalReformed / Boban** (C)
+**HazardRafYT** (C)
+**y9** (Co)
+**BananaJuice** (Co) 
+**Hassiii / Adriano**
+**eltupan**
+**GeorgeAEL64 / Monsters G1**
+**DarthVaderHax / Dartacao**
+**Master kk / casillas**
+**iscσ jaa**
+**M&M's**`;
+
+var sbr = `:flag_nl: **Yazuneh** (C)
+:flag_pt: **FD91** (Co)
+:flag_be: Yi (Co)
+:flag_pl: **eve jaa**
+:flag_gb: **Larry**
+:flag_nl: Yujio
+:flag_gb: Mac
+:flag_gb: **n?**
+:scotland: **Kenzo**
+:flag_pl: Zain
+:flag_de: Didi
+:flag_fr: Shisui`;
+
+
+
+
+
+
+
+// SEASON 2 (FAILED)
+
+/*var blackout = `:flag_pt: **Tiago** (C)
 :flag_pt: **Mesut**
 :flag_pt: **monteiro**
 :flag_de: **ozo jaa**
