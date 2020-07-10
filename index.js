@@ -161,6 +161,15 @@ client.users.get("").sendFile("https://-/-.png")*/
 	client.channels.get("716768099122151494").bulkDelete(50)
 	client.channels.get("716768099122151494").send("Bot is up since **"+ exh + malo.getUTCHours() + ":" + exm + malo.getUTCMinutes() + ":" + exs + malo.getUTCSeconds() + " UTC**" + " of **" + exd + malo.getUTCDate() + "/" + exn + (malo.getUTCMonth() + 1) + "/" + malo.getUTCFullYear() + "**")
 	
+	client.channels.get("704829826002845787").send("Red Dragons players confirms approved by > BW < the 10th July at 3:20 PM:")
+	client.channels.get("704829826002845787").send("http://cdn.discordapp.com/attachments/696380058939686953/731097986641297408/unknown.png")
+	client.channels.get("704829826002845787").send("https://cdn.discordapp.com/attachments/696380058939686953/731118901177352252/unknown.png")
+	client.channels.get("704829826002845787").send("http://cdn.discordapp.com/attachments/696380058939686953/731103850467033088/unknown.png")
+	client.channels.get("704829826002845787").send("http://cdn.discordapp.com/attachments/696380058939686953/731096887809146953/unknown.png")
+	client.channels.get("704829826002845787").send("http://cdn.discordapp.com/attachments/696380058939686953/731097118160322560/unknown.png")
+	client.channels.get("704829826002845787").send("http://cdn.discordapp.com/attachments/696380058939686953/731156565075165264/unknown.png")
+	client.channels.get("704829826002845787").send("http://cdn.discordapp.com/attachments/696380058939686953/731101130351837224/unknown.png")
+	client.channels.get("704829826002845787").send("https://cdn.discordapp.com/attachments/696380058939686953/731126030387118140/unknown.png")
        // client.user.setAvatar("https://cdn.discordapp.com/attachments/704829826002845787/712101122596143174/blurpleFSL.jpg")
 });
 
@@ -924,7 +933,7 @@ var ninojoker = `:flag_nl: Itachi (C)
 :flag_ba: lisko
 :flag_pt: Anime
 :flag_ro: Juni
-:flag_nl: MR.ABC
+:flag_nl: The Wall
 :flag_cp: Hooper.fr
 :flag_nl: Stoutpoop
 :flag_fr: Sosa
@@ -934,7 +943,7 @@ var ninojoker = `:flag_nl: Itachi (C)
 
 var reddragons = `**MrScandalReformed / Boban** (C)
 **HazardRafYT** (C)
-**y9** (Co)
+**Cristiano / y9** (Co)
 **BananaJuice** (Co) 
 **Hassiii / Adriano**
 **eltupan**
@@ -955,7 +964,8 @@ var sbr = `:flag_nl: **Yazuneh** (C)
 :scotland: **Kenzo**
 :flag_pl: Zain
 :flag_de: Didi
-:flag_fr: Shisui`;
+:flag_fr: Shisui
+:flag_de: 2Pac`;
 
 
 
