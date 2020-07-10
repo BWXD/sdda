@@ -161,7 +161,7 @@ client.users.get("").sendFile("https://-/-.png")*/
 	client.channels.get("716768099122151494").bulkDelete(50)
 	client.channels.get("716768099122151494").send("Bot is up since **"+ exh + malo.getUTCHours() + ":" + exm + malo.getUTCMinutes() + ":" + exs + malo.getUTCSeconds() + " UTC**" + " of **" + exd + malo.getUTCDate() + "/" + exn + (malo.getUTCMonth() + 1) + "/" + malo.getUTCFullYear() + "**")
 	
-	client.channels.get("721732336655532093").send("Red Dragons players confirms approved by > BW < the 10th July at 3:20 PM CEST:")
+	client.channels.get("721732336655532093").send("Red Dragons players confirms approved by > BW < the 10th July at 4:20 PM CEST:")
 	client.channels.get("721732336655532093").send("http://cdn.discordapp.com/attachments/696380058939686953/731097986641297408/unknown.png")
 	client.channels.get("721732336655532093").send("https://cdn.discordapp.com/attachments/696380058939686953/731118901177352252/unknown.png")
 	client.channels.get("721732336655532093").send("http://cdn.discordapp.com/attachments/696380058939686953/731103850467033088/unknown.png")
