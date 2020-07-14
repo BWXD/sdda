@@ -703,16 +703,16 @@ case "rosters":
 	})*/
 	    
 	client.channels.get("731094652748562453").send({embed: new Discord.RichEmbed()
+            .setColor('#FF4500')
+            .setTitle("FC Gaston")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/732688554991550614/gaston.png')
+            .setDescription(gaston)
+	})
+	client.channels.get("731094652748562453").send({embed: new Discord.RichEmbed()
             .setColor('#010101')
             .setTitle("Legacy CF")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/731131075211952160/legacy.png')
             .setDescription(legacy)
-	})
-	client.channels.get("731094652748562453").send({embed: new Discord.RichEmbed()
-            .setColor('#c6040f')
-            .setTitle("Niño Joker")
-            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/731131551085101106/ninojoker.png')
-            .setDescription(ninojoker)
 	})
 	client.channels.get("731094652748562453").send({embed: new Discord.RichEmbed()
             .setColor('#dd0202')
@@ -912,11 +912,23 @@ break;
 
 // SEASON 2 (CURRENT)
 
+var gaston = `:flag_nl: **Itachi** (C)
+:flag_gb: nightking' (Co)
+:flag_cp: **doliprune** (Co)
+:flag_pt: Ben Simmons
+:flag_fr: Toshiba
+:flag_nl: **The Wall**
+:flag_nl: **xDanny**
+:flag_gb: **JNB**
+:flag_gb: **TOBY789**
+:flag_gb: **M.A**
+:flag_ba: **lisko**
+:flag_cz: IKV`;
+
 var legacy = `:flag_pl: DominoPL (C)
 :flag_pl: Banananas (Co)
 :flag_ie: Mr.Worldwide
-:flag_rs: Providini
-:flag_es: dj66
+:flag_es: dj666
 :flag_be: Exca
 :flag_pl: zer
 :flag_pk: DELUXE
@@ -924,22 +936,6 @@ var legacy = `:flag_pl: DominoPL (C)
 :flag_white: Redhood
 :flag_pt: chicao
 :flag_white: wee`;
-
-var ninojoker = `:flag_nl: Itachi (C)
-:flag_nl: 58 (C)
-:flag_gb: nightking' (Co)
-:flag_fr: doliprune (Co)
-:flag_cz: IKV
-:flag_ba: lisko
-:flag_pt: Anime
-:flag_ro: Juni
-:flag_nl: The Wall
-:flag_cp: Hooper.fr
-:flag_nl: Stoutpoop
-:flag_fr: Sosa
-:flag_nl: Xichema
-:flag_gb: JNB
-:flag_nl: tsukuyomi.`;
 
 var reddragons = `**MrScandalReformed / Boban** (C)
 **HazardRafYT** (C)
@@ -955,16 +951,17 @@ var reddragons = `**MrScandalReformed / Boban** (C)
 
 var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_pt: **FD91** (Co)
-:flag_be: Yi (Co)
+:flag_be: **Yi** (Co)
 :flag_pl: **eve jaa**
 :flag_gb: **Larry**
-:flag_nl: Yujio
+:flag_nl: **Yujio**
 :flag_gb: Mac
 :flag_gb: **n?**
 :scotland: **Kenzo**
 :flag_pl: Zain
-:flag_de: Didi
-:flag_fr: Shisui
+:flag_de: **Didi**
+:flag_fr: **Shisui**
+:flag_nl: **tsukuyomi.**
 :flag_de: 2Pac`;
 
 
