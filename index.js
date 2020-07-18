@@ -915,25 +915,29 @@ break;
 var gaston = `:flag_nl: **Itachi** (C)
 :flag_gb: nightking' (Co)
 :flag_cp: **doliprune** (Co)
-:flag_pt: Ben Simmons
-:flag_fr: Toshiba
+:flag_pt: **Ben Simmons**
+:flag_fr: **Toshiba**
 :flag_nl: **The Wall**
 :flag_nl: **xDanny**
 :flag_gb: **JNB**
 :flag_gb: **TOBY789**
 :flag_gb: **M.A**
 :flag_ba: **lisko**
-:flag_cz: IKV`;
+:flag_ba: **Defender**
+:flag_nl: **58**
+:flag_nl: **stoutpoop**
+:flag_gb: **Mate**
+:flag_fr: **Decayy**`;
 
-var legacy = `:flag_pl: DominoPL (C)
-:flag_pl: Banananas (Co)
-:flag_ie: Mr.Worldwide
-:flag_es: dj666
+var legacy = `:flag_pl: **DominoPL** (C)
+:flag_pl: **Banananas** (Co)
+:flag_ie: **Mr.Worldwide**
 :flag_be: Exca
-:flag_pl: zer
-:flag_pk: DELUXE
+:flag_pl: **zer**
+:flag_pk: **DELUXE**
 :flag_nl: zDog
 :flag_white: Redhood
+:flag_ro: **Marfert**
 :flag_pt: chicao
 :flag_white: wee`;
 
@@ -955,14 +959,14 @@ var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_pl: **eve jaa**
 :flag_gb: **Larry**
 :flag_nl: **Yujio**
-:flag_gb: Mac
+:flag_gb: **Yorzi**
 :flag_gb: **n?**
-:scotland: **Kenzo**
-:flag_pl: Zain
 :flag_de: **Didi**
 :flag_fr: **Shisui**
 :flag_nl: **tsukuyomi.**
-:flag_de: 2Pac`;
+:flag_fr: **Raiden**
+:flag_gb: Mac
+:flag_us: 2Pac`;
 
 
 
