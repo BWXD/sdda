@@ -920,24 +920,23 @@ var gaston = `:flag_nl: **Itachi** (C)
 :flag_nl: **The Wall**
 :flag_nl: **xDanny**
 :flag_gb: **JNB**
-:flag_gb: **TOBY789**
 :flag_gb: **M.A**
 :flag_ba: **lisko**
 :flag_ba: **Defender**
 :flag_nl: **58**
 :flag_nl: **stoutpoop**
 :flag_gb: **Mate**
-:flag_fr: **Decayy**`;
+:flag_cz: IKV`;
 
 var legacy = `:flag_pl: **DominoPL** (C)
 :flag_pl: **Banananas** (Co)
 :flag_ie: **Mr.Worldwide**
-:flag_be: Exca
 :flag_pl: **zer**
 :flag_pk: **DELUXE**
+:flag_ro: **Marfert**
+:flag_be: Exca
 :flag_nl: zDog
 :flag_white: Redhood
-:flag_ro: **Marfert**
 :flag_pt: chicao
 :flag_white: wee`;
 
