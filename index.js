@@ -964,8 +964,8 @@ var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_fr: **Shisui**
 :flag_nl: **tsukuyomi.**
 :flag_fr: **Raiden**
-:flag_gb: Mac
-:flag_us: 2Pac`;
+:flag_il: **Gal**
+:flag_gb: Mac`;
 
 
 
