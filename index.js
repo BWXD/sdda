@@ -919,7 +919,7 @@ var gaston = `:flag_nl: **Itachi** (C)
 :flag_nl: **58**
 :flag_pl: Handballijczyk
 :flag_fr: **Toshiba**
-:flag_fr: Autentik
+:flag_fr: **Autentik**
 :flag_fr: Guy
 :flag_ba: **lisko**
 :flag_gb: Bensoujer
