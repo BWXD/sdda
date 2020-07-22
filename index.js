@@ -913,20 +913,17 @@ break;
 // SEASON 2 (CURRENT)
 
 var gaston = `:flag_nl: **Itachi** (C)
-:flag_gb: nightking' (Co)
-:flag_cp: **doliprune** (Co)
-:flag_pt: **Ben Simmons**
-:flag_fr: **Toshiba**
-:flag_nl: **The Wall**
-:flag_nl: **xDanny**
-:flag_gb: **JNB**
-:flag_gb: **M.A**
-:flag_ba: **lisko**
-:flag_ba: **Defender**
+:flag_fr: **doliprune** (C)
+:flag_nl: **stoutpoop** (Co)
+:flag_ba: **Defender** (Co)
 :flag_nl: **58**
-:flag_nl: **stoutpoop**
-:flag_gb: **Mate**
-:flag_cz: IKV`;
+:flag_pl: Handballijczyk
+:flag_fr: **Toshiba**
+:flag_fr: Autentik
+:flag_fr: Guy
+:flag_ba: **lisko**
+:flag_gb: Bensoujer
+:flag_pt: **Ben Simmons**`;
 
 var legacy = `:flag_pl: **DominoPL** (C)
 :flag_pl: **Banananas** (Co)
@@ -958,14 +955,14 @@ var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_pl: **eve jaa**
 :flag_gb: **Larry**
 :flag_nl: **Yujio**
-:flag_gb: **Yorzi**
+:flag_nl: **Yorzi**
 :flag_gb: **n?**
 :flag_de: **Didi**
 :flag_fr: **Shisui**
 :flag_nl: **tsukuyomi.**
 :flag_fr: **Raiden**
 :flag_il: **Gal**
-:flag_gb: Mac`;
+:flag_de: **vesy**`;
 
 
 
