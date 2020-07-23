@@ -956,13 +956,12 @@ var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_gb: **Larry**
 :flag_nl: **Yujio**
 :flag_nl: **Yorzi**
-:flag_gb: **n?**
-:flag_de: **Didi**
 :flag_fr: **Shisui**
 :flag_nl: **tsukuyomi.**
 :flag_fr: **Raiden**
 :flag_il: **Gal**
-:flag_de: **vesy**`;
+:flag_de: **vesy**
+:flag_gb: **Kesso**`;
 
 
 
