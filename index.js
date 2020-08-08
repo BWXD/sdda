@@ -728,7 +728,7 @@ case "rosters":
 	})*/
 	    
 	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
-            .setColor('#f7d627')
+            .setColor('#6a6c8e')
             .setTitle("SBR FC")
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/731131638381281280/sbrFC.png')
             .setDescription(sbr)
