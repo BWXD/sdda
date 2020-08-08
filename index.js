@@ -530,7 +530,7 @@ break;
 case "rosters":
     if(message.author.id == "634872299069374488"){
         message.delete();
-        client.channels.get("731094652748562453").bulkDelete(30)
+        client.channels.get("741770858963664947").bulkDelete(30)
   
         /*message.channel.send({embed: new Discord.RichEmbed()
             .setColor('#c6000e')
@@ -702,7 +702,7 @@ case "rosters":
             .setDescription(eagles)
 	})*/
 	    
-	client.channels.get("731094652748562453").send({embed: new Discord.RichEmbed()
+	/*client.channels.get("731094652748562453").send({embed: new Discord.RichEmbed()
             .setColor('#FF4500')
             .setTitle("FC Gaston")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/732688554991550614/gaston.png')
@@ -725,7 +725,16 @@ case "rosters":
             .setTitle("SBR FC")
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/731131638381281280/sbrFC.png')
             .setDescription(sbr)
-	})
+	})*/
+	    
+	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
+            .setColor('#f7d627')
+            .setTitle("SBR FC")
+            .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/731131638381281280/sbrFC.png')
+            .setDescription(sbr)
+	})*/
+	    
+	    
 	    
 	    /*
 
@@ -910,8 +919,42 @@ break;
 
 //ROSTERS
 
-// SEASON 2 (CURRENT)
+// SEASON 2
 
+var sbr = `:flag_nl: Yazuneh (C)
+:flag_pt: FD91 (Co)
+:flag_nl: Yorzi (Co)
+:flag_nl: Yujio
+:flag_nl: Tsukuyomi.
+:flag_fr: Sosa
+:flag_fr: Risky
+:flag_fr: Raiden
+:flag_fr: Shisui
+:flag_il: Gal
+:flag_de: Ayyoub
+:flag_pt: Kesso
+:flag_be: Yi
+:flag_gb: Larry`;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// PRE-SEASON 2 (CURRENT)
+/*
 var gaston = `:flag_nl: **Itachi** (C)
 :flag_fr: **doliprune** (C)
 :flag_nl: **stoutpoop** (Co)
@@ -961,7 +1004,7 @@ var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_fr: **Raiden**
 :flag_il: **Gal**
 :flag_de: **vesy**
-:flag_gb: **Kesso**`;
+:flag_gb: **Kesso**`;*/
 
 
 
