@@ -732,7 +732,7 @@ case "rosters":
             .setTitle("SBR FC")
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/731131638381281280/sbrFC.png')
             .setDescription(sbr)
-	})*/
+	})
 	    
 	    
 	    
