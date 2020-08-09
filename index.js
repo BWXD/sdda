@@ -728,6 +728,18 @@ case "rosters":
 	})*/
 	    
 	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
+            .setColor('#700909')
+            .setTitle("Anonymous FC")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/741807721593962507/anonymous.png')
+            .setDescription(anonymous)
+	})
+	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
+            .setColor('#B18536')
+            .setTitle("Champions FC")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/742072649550790676/Champions_FC.png')
+            .setDescription(champions)
+	})
+	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
             .setColor('#010101')
             .setTitle("Köhlen Atlar")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/741810902877339678/Kohlen_Atlar.png')
@@ -927,10 +939,31 @@ break;
 
 // SEASON 2
 
+var anonymous = `:flag_fr: doliprune (C)
+:flag_be: Sphinx' (Co)
+:flag_fr: Fury
+:flag_rs: Isco
+:flag_rs: Pera
+:flag_de: Sneak
+:flag_ro: aguero`;
+
+var champions = `:flag_gb: architect (C)
+:flag_fr: akira (Co)
+:flag_pk: DELUXE (Co)
+:flag_nl: tsukuyomi.
+:flag_fr: Lancelot Du Lac
+:flag_fr: TheGoal
+:flag_pt: ᴋᴇɴꜱʜɪɴ
+:flag_be: Amine`;
+
 var köhlenatlar = `:flag_az: ϟMarcél (C)
 :flag_az: Folkiè
 :flag_tr: denkoko
-:flag_tr: Gaúcho`;
+:flag_tr: Gaúcho
+:flag_tr: Chainz.
+:flag_tr: Marco Polo
+:flag_tr: Humam Tariq
+:flag_tr: Estreâ`;
 
 var sbr = `:flag_nl: Yazuneh (C)
 :flag_pt: FD91 (Co)
