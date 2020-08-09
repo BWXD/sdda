@@ -740,7 +740,7 @@ case "rosters":
             .setDescription(champions)
 	})
 	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
-            .setColor('#010101')
+            .setColor('#fefefe')
             .setTitle("Köhlen Atlar")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/741810902877339678/Kohlen_Atlar.png')
             .setDescription(köhlenatlar)
