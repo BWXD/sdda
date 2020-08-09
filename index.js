@@ -728,6 +728,12 @@ case "rosters":
 	})*/
 	    
 	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
+            .setColor('#010101')
+            .setTitle("Köhlen Atlar")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/741810902877339678/Kohlen_Atlar.png')
+            .setDescription(köhlenatlar)
+	})
+	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
             .setColor('#6a6c8e')
             .setTitle("SBR FC")
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/731131638381281280/sbrFC.png')
@@ -920,6 +926,11 @@ break;
 //ROSTERS
 
 // SEASON 2
+
+var köhlenatlar = `:flag_az: ϟMarcél (C)
+:flag_az: Folkiè
+:flag_tr: denkoko
+:flag_tr: Gaúcho`;
 
 var sbr = `:flag_nl: Yazuneh (C)
 :flag_pt: FD91 (Co)
