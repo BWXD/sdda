@@ -728,7 +728,7 @@ case "rosters":
 	})*/
 	    
 	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
-            .setColor('#700909')
+            .setColor('#A03B3B')
             .setTitle("Anonymous FC")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/741807721593962507/anonymous.png')
             .setDescription(anonymous)
