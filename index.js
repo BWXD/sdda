@@ -945,14 +945,15 @@ break;
 
 // SEASON 2
 
-var anonymous = `:flag_fr: doliprune (C)
+var anonymous = `:flag_fr: **doliprune** (C)
 :flag_be: Sphinx' (Co)
 :flag_fr: Fury
 :flag_rs: Isco
-:flag_rs: Pera
+:flag_rs: **Pera**
 :flag_de: Sneak
 :flag_ro: aguero
-:flag_ro: vitinho1`;
+:flag_ro: vitinho1
+:flag_ma: > BW <`;
 
 var champions = `:flag_gb: architect (C)
 :flag_fr: akira (Co)
@@ -964,7 +965,7 @@ var champions = `:flag_gb: architect (C)
 :flag_be: Amine
 :flag_pt: **peter.**`;
 
-var eagles = `:flag_tn: Luka Jovic (C)
+var eagles = `:flag_tn: **Luka Jovic** (C)
 :flag_ma: ITS ME (Co)
 :flag_pl: Piatek
 :flag_fr: 9
@@ -987,7 +988,7 @@ var köhlenatlar = `:flag_az: ϟMarcél (C)
 :flag_tr: Xéd
 :flag_tr: Subjek`;
 
-var sbr = `:flag_nl: Yazuneh (C)
+var sbr = `:flag_nl: **Yazuneh** (C)
 :flag_pt: FD91 (Co)
 :flag_nl: Yorzi (Co)
 :flag_nl: Yujio
