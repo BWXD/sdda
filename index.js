@@ -951,7 +951,8 @@ var anonymous = `:flag_fr: doliprune (C)
 :flag_rs: Isco
 :flag_rs: Pera
 :flag_de: Sneak
-:flag_ro: aguero`;
+:flag_ro: aguero
+:flag_ro: vitinho1`;
 
 var champions = `:flag_gb: architect (C)
 :flag_fr: akira (Co)
@@ -960,7 +961,8 @@ var champions = `:flag_gb: architect (C)
 :flag_fr: Lancelot Du Lac
 :flag_fr: TheGoal
 :flag_pt: ᴋᴇɴꜱʜɪɴ
-:flag_be: Amine`;
+:flag_be: Amine
+:flag_pt: **peter.**`;
 
 var eagles = `:flag_tn: Luka Jovic (C)
 :flag_ma: ITS ME (Co)
@@ -980,8 +982,9 @@ var köhlenatlar = `:flag_az: ϟMarcél (C)
 :flag_tr: Gaúcho
 :flag_tr: Chainz.
 :flag_tr: Marco Polo
-:flag_tr: Humam Tariq
-:flag_tr: Estreâ`;
+:flag_tr: Estreâ
+:flag_tr: Xéd
+:flag_tr: Subjek`;
 
 var sbr = `:flag_nl: Yazuneh (C)
 :flag_pt: FD91 (Co)
