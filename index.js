@@ -974,7 +974,8 @@ var eagles = `:flag_tn: Luka Jovic (C)
 :flag_pl: Zain
 :flag_ro: Lucky8boy
 :flag_it: Dofla
-:flag_pl: OMG`;
+:flag_pl: OMG
+:flag_tn: Esoo`;
 
 var köhlenatlar = `:flag_az: ϟMarcél (C)
 :flag_az: Folkiè
