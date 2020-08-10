@@ -740,6 +740,12 @@ case "rosters":
             .setDescription(champions)
 	})
 	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
+            .setColor('#00B1E7')
+            .setTitle("The Eagles")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/721718721500151848/eagles.png')
+            .setDescription(eagles)
+	})
+	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
             .setColor('#fefefe')
             .setTitle("Köhlen Atlar")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/741810902877339678/Kohlen_Atlar.png')
@@ -956,6 +962,18 @@ var champions = `:flag_gb: architect (C)
 :flag_pt: ᴋᴇɴꜱʜɪɴ
 :flag_be: Amine`;
 
+var eagles = `:flag_tn: Luka Jovic (C)
+:flag_ma: ITS ME (Co)
+:flag_pl: Piatek
+:flag_fr: 9
+:flag_pl: Gonzo
+:flag_fr: Karim Suarez
+:flag_pl: iiviR z ysyL
+:flag_pl: Zain
+:flag_ro: Lucky8boy
+:flag_it: Dofla
+:flag_pl: OMG`;
+
 var köhlenatlar = `:flag_az: ϟMarcél (C)
 :flag_az: Folkiè
 :flag_tr: denkoko
@@ -975,7 +993,7 @@ var sbr = `:flag_nl: Yazuneh (C)
 :flag_fr: Raiden
 :flag_fr: Shisui
 :flag_il: Gal
-:flag_de: Ayyoub
+:flag_pl: üb
 :flag_pt: Kesso
 :flag_be: Yi
 :flag_gb: Larry`;
