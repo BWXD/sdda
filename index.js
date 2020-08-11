@@ -160,14 +160,6 @@ client.users.get("").sendFile("https://-/-.png")*/
 	}
 	client.channels.get("716768099122151494").bulkDelete(50)
 	client.channels.get("716768099122151494").send("Bot is up since **"+ exh + malo.getUTCHours() + ":" + exm + malo.getUTCMinutes() + ":" + exs + malo.getUTCSeconds() + " UTC**" + " of **" + exd + malo.getUTCDate() + "/" + exn + (malo.getUTCMonth() + 1) + "/" + malo.getUTCFullYear() + "**")
-	client.users.get("460127023944302603").send(`Oyarzabal (C)
-Bénjamin (C)
-Shawy
-denkoko
-Mowa
-rıza
-
-And what's your role in Valencia?`)
 	
 	/*client.channels.get("721732336655532093").send("Red Dragons players confirms approved by > BW < the 10th July at 4:20 PM CEST:")
 	client.channels.get("721732336655532093").send("http://cdn.discordapp.com/attachments/696380058939686953/731097986641297408/unknown.png")
@@ -766,7 +758,7 @@ case "rosters":
             .setDescription(sbr)
 	})
 	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
-            .setColor('#')
+            .setColor('#FFDE00')
             .setTitle("Valencia")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/742543045819367788/Valencia.png')
             .setDescription(valencia)
@@ -992,15 +984,15 @@ var eagles = `:flag_tn: *Luka Jovic* (C)
 :flag_pl: OMG
 :flag_tn: Esoo`;
 
-var köhlenatlar = `:flag_az: ϟMarcél (C)
+var köhlenatlar = `:flag_az: Marcél (C)
 :flag_az: Folkiè
-:flag_tr: denkoko
-:flag_tr: Gaúcho
+:flag_tr: Cheaw
+:flag_tr: Gaúcho 
 :flag_tr: Chainz.
-:flag_tr: Marco Polo
 :flag_tr: Estreâ
 :flag_tr: Xéd
-:flag_tr: Subjek`;
+:flag_tr: Sorlord
+:flag_tr: Flammable`;
 
 var sbr = `:flag_nl: *Yazuneh* (C)
 :flag_pt: FD91 (Co)
