@@ -953,8 +953,8 @@ break;
 
 var anonymous = `:flag_fr: *doliprune* (C)
 :flag_be: Sphinx' (Co)
-:flag_fr: Fury
-:flag_rs: Isco
+:flag_fr: *Fury*
+:flag_nl: *Elmo*
 :flag_rs: *Pera*
 :flag_de: Sneak
 :flag_ro: *aguero*
@@ -976,7 +976,7 @@ var eagles = `:flag_tn: *Luka Jovic* (C)
 :flag_pl: *Piatek*
 :flag_fr: 9
 :flag_pl: Gonzo
-:flag_fr: Karim Suarez
+:flag_fr: *Karim Suarez*
 :flag_pl: iiviR z ysyL
 :flag_pl: Zain
 :flag_ro: Lucky8boy
@@ -1013,8 +1013,8 @@ var valencia = `*Oyarzabal* (C)
 Bénjamin (C)
 Shawy
 denkoko
-Mowa
-rıza`;
+rıza
+Niss'`;
 
 
 
