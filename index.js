@@ -956,10 +956,12 @@ var anonymous = `:flag_fr: *doliprune* (C)
 :flag_fr: *Fury*
 :flag_nl: *Elmo*
 :flag_rs: *Pera*
-:flag_de: Sneak
 :flag_ro: *aguero*
 :flag_ro: *vitinho1*
-:flag_ma: > BW <`;
+:flag_tr: *kevo*
+:flag_de: Sneak
+:flag_ma: > BW <
+:flag_tr: Nepus`;
 
 var champions = `:flag_gb: architect (C)
 :flag_fr: akira (Co)
