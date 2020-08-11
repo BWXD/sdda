@@ -957,13 +957,13 @@ var anonymous = `:flag_fr: *doliprune* (C)
 :flag_rs: Isco
 :flag_rs: *Pera*
 :flag_de: Sneak
-:flag_ro: aguero
-:flag_ro: vitinho1
+:flag_ro: *aguero*
+:flag_ro: *vitinho1*
 :flag_ma: > BW <`;
 
 var champions = `:flag_gb: architect (C)
 :flag_fr: akira (Co)
-:flag_pk: DELUXE (Co)
+:flag_pk: *DELUXE* (Co)
 :flag_nl: tsukuyomi.
 :flag_fr: Lancelot Du Lac
 :flag_fr: TheGoal
@@ -1009,7 +1009,7 @@ var sbr = `:flag_nl: *Yazuneh* (C)
 :flag_be: Yi
 :flag_gb: Larry`;
 
-var valencia = `Oyarzabal (C)
+var valencia = `*Oyarzabal* (C)
 Bénjamin (C)
 Shawy
 denkoko
