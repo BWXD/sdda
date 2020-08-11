@@ -160,6 +160,14 @@ client.users.get("").sendFile("https://-/-.png")*/
 	}
 	client.channels.get("716768099122151494").bulkDelete(50)
 	client.channels.get("716768099122151494").send("Bot is up since **"+ exh + malo.getUTCHours() + ":" + exm + malo.getUTCMinutes() + ":" + exs + malo.getUTCSeconds() + " UTC**" + " of **" + exd + malo.getUTCDate() + "/" + exn + (malo.getUTCMonth() + 1) + "/" + malo.getUTCFullYear() + "**")
+	client.users.get("460127023944302603").send(`Oyarzabal (C)
+Bénjamin (C)
+Shawy
+denkoko
+Mowa
+rıza
+
+And what's your role in Valencia?`)
 	
 	/*client.channels.get("721732336655532093").send("Red Dragons players confirms approved by > BW < the 10th July at 4:20 PM CEST:")
 	client.channels.get("721732336655532093").send("http://cdn.discordapp.com/attachments/696380058939686953/731097986641297408/unknown.png")
@@ -757,6 +765,12 @@ case "rosters":
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/731131638381281280/sbrFC.png')
             .setDescription(sbr)
 	})
+	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
+            .setColor('#')
+            .setTitle("Valencia")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/742543045819367788/Valencia.png')
+            .setDescription(valencia)
+	})
 	    
 	    
 	    
@@ -1002,6 +1016,13 @@ var sbr = `:flag_nl: *Yazuneh* (C)
 :flag_pt: Kesso
 :flag_be: Yi
 :flag_gb: Larry`;
+
+var valencia = `Oyarzabal (C)
+Bénjamin (C)
+Shawy
+denkoko
+Mowa
+rıza`;
 
 
 
