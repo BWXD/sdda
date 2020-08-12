@@ -349,6 +349,12 @@ case "rosters":
     client.channels.get("741770858963664947").bulkDelete(30)
   
 	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
+            .setColor('#E31E24')
+            .setTitle("Akatsuki")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/743224730026246164/akatsuki.png')
+            .setDescription(akatsuki)
+	})
+	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
             .setColor('#A03B3B')
             .setTitle("Anonymous FC")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/741807721593962507/anonymous.png')
@@ -439,6 +445,18 @@ break;
 //ROSTERS
 
 // SEASON 2
+
+var akatsuki = `:flag_ba: Xaroth (C)
+:flag_ba: rubinho (Co)
+:flag_ba: Tadić
+:flag_nl: Rajzojee'
+:flag_dz: Deku
+:flag_gb: Skillz
+:flag_gb: Thors
+:flag_gb: Quaresmaaaa
+:flag_de: Son 7
+:flag_gb: Mertens
+:flag_se: Vera`;
 
 var anonymous = `:flag_fr: *doliprune* (C)
 :flag_be: Sphinx' (Co)
