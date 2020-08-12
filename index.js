@@ -7,7 +7,7 @@ var client = new Discord.Client();
 
 // Users in guild
 
-var usersInGuild = client.users.size - 4;
+var usersInGuild = client.users.size;
 client.on("guildMemberAdd", function(){
     client.user.setActivity(`${usersInGuild} users`,{type: "WATCHING"});
 })
