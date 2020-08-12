@@ -460,7 +460,9 @@ var champions = `:flag_gb: architect (C)
 :flag_fr: TheGoal
 :flag_pt: ᴋᴇɴꜱʜɪɴ
 :flag_be: Amine
-:flag_pt: *peter.*`;
+:flag_pt: *peter.*
+:flag_gb: *matt green*
+:flag_fr: Toshiba`;
 
 var eagles = `:flag_tn: *Luka Jovic* (C)
 :flag_ma: *ITS ME* (Co)
