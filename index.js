@@ -7,12 +7,11 @@ var client = new Discord.Client();
 
 // Users in guild
 
-var usersInGuild = client.users.size;
 client.on("guildMemberAdd", function(){
-    client.user.setActivity(`${usersInGuild} users`,{type: "WATCHING"});
+    client.user.setActivity(`${client.users.size} users`,{type: "WATCHING"});
 })
 client.on("guildMemberRemove", function(){
-    client.user.setActivity(`${usersInGuild} users`,{type: "WATCHING"});
+    client.user.setActivity(`${client.users.size} users`,{type: "WATCHING"});
 })
 
 
@@ -57,7 +56,7 @@ function timePasses(){
 setInterval(timePasses,1000);
 
 client.on("ready", function() {
-        client.user.setActivity(`${usersInGuild} users`,{type: "WATCHING"});
+        client.user.setActivity(`${client.users.size} users`,{type: "WATCHING"});
         client.user.setStatus("dnd")
         
         /*VERIFY MEMBERS*/
