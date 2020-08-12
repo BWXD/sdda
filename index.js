@@ -6,11 +6,11 @@ var client = new Discord.Client();
 var usersInGuild = client.users.size - 4;
 
 client.on("guildMemberAdd", function(){
-    client.user.setActivity(`${client.users.size} users`,{type: "WATCHING"});
+    client.user.setActivity(`${usersInGuild} users`,{type: "WATCHING"});
 })
 
 client.on("guildMemberRemove", function(){
-    client.user.setActivity(`${client.users.size} users`,{type: "WATCHING"});
+    client.user.setActivity(`${usersInGuild} users`,{type: "WATCHING"});
 })
 
 var embedMove = "off";
