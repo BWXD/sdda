@@ -448,14 +448,14 @@ break;
 
 var akatsuki = `:flag_ba: Xaroth (C)
 :flag_ba: rubinho (Co)
-:flag_ba: Tadić
+:flag_it: Tadić
 :flag_nl: Rajzojee'
 :flag_dz: Deku
-:flag_gb: Skillz
-:flag_gb: Thors
-:flag_gb: Quaresmaaaa
+:flag_pl: Skillz
+:flag_fr: Thors
+:flag_de: Quaresmaaaa
 :flag_de: Son 7
-:flag_gb: Mertens
+:flag_it: Mertens
 :flag_se: Vera`;
 
 var anonymous = `:flag_fr: *doliprune* (C)
