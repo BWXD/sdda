@@ -466,7 +466,8 @@ var anonymous = `:flag_fr: *doliprune* (C)
 :flag_ro: *aguero*
 :flag_ro: *garrincha*
 :flag_tr: *kevo*
-:flag_de: Sneak
+:flag_nl: *stoutpoop*
+:flag_ma: > BW <
 :flag_tr: Nepus`;
 
 var champions = `:flag_gb: architect (C)
@@ -502,7 +503,10 @@ var köhlenatlar = `:flag_az: Marcél (C)
 :flag_tr: Estreâ
 :flag_tr: Xéd
 :flag_tr: Sorlord
-:flag_tr: Flammable`;
+:flag_tr: Flammable
+:flag_tr: *subway*
+:flag_tr: *Alessia*
+:flag_tr: *denkoko*`;
 
 var sbr = `:flag_nl: *Yazuneh* (C)
 :flag_pt: FD91 (Co)
