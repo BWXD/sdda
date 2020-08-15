@@ -452,7 +452,7 @@ break;
 
 // SEASON 2
 
-var akatsuki = `:flag_ba: Xaroth (C)
+var akatsuki = `:flag_ba: *Xaroth* (C)
 :flag_ba: rubinho (Co)
 :flag_it: Tadić
 :flag_nl: Rajzojee'
@@ -476,19 +476,19 @@ var anonymous = `:flag_fr: *doliprune* (C)
 :flag_ma: > BW <
 :flag_tr: Nepus`;
 
-var champions = `:flag_gb: architect (C)
-:flag_fr: akira (Co)
+var champions = `:flag_gb: *architect* (C)
 :flag_pk: *DELUXE* (Co)
+:flag_fr: akira (Co)
+:flag_pt: *peter.*
+:flag_gb: *matt green*
 :flag_nl: tsukuyomi.
 :flag_fr: Lancelot Du Lac
 :flag_fr: TheGoal
 :flag_pt: ᴋᴇɴꜱʜɪɴ
 :flag_be: Amine
-:flag_pt: *peter.*
-:flag_gb: *matt green*
 :flag_fr: Toshiba`;
 
-var championsb = `:flag_nl: Lol or something (C)
+var championsb = `:flag_nl: *Lol or something* (C)
 :flag_nl: Decayy'
 :flag_fr: Yathobame
 :flag_gb: CFCJNB7
@@ -501,9 +501,9 @@ var championsb = `:flag_nl: Lol or something (C)
 var eagles = `:flag_tn: *Luka Jovic* (C)
 :flag_ma: *ITS ME* (Co)
 :flag_pl: *Piatek*
+:flag_fr: *Karim Suarez*
 :flag_fr: 9
 :flag_pl: Gonzo
-:flag_fr: *Karim Suarez*
 :flag_pl: iiviR z ysyL
 :flag_pl: Zain
 :flag_ro: Lucky8boy
@@ -511,7 +511,10 @@ var eagles = `:flag_tn: *Luka Jovic* (C)
 :flag_pl: OMG
 :flag_tn: Esoo`;
 
-var köhlenatlar = `:flag_az: Marcél (C)
+var köhlenatlar = `:flag_az: *Marcél* (C)
+:flag_tr: *šubwây*
+:flag_tr: *Alessia*
+:flag_tr: *denkoko*
 :flag_az: Folkiè
 :flag_tr: Cheaw
 :flag_tr: Gaúcho 
@@ -519,10 +522,7 @@ var köhlenatlar = `:flag_az: Marcél (C)
 :flag_tr: Estreâ
 :flag_tr: Xéd
 :flag_tr: Sorlord
-:flag_tr: Flammable
-:flag_tr: *šubwây*
-:flag_tr: *Alessia*
-:flag_tr: *denkoko*`;
+:flag_tr: Flammable`;
 
 var sbr = `:flag_nl: *Yazuneh* (C)
 :flag_pt: FD91 (Co)
