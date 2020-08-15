@@ -390,12 +390,12 @@ case "rosters":
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/731131638381281280/sbrFC.png')
             .setDescription(sbr)
 	})
-	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
+	/*client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
             .setColor('#FFDE00')
             .setTitle("Valencia")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/742543045819367788/Valencia.png')
             .setDescription(valencia)
-	})
+	})*/
     } else if(message.author.id != "634872299069374488"){message.react('❌')
     }
 break;
