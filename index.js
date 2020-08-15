@@ -367,6 +367,12 @@ case "rosters":
             .setDescription(champions)
 	})
 	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
+            .setColor('#00A784')
+            .setTitle("Champions FC B")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/744188700476440647/Champions_FC_B.png')
+            .setDescription(championsb)
+	})
+	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
             .setColor('#00B1E7')
             .setTitle("The Eagles")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/721718721500151848/eagles.png')
@@ -482,6 +488,16 @@ var champions = `:flag_gb: architect (C)
 :flag_gb: *matt green*
 :flag_fr: Toshiba`;
 
+var championsb = `:flag_nl: Lol or something (C)
+:flag_nl: Decayy'
+:flag_fr: Yathobame
+:flag_gb: CFCJNB7
+:flag_gb: nightking
+:flag_fr: [0] The GK
+:flag_gb: TOBY789
+:flag_fr: xézah
+:flag_gb: Sea King`;
+
 var eagles = `:flag_tn: *Luka Jovic* (C)
 :flag_ma: *ITS ME* (Co)
 :flag_pl: *Piatek*
@@ -504,7 +520,7 @@ var köhlenatlar = `:flag_az: Marcél (C)
 :flag_tr: Xéd
 :flag_tr: Sorlord
 :flag_tr: Flammable
-:flag_tr: *subway*
+:flag_tr: *šubwây*
 :flag_tr: *Alessia*
 :flag_tr: *denkoko*`;
 
@@ -523,29 +539,29 @@ var sbr = `:flag_nl: *Yazuneh* (C)
 :flag_be: Yi
 :flag_gb: Larry`;
 
-var valencia = `*Oyarzabal* (C)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*var valencia = `*Oyarzabal* (C)
 Bénjamin (C)
 Shawy
 denkoko
 rıza
-Niss'`;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Niss'`;*/
 
 // PRE-SEASON 2 (CURRENT)
 /*
