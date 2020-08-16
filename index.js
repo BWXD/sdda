@@ -331,6 +331,12 @@ case "online":
 break;
 		    
 case "d":
+    message.delete()
+    message.channel.send({embed: new Discord.RichEmbed()
+        .setColor('#7289d9')
+        .setTitle('Invite Link:')
+        .setDescription('https://discord.gg/33MZZs8 ')
+    })
     message.channel.send({embed: new Discord.RichEmbed()
         .setColor('#00A5A5')
         .setTitle('Website:')
