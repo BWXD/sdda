@@ -452,7 +452,7 @@ break;
 
 // SEASON 2
 
-var akatsuki = `:flag_ba: *Xaroth* (C)
+var akatsuki = `:flag_ba: ***Xaroth*** (C)
 :flag_ba: rubinho (Co)
 :flag_it: Tadić
 :flag_nl: Rajzojee'
@@ -467,28 +467,28 @@ var akatsuki = `:flag_ba: *Xaroth* (C)
 :flag_pl: Endou
 :flag_de: flacko350`;
 
-var anonymous = `:flag_fr: *doliprune* (C)
-:flag_be: *Sphinx'* (Co)
-:flag_fr: *Fury*
-:flag_nl: *Elmo*
-:flag_rs: *Pera*
-:flag_ro: *aguero*
-:flag_ro: *garrincha*
-:flag_tr: *kevo*
-:flag_nl: *stoutpoop*
+var anonymous = `:flag_fr: ***doliprune*** (C)
+:flag_be: ***Sphinx'*** (Co)
+:flag_fr: ***Fury***
+:flag_nl: ***Elmo***
+:flag_rs: ***Pera***
+:flag_ro: ***aguero***
+:flag_ro: ***garrincha***
+:flag_tr: ***kevo***
+:flag_nl: ***stoutpoop***
 :flag_ma: > BW <
 :flag_tr: Nepus`;
 
-var champions = `:flag_gb: *architect* (C)
-:flag_pk: *DELUXE* (Co)
-:flag_pt: *peter.*
-:flag_gb: *matt green*
+var champions = `:flag_gb: ***architect*** (C)
+:flag_pk: ***DELUXE*** (Co)
+:flag_pt: ***peter.***
+:flag_gb: ***matt green***
 :flag_nl: tsukuyomi.
 :flag_fr: Lancelot Du Lac
 :flag_be: Amine
 :flag_fr: Toshiba`;
 
-var championsb = `:flag_nl: *Lol or something* (C)
+var championsb = `:flag_nl: ***Lol or something*** (C)
 :flag_nl: Decayy'
 :flag_fr: Yathobame
 :flag_gb: CFCJNB7
@@ -498,10 +498,10 @@ var championsb = `:flag_nl: *Lol or something* (C)
 :flag_fr: xézah
 :flag_gb: Sea King`;
 
-var eagles = `:flag_tn: *Luka Jovic* (C)
-:flag_ma: *ITS ME* (Co)
-:flag_pl: *Piatek*
-:flag_fr: *Karim Suarez*
+var eagles = `:flag_tn: ***Luka Jovic*** (C)
+:flag_ma: ***ITS ME*** (Co)
+:flag_pl: ***Piatek***
+:flag_fr: ***Karim Suarez***
 :flag_fr: 9
 :flag_pl: Gonzo
 :flag_pl: iiviR z ysyL
@@ -511,10 +511,10 @@ var eagles = `:flag_tn: *Luka Jovic* (C)
 :flag_pl: OMG
 :flag_tn: Esoo`;
 
-var köhlenatlar = `:flag_az: *Marcél* (C)
-:flag_tr: *šubwây*
-:flag_tr: *Alessia*
-:flag_tr: *denkoko*
+var köhlenatlar = `:flag_az: ***Marcél*** (C)
+:flag_tr: ***šubwây***
+:flag_tr: ***Alessia***
+:flag_tr: ***denkoko***
 :flag_az: Folkiè
 :flag_tr: Cheaw
 :flag_tr: Gaúcho 
@@ -524,7 +524,7 @@ var köhlenatlar = `:flag_az: *Marcél* (C)
 :flag_tr: Sorlord
 :flag_tr: Flammable`;
 
-var sbr = `:flag_nl: *Yazuneh* (C)
+var sbr = `:flag_nl: ***Yazuneh*** (C)
 :flag_pt: FD91 (Co)
 :flag_nl: Yorzi (Co)
 :flag_nl: Yujio
