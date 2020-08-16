@@ -476,8 +476,10 @@ var anonymous = `:flag_fr: ***doliprune*** (C)
 :flag_ro: ***garrincha***
 :flag_tr: ***kevo***
 :flag_nl: ***stoutpoop***
-:flag_ma: > BW <
-:flag_tr: Nepus`;
+:flag_tr: ***Nepus***
+:flag_it: skrt
+:flag_it: fabio borini
+:flag_ma: > BW <`;
 
 var champions = `:flag_gb: ***architect*** (C)
 :flag_pk: ***DELUXE*** (Co)
