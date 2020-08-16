@@ -531,10 +531,10 @@ var köhlenatlar = `:flag_az: ***Marcél*** (C)
 :flag_tr: Sorlord`;
 
 var sbr = `:flag_nl: ***Yazuneh*** (C)
+:flag_nl: ***Yorzi*** (Co)
 :flag_pt: FD91 (Co)
-:flag_nl: Yorzi (Co)
-:flag_nl: Yujio
-:flag_nl: Tsukuyomi.
+:flag_nl: ***Yujio***
+:flag_nl: ***Tsukuyomi.***
 :flag_fr: Sosa
 :flag_fr: Risky
 :flag_fr: Raiden
