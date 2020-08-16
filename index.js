@@ -481,13 +481,10 @@ var anonymous = `:flag_fr: *doliprune* (C)
 
 var champions = `:flag_gb: *architect* (C)
 :flag_pk: *DELUXE* (Co)
-:flag_fr: akira (Co)
 :flag_pt: *peter.*
 :flag_gb: *matt green*
 :flag_nl: tsukuyomi.
 :flag_fr: Lancelot Du Lac
-:flag_fr: TheGoal
-:flag_pt: ᴋᴇɴꜱʜɪɴ
 :flag_be: Amine
 :flag_fr: Toshiba`;
 
