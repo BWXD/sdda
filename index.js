@@ -477,7 +477,7 @@ var anonymous = `:flag_fr: ***doliprune*** (C)
 :flag_tr: ***kevo***
 :flag_nl: ***stoutpoop***
 :flag_tr: ***Nepus***
-:flag_it: skrt
+:flag_it: ***skrt***
 :flag_it: fabio borini
 :flag_ma: > BW <`;
 
