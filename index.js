@@ -462,7 +462,10 @@ var akatsuki = `:flag_ba: *Xaroth* (C)
 :flag_de: Quaresmaaaa
 :flag_de: Son 7
 :flag_it: Mertens
-:flag_se: Vera`;
+:flag_se: Vera
+:flag_de: Ayyoub'
+:flag_pl: Endou
+:flag_de: flacko350`;
 
 var anonymous = `:flag_fr: *doliprune* (C)
 :flag_be: *Sphinx'* (Co)
