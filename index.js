@@ -520,9 +520,9 @@ var köhlenatlar = `:flag_az: ***Marcél*** (C)
 :flag_az: ***Folkiè***
 :flag_tr: ***arfinho***
 :flag_tr: ***Flämmable***
+:flag_tr: ***Chainz.***
 :flag_tr: Cheaw
-:flag_tr: Gaúcho 
-:flag_tr: Chainz.
+:flag_tr: Gaúcho
 :flag_tr: Estreâ
 :flag_tr: Xéd
 :flag_tr: Sorlord`;
