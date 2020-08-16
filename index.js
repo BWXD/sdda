@@ -535,12 +535,12 @@ var sbr = `:flag_nl: ***Yazuneh*** (C)
 :flag_pt: FD91 (Co)
 :flag_nl: ***Yujio***
 :flag_nl: ***Tsukuyomi.***
+:flag_pl: ***üb***
 :flag_fr: Sosa
 :flag_fr: Risky
 :flag_fr: Raiden
 :flag_fr: Shisui
 :flag_il: Gal
-:flag_pl: üb
 :flag_pt: Kesso
 :flag_be: Yi
 :flag_gb: Larry`;
