@@ -329,6 +329,14 @@ case "online":
     }
     
 break;
+		    
+case "d":
+    message.channel.send({embed: new Discord.RichEmbed()
+        .setColor('#00A5A5')
+        .setTitle('Website:')
+        .setDescription('http://futsalstars.epizy.com/ ')
+    })
+break;
 		
 case "verify":
     message.delete()
@@ -478,7 +486,7 @@ var anonymous = `:flag_fr: ***doliprune*** (C)
 :flag_nl: ***stoutpoop***
 :flag_tr: ***Nepus***
 :flag_it: ***skrt***
-:flag_gb: env
+:flag_gb: ***env***
 :flag_ma: > BW <`;
 
 var champions = `:flag_gb: ***architect*** (C)
