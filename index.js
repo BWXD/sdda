@@ -518,7 +518,6 @@ var championsb = `:flag_nl: ***Lol or something*** (C)
 :flag_gb: Sea King`;
 
 var eagles = `:flag_tn: ***Luka Jovic*** (C)
-:flag_ma: ***ITS ME*** (Co)
 :flag_pl: ***Piatek***
 :flag_fr: ***Karim Suarez***
 :flag_fr: 9
