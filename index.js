@@ -564,7 +564,7 @@ var sbr = `:flag_nl: ***Yazuneh*** (C)
 :flag_pt: ***Kesso***
 :flag_fr: ***Risky***
 :flag_gb: ***Larry***
-:flag_fr: Sosa
+:flag_fr: ***Sosa***
 :flag_fr: Raiden
 :flag_fr: Shisui
 :flag_il: Gal
