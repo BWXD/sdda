@@ -508,8 +508,7 @@ var champions = `:flag_gb: ***architect*** (C)
 :flag_fr: Toshiba`;
 
 var championsb = `:flag_nl: ***Lol or something*** (C)
-:flag_nl: Decayy'
-:flag_fr: Yathobame
+:flag_fr: ***Yathobame***
 :flag_gb: CFCJNB7
 :flag_gb: nightking
 :flag_fr: [0] The GK
@@ -550,13 +549,13 @@ var sbr = `:flag_nl: ***Yazuneh*** (C)
 :flag_nl: ***Tsukuyomi.***
 :flag_pl: ***üb***
 :flag_pt: ***Kesso***
+:flag_fr: ***Risky***
+:flag_gb: ***Larry***
 :flag_fr: Sosa
-:flag_fr: Risky
 :flag_fr: Raiden
 :flag_fr: Shisui
 :flag_il: Gal
-:flag_be: Yi
-:flag_gb: Larry`;
+:flag_be: Yi`;
 
 
 
