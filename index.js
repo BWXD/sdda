@@ -399,7 +399,7 @@ case "rosters":
             .setDescription(köhlenatlar)
 	})
 	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
-            .setColor('#3F3F41')
+            .setColor('#0396E3')
             .setTitle("The Leaders")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/744998275207135262/leaders.png')
             .setDescription(leaders)
