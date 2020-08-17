@@ -495,7 +495,6 @@ var anonymous = `:flag_fr: ***doliprune*** (C)
 :flag_ro: ***aguero***
 :flag_ro: ***garrincha***
 :flag_tr: ***kevo***
-:flag_nl: ***stoutpoop***
 :flag_tr: ***Nepus***
 :flag_it: ***skrt***
 :flag_gb: ***env***`;
@@ -550,6 +549,7 @@ var leaders = `:flag_ma: ***ITS ME*** (C)
 :flag_ma: ***> BW <*** (C)
 :flag_tn: ***yellow*** (Co)
 :flag_gb: ***xDanny***
+:flag_nl: ***stoutpoop***
 :flag_ma: Haddad
 :flag_ma: ;jarda;
 :flag_ma: Anas
