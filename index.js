@@ -492,17 +492,16 @@ var anonymous = `:flag_fr: ***doliprune*** (C)
 :flag_nl: ***stoutpoop***
 :flag_tr: ***Nepus***
 :flag_it: ***skrt***
-:flag_gb: ***env***
-:flag_ma: > BW <`;
+:flag_gb: ***env***`;
 
 var champions = `:flag_gb: ***architect*** (C)
 :flag_fr: ***akira*** (Co)
 :flag_pk: ***DELUXE*** (Co)
 :flag_gb: ***matt green***
+:flag_fr: ***Lancelot Du Lac***
 :flag_pt: Bastos
 :flag_fr: TheGoal
 :flag_pt: ᴋᴇɴꜱʜɪɴ
-:flag_fr: Lancelot Du Lac
 :flag_be: Amine
 :flag_fr: Toshiba`;
 
