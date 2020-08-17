@@ -399,11 +399,17 @@ case "rosters":
             .setDescription(köhlenatlar)
 	})
 	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
+            .setColor('#3F3F41')
+            .setTitle("The Leaders")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/744998275207135262/leaders.png')
+            .setDescription(leaders)
+	})
+	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
             .setColor('#6a6c8e')
             .setTitle("SBR FC")
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/731131638381281280/sbrFC.png')
             .setDescription(sbr)
-	})
+	})https://cdn.discordapp.com/attachments/706641802374938644/744998275207135262/leaders.png
 	/*client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
             .setColor('#FFDE00')
             .setTitle("Valencia")
@@ -539,6 +545,15 @@ var köhlenatlar = `:flag_az: ***Marcél*** (C)
 :flag_tr: Estreâ
 :flag_tr: Xéd
 :flag_tr: Sorlord`;
+
+var leaders = `:flag_ma: ***ITS ME*** (C)
+:flag_ma: ***> BW <*** (C)
+:flag_tn: yellow (Co)
+:flag_ma: Haddad
+:flag_ma: ;jarda;
+:flag_ma: Anas
+:flag_ma: Van Bloot
+:flag_gb: xDanny`;
 
 var sbr = `:flag_nl: ***Yazuneh*** (C)
 :flag_nl: ***Yorzi*** (Co)
