@@ -409,7 +409,7 @@ case "rosters":
             .setTitle("SBR FC")
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/731131638381281280/sbrFC.png')
             .setDescription(sbr)
-	})https://cdn.discordapp.com/attachments/706641802374938644/744998275207135262/leaders.png
+	})
 	/*client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
             .setColor('#FFDE00')
             .setTitle("Valencia")
