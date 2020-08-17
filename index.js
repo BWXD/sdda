@@ -496,8 +496,8 @@ var anonymous = `:flag_fr: ***doliprune*** (C)
 :flag_ma: > BW <`;
 
 var champions = `:flag_gb: ***architect*** (C)
+:flag_fr: ***akira*** (Co)
 :flag_pk: ***DELUXE*** (Co)
-:flag_fr: akira (Co)
 :flag_pt: ***peter.***
 :flag_gb: ***matt green***
 :flag_fr: TheGoal
@@ -549,12 +549,12 @@ var sbr = `:flag_nl: ***Yazuneh*** (C)
 :flag_nl: ***Yujio***
 :flag_nl: ***Tsukuyomi.***
 :flag_pl: ***üb***
+:flag_pt: ***Kesso***
 :flag_fr: Sosa
 :flag_fr: Risky
 :flag_fr: Raiden
 :flag_fr: Shisui
 :flag_il: Gal
-:flag_pt: Kesso
 :flag_be: Yi
 :flag_gb: Larry`;
 
