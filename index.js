@@ -549,11 +549,11 @@ var köhlenatlar = `:flag_az: ***Marcél*** (C)
 var leaders = `:flag_ma: ***ITS ME*** (C)
 :flag_ma: ***> BW <*** (C)
 :flag_tn: ***yellow*** (Co)
+:flag_gb: ***xDanny***
 :flag_ma: Haddad
 :flag_ma: ;jarda;
 :flag_ma: Anas
-:flag_ma: Van Bloot
-:flag_gb: xDanny`;
+:flag_ma: Van Bloot`;
 
 var sbr = `:flag_nl: ***Yazuneh*** (C)
 :flag_nl: ***Yorzi*** (Co)
