@@ -480,7 +480,6 @@ var akatsuki = `:flag_ba: ***Xaroth*** (C)
 :flag_pl: Skillz
 :flag_fr: Thors
 :flag_de: Quaresmaaaa
-:flag_de: Son 7
 :flag_it: Mertens
 :flag_se: Vera
 :flag_de: Ayyoub'
@@ -552,8 +551,8 @@ var leaders = `:flag_ma: ***ITS ME*** (C)
 :flag_nl: ***stoutpoop***
 :flag_ma: ***Anas***
 :flag_ma: ***;jarda;***
-:flag_ma: Haddad
-:flag_ma: Van Bloot`;
+:flag_ma: ***Van Bloot***
+:flag_ma: Haddad`;
 
 var sbr = `:flag_nl: ***Yazuneh*** (C)
 :flag_nl: ***Yorzi*** (Co)
