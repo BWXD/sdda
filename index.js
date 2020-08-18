@@ -474,6 +474,7 @@ break;
 
 var akatsuki = `:flag_ba: ***Xaroth*** (C)
 :flag_ba: rubinho (Co)
+:flag_de: ***Son 7***
 :flag_it: Tadić
 :flag_nl: Rajzojee'
 :flag_dz: Deku
@@ -503,11 +504,11 @@ var champions = `:flag_gb: ***architect*** (C)
 :flag_pk: ***DELUXE*** (Co)
 :flag_gb: ***matt green***
 :flag_fr: ***Lancelot Du Lac***
-:flag_pt: Bastos
+:flag_fr: ***Bastos***
+:flag_fr: ***Toshiba***
 :flag_fr: TheGoal
 :flag_pt: ᴋᴇɴꜱʜɪɴ
-:flag_be: Amine
-:flag_fr: Toshiba`;
+:flag_be: Amine`;
 
 var championsb = `:flag_nl: ***Lol or something*** (C)
 :flag_fr: ***Yathobame***
@@ -552,6 +553,7 @@ var leaders = `:flag_ma: ***ITS ME*** (C)
 :flag_ma: ***Anas***
 :flag_ma: ***;jarda;***
 :flag_ma: ***Van Bloot***
+:flag_tr: ***RYZEN***
 :flag_ma: Haddad`;
 
 var sbr = `:flag_nl: ***Yazuneh*** (C)
