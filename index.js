@@ -517,7 +517,8 @@ var championsb = `:flag_nl: ***Lol or something*** (C)
 :flag_fr: [0] The GK
 :flag_gb: TOBY789
 :flag_fr: xézah
-:flag_gb: Sea King`;
+:flag_gb: Sea King
+:flag_gb: monk`;
 
 var eagles = `:flag_tn: ***Luka Jovic*** (C)
 :flag_pl: ***Piatek***
