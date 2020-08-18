@@ -555,6 +555,7 @@ var leaders = `:flag_ma: ***ITS ME*** (C)
 :flag_ma: ***;jarda;***
 :flag_ma: ***Van Bloot***
 :flag_tr: ***RYZEN***
+:flag_ma: X-MA
 :flag_ma: Haddad`;
 
 var sbr = `:flag_nl: ***Yazuneh*** (C)
