@@ -387,12 +387,6 @@ case "rosters":
             .setDescription(championsb)
 	})
 	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
-            .setColor('#00B1E7')
-            .setTitle("The Eagles")
-            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/721718721500151848/eagles.png')
-            .setDescription(eagles)
-	})
-	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
             .setColor('#fefefe')
             .setTitle("Köhlen Atlar")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/741810902877339678/Kohlen_Atlar.png')
@@ -410,6 +404,12 @@ case "rosters":
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/731131638381281280/sbrFC.png')
             .setDescription(sbr)
 	})
+	/*client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
+            .setColor('#00B1E7')
+            .setTitle("The Eagles")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/721718721500151848/eagles.png')
+            .setDescription(eagles)
+	})*/
 	/*client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
             .setColor('#FFDE00')
             .setTitle("Valencia")
@@ -548,10 +548,10 @@ var leaders = `:flag_ma: ***ITS ME*** (C)
 :flag_ma: ***X-MA***
 :flag_ma: ***SNIPER***
 :flag_fi: ***Wolf***
+:flag_tn: ***Luka Jovic***
 :flag_pt: Ben Simmons
 :flag_pt: Knick-Knock
-:flag_fr: Karim Suarez
-:flag_tn: Luka Jovic`;
+:flag_fr: Karim Suarez`;
 
 var sbr = `:flag_nl: ***Yazuneh*** (C)
 :flag_nl: ***Yorzi*** (Co)
