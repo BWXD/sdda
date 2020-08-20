@@ -523,17 +523,6 @@ var championsb = `:flag_nl: ***Lol or something*** (C)
 :flag_gb: monk
 :flag_gb: dddd`;
 
-var eagles = `:flag_tn: ***Luka Jovic*** (C)
-:flag_pl: ***Piatek***
-:flag_fr: 9
-:flag_pl: Gonzo
-:flag_pl: iiviR z ysyL
-:flag_pl: Zain
-:flag_ro: Lucky8boy
-:flag_it: Dofla
-:flag_pl: OMG
-:flag_tn: Esoo`;
-
 var köhlenatlar = `:flag_az: ***Marcél*** (C)
 :flag_tr: ***šubwây***
 :flag_tr: ***Alessia***
@@ -551,8 +540,8 @@ var köhlenatlar = `:flag_az: ***Marcél*** (C)
 var leaders = `:flag_ma: ***ITS ME*** (C)
 :flag_ma: ***> BW <*** (C)
 :flag_tn: ***yellow*** (Co)
+:flag_nl: ***stoutpoop*** (Co)
 :flag_gb: ***xDanny***
-:flag_nl: ***stoutpoop***
 :flag_ma: ***Anas***
 :flag_ma: ***;jarda;***
 :flag_tr: ***RYZEN***
@@ -561,7 +550,8 @@ var leaders = `:flag_ma: ***ITS ME*** (C)
 :flag_fi: ***Wolf***
 :flag_pt: Ben Simmons
 :flag_pt: Knick-Knock
-:flag_fr: Karim Suarez`;
+:flag_fr: Karim Suarez
+:flag_tn: Luka Jovic`;
 
 var sbr = `:flag_nl: ***Yazuneh*** (C)
 :flag_nl: ***Yorzi*** (Co)
@@ -594,6 +584,17 @@ var sbr = `:flag_nl: ***Yazuneh*** (C)
 
 
 
+
+/*var eagles = `:flag_tn: ***Luka Jovic*** (C)
+:flag_pl: ***Piatek***
+:flag_fr: 9
+:flag_pl: Gonzo
+:flag_pl: iiviR z ysyL
+:flag_pl: Zain
+:flag_ro: Lucky8boy
+:flag_it: Dofla
+:flag_pl: OMG
+:flag_tn: Esoo`;*/
 
 /*var valencia = `*Oyarzabal* (C)
 Bénjamin (C)
