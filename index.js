@@ -475,16 +475,16 @@ break;
 var akatsuki = `:flag_ba: ***Xaroth*** (C)
 :flag_ba: rubinho (Co)
 :flag_de: ***Son 7***
-:flag_it: Tadić
-:flag_nl: Rajzojee'
+:flag_pl: ***Endou***
 :flag_dz: ***Deku***
 :flag_pl: ***Skillz***
+:flag_nl: Rajzojee'
+:flag_it: Tadić
 :flag_fr: Thors
 :flag_de: Quaresmaaaa
 :flag_it: Mertens
 :flag_se: Vera
 :flag_de: Ayyoub'
-:flag_pl: Endou
 :flag_de: flacko350
 :flag_nl: Decayy'`;
 
@@ -520,7 +520,8 @@ var championsb = `:flag_nl: ***Lol or something*** (C)
 :flag_gb: TOBY789
 :flag_fr: xézah
 :flag_gb: Sea King
-:flag_gb: monk`;
+:flag_gb: monk
+:flag_gb: dddd`;
 
 var eagles = `:flag_tn: ***Luka Jovic*** (C)
 :flag_pl: ***Piatek***
