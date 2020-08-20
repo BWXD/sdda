@@ -525,7 +525,6 @@ var championsb = `:flag_nl: ***Lol or something*** (C)
 
 var eagles = `:flag_tn: ***Luka Jovic*** (C)
 :flag_pl: ***Piatek***
-:flag_fr: ***Karim Suarez***
 :flag_fr: 9
 :flag_pl: Gonzo
 :flag_pl: iiviR z ysyL
@@ -556,13 +555,13 @@ var leaders = `:flag_ma: ***ITS ME*** (C)
 :flag_nl: ***stoutpoop***
 :flag_ma: ***Anas***
 :flag_ma: ***;jarda;***
-:flag_ma: ***Van Bloot***
 :flag_tr: ***RYZEN***
 :flag_ma: ***X-MA***
-:flag_ma: Haddad
+:flag_ma: ***SNIPER***
+:flag_fi: ***Wolf***
 :flag_pt: Ben Simmons
-:flag_ma: SNIPER
-:flag_fi: Wolf`;
+:flag_pt: Knick-Knock
+:flag_fr: Karim Suarez`;
 
 var sbr = `:flag_nl: ***Yazuneh*** (C)
 :flag_nl: ***Yorzi*** (Co)
