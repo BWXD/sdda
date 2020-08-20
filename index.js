@@ -477,15 +477,16 @@ var akatsuki = `:flag_ba: ***Xaroth*** (C)
 :flag_de: ***Son 7***
 :flag_it: Tadić
 :flag_nl: Rajzojee'
-:flag_dz: Deku
-:flag_pl: Skillz
+:flag_dz: ***Deku***
+:flag_pl: ***Skillz***
 :flag_fr: Thors
 :flag_de: Quaresmaaaa
 :flag_it: Mertens
 :flag_se: Vera
 :flag_de: Ayyoub'
 :flag_pl: Endou
-:flag_de: flacko350`;
+:flag_de: flacko350
+:flag_nl: Decayy'`;
 
 var anonymous = `:flag_fr: ***doliprune*** (C)
 :flag_be: ***Sphinx'*** (Co)
@@ -502,13 +503,14 @@ var anonymous = `:flag_fr: ***doliprune*** (C)
 var champions = `:flag_gb: ***architect*** (C)
 :flag_fr: ***akira*** (Co)
 :flag_pk: ***DELUXE*** (Co)
-:flag_gb: ***matt green***
+:flag_fr: ***matt green***
 :flag_fr: ***Lancelot Du Lac***
 :flag_fr: ***Bastos***
 :flag_fr: ***Toshiba***
-:flag_fr: TheGoal
+:flag_fr: ***TheGoal***
 :flag_pt: ᴋᴇɴꜱʜɪɴ
-:flag_be: Amine`;
+:flag_be: Amine
+:flag_it: Ilicic`;
 
 var championsb = `:flag_nl: ***Lol or something*** (C)
 :flag_fr: ***Yathobame***
@@ -555,8 +557,11 @@ var leaders = `:flag_ma: ***ITS ME*** (C)
 :flag_ma: ***;jarda;***
 :flag_ma: ***Van Bloot***
 :flag_tr: ***RYZEN***
-:flag_ma: X-MA
-:flag_ma: Haddad`;
+:flag_ma: ***X-MA***
+:flag_ma: Haddad
+:flag_pt: Ben Simmons
+:flag_ma: SNIPER
+:flag_fi: Wolf`;
 
 var sbr = `:flag_nl: ***Yazuneh*** (C)
 :flag_nl: ***Yorzi*** (Co)
