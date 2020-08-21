@@ -478,6 +478,7 @@ var akatsuki = `:flag_ba: ***Xaroth*** (C)
 :flag_pl: ***Endou***
 :flag_dz: ***Deku***
 :flag_pl: ***Skillz***
+:flag_nl: ***Decayy'***
 :flag_nl: Rajzojee'
 :flag_it: Tadić
 :flag_fr: Thors
@@ -485,8 +486,7 @@ var akatsuki = `:flag_ba: ***Xaroth*** (C)
 :flag_it: Mertens
 :flag_se: Vera
 :flag_de: Ayyoub'
-:flag_de: flacko350
-:flag_nl: Decayy'`;
+:flag_de: flacko350`;
 
 var anonymous = `:flag_fr: ***doliprune*** (C)
 :flag_be: ***Sphinx'*** (Co)
@@ -514,10 +514,10 @@ var champions = `:flag_gb: ***architect*** (C)
 
 var championsb = `:flag_nl: ***Lol or something*** (C)
 :flag_fr: ***Yathobame***
+:flag_gb: ***TOBY789***
 :flag_gb: CFCJNB7
 :flag_gb: nightking
 :flag_fr: [0] The GK
-:flag_gb: TOBY789
 :flag_fr: xézah
 :flag_gb: Sea King
 :flag_gb: monk
