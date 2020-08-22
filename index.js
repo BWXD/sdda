@@ -508,19 +508,19 @@ var champions = `:flag_gb: ***architect*** (C)
 :flag_fr: ***Bastos***
 :flag_fr: ***Toshiba***
 :flag_fr: ***TheGoal***
+:flag_it: ***Ilicic***
 :flag_pt: ᴋᴇɴꜱʜɪɴ
-:flag_be: Amine
-:flag_it: Ilicic`;
+:flag_be: Amine`;
 
 var championsb = `:flag_nl: ***Lol or something*** (C)
 :flag_fr: ***Yathobame***
 :flag_gb: ***TOBY789***
+:flag_hr: ***Monk***
 :flag_gb: CFCJNB7
 :flag_gb: nightking
 :flag_fr: [0] The GK
 :flag_fr: xézah
 :flag_gb: Sea King
-:flag_gb: monk
 :flag_gb: dddd`;
 
 var köhlenatlar = `:flag_az: ***Marcél*** (C)
