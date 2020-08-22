@@ -510,7 +510,8 @@ var champions = `:flag_gb: ***architect*** (C)
 :flag_fr: ***TheGoal***
 :flag_it: ***Ilicic***
 :flag_pt: ᴋᴇɴꜱʜɪɴ
-:flag_be: Amine`;
+:flag_be: Amine
+:flag_pt: Mesut`;
 
 var championsb = `:flag_nl: ***Lol or something*** (C)
 :flag_fr: ***Yathobame***
@@ -565,7 +566,6 @@ var sbr = `:flag_nl: ***Yazuneh*** (C)
 :flag_fr: ***Sosa***
 :flag_fr: Raiden
 :flag_fr: Shisui
-:flag_il: Gal
 :flag_be: Yi`;
 
 
