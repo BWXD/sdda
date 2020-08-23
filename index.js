@@ -522,7 +522,7 @@ var championsb = `:flag_nl: ***Lol or something*** (C)
 :flag_fr: [0] The GK
 :flag_fr: xézah
 :flag_gb: Sea King
-:flag_gb: dddd`;
+:flag_hr: dddd`;
 
 var köhlenatlar = `:flag_az: ***Marcél*** (C)
 :flag_tr: ***šubwây***
@@ -564,9 +564,9 @@ var sbr = `:flag_nl: ***Yazuneh*** (C)
 :flag_fr: ***Risky***
 :flag_gb: ***Larry***
 :flag_fr: ***Sosa***
-:flag_fr: Raiden
-:flag_fr: Shisui
-:flag_be: Yi`;
+:flag_fr: ***Raiden***
+:flag_be: ***Yi***
+:flag_fr: Shisui`;
 
 
 
