@@ -399,6 +399,12 @@ case "rosters":
             .setDescription(leaders)
 	})
 	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
+            .setColor('#4B8936')
+            .setTitle("Mafia")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/748589577840754878/mafia_big.png')
+            .setDescription(mafia)
+	})
+	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
             .setColor('#6a6c8e')
             .setTitle("SBR FC")
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/731131638381281280/sbrFC.png')
@@ -482,11 +488,11 @@ var akatsuki = `:flag_ba: ***Xaroth*** (C)
 :flag_nl: Rajzojee'
 :flag_it: Tadić
 :flag_fr: Thors
-:flag_de: Quaresmaaaa
-:flag_it: Mertens
 :flag_se: Vera
 :flag_de: Ayyoub'
-:flag_de: flacko350`;
+:flag_de: hans
+:flag_cz: armin
+:flag_de: bln`;
 
 var anonymous = `:flag_fr: ***doliprune*** (C)
 :flag_be: ***Sphinx'*** (Co)
@@ -500,18 +506,16 @@ var anonymous = `:flag_fr: ***doliprune*** (C)
 :flag_it: ***skrt***
 :flag_gb: ***env***`;
 
-var champions = `:flag_gb: ***architect*** (C)
-:flag_fr: ***akira*** (Co)
+var champions = `:flag_fr: ***TheGoal*** (C)
 :flag_pk: ***DELUXE*** (Co)
-:flag_fr: ***matt green***
-:flag_fr: ***Lancelot Du Lac***
-:flag_fr: ***Bastos***
+:flag_fr: ***akira***
+:flag_gb: ***architect***
+:flag_fr: ***mattgreen***
 :flag_fr: ***Toshiba***
-:flag_fr: ***TheGoal***
 :flag_it: ***Ilicic***
-:flag_pt: ᴋᴇɴꜱʜɪɴ
-:flag_be: Amine
-:flag_pt: Mesut`;
+:flag_pt: Mesut
+:flag_fr: stronkname
+:flag_ua: tango`;
 
 var championsb = `:flag_nl: ***Lol or something*** (C)
 :flag_fr: ***Yathobame***
@@ -541,18 +545,24 @@ var leaders = `:flag_ma: ***ITS ME*** (C)
 :flag_ma: ***> BW <*** (C)
 :flag_tn: ***yellow*** (Co)
 :flag_nl: ***stoutpoop*** (Co)
-:flag_gb: ***xDanny***
 :flag_ma: ***Anas***
 :flag_ma: ***;jarda;***
 :flag_tr: ***RYZEN***
 :flag_ma: ***X-MA***
 :flag_ma: ***SNIPER***
 :flag_fi: ***Wolf***
-:flag_tn: ***Luka Jovic***
 :flag_fr: ***Karim Suarez***
+:flag_ma: ***De Gea***
+:flag_tn: ***PHASMA***
 :flag_pt: Ben Simmons
 :flag_pt: Knick-Knock
 :flag_ro: miracle.!`;
+
+var mafia = `:flag_tn: ***Luka Jovic*** (C)
+:flag_si: Hugo (Co)
+:flag_pt: Peter (Co)
+:flag_pl: Zain
+:flag_pl: Piatek`;
 
 var sbr = `:flag_nl: ***Yazuneh*** (C)
 :flag_nl: ***Yorzi*** (Co)
