@@ -399,17 +399,24 @@ case "rosters":
             .setDescription(leaders)
 	})
 	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
-            .setColor('#4B8936')
-            .setTitle("Mafia")
-            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/748589577840754878/mafia_big.png')
-            .setDescription(mafia)
-	})
-	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
             .setColor('#6a6c8e')
             .setTitle("SBR FC")
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/731131638381281280/sbrFC.png')
             .setDescription(sbr)
 	})
+	client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
+            .setColor('#FC7A0C')
+            .setTitle("The Tiggers")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/750815488094765130/THE_TIGGERS.png')
+            .setDescription(tiggers)
+	})
+        
+        /*client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
+            .setColor('#4B8936')
+            .setTitle("Mafia")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/748589577840754878/mafia_big.png')
+            .setDescription(mafia)
+	})*/
 	/*client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
             .setColor('#00B1E7')
             .setTitle("The Eagles")
@@ -558,12 +565,6 @@ var leaders = `:flag_ma: ***ITS ME*** (C)
 :flag_pt: Knick-Knock
 :flag_ro: miracle.!`;
 
-var mafia = `:flag_tn: ***Luka Jovic*** (C)
-:flag_si: Hugo (Co)
-:flag_pt: Peter (Co)
-:flag_pl: Zain
-:flag_pl: Piatek`;
-
 var sbr = `:flag_nl: ***Yazuneh*** (C)
 :flag_nl: ***Yorzi*** (Co)
 :flag_pt: FD91 (Co)
@@ -578,6 +579,19 @@ var sbr = `:flag_nl: ***Yazuneh*** (C)
 :flag_be: ***Yi***
 :flag_fr: Shisui`;
 
+var tiggers = `:flag_pt: ***peter.*** (C) 
+:flag_pt: ***Munir*** (Co)
+:flag_pt: ***Isco jaa/Seth'***
+:flag_pt: ***zack***
+:flag_pt: ***cristiano***
+:flag_pt: ***Wozal***
+:flag_de: ***rap***
+:flag_de: ***mY_ruleZ^***
+:flag_pt: DarthVader/dartacao
+:flag_pt: Chazeiro
+:flag_pt: tidus
+:flag_pt: Folk
+:flag_pt: Chicao`;
 
 
 
@@ -594,6 +608,12 @@ var sbr = `:flag_nl: ***Yazuneh*** (C)
 
 
 
+
+/*var mafia = `:flag_tn: ***Luka Jovic*** (C)
+:flag_si: Hugo (Co)
+:flag_pt: Peter (Co)
+:flag_pl: Zain
+:flag_pl: Piatek`;*/
 
 /*var eagles = `:flag_tn: ***Luka Jovic*** (C)
 :flag_pl: ***Piatek***
