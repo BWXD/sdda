@@ -572,11 +572,11 @@ var tiggers = `🇵🇹 ***peter.*** (C)
 🇵🇹 ***Wozal***
 🇩🇪 ***rap***
 🇩🇪 ***mY_ruleZ^***
-🇵🇹 DarthVader/dartacao
-🇵🇹 Chazeiro
-🇵🇹 tidus
-🇵🇹 Folk
-🇵🇹 Chicao`;
+🇵🇹 ***Chazeiro***
+🇵🇹 ***tidus***
+🇵🇹 ***Folk***
+🇵🇹 ***Chicao***
+🇵🇹 DarthVader/dartacao`;
 
 
 
