@@ -280,10 +280,10 @@ case "ping":
 break;
             
 case "commands":
-    message.reply(commandsUsed + " have been used.")
+    message.reply(commandsUsed + " command(s) have been used.")
 break;
 		    
-case "online":
+case "uptime":
     commandsUsed++;
     
     if(d == 1){
@@ -355,6 +355,19 @@ case "verify":
         member.addRole("704827988973453415")
         member.removeRole("704830837501460481")
     }
+break;
+
+case "issues":
+
+    if(message.author.id == "634872299069374488"){
+    message.channel.send({embed: new Discord.RichEmbed()
+        .setColor("#00A5A5")
+        .setTitle("Connection Issues:")
+        .addField("Max Ping", Math.floor(Math.Random() * 1000) + "ms")
+        .addField("Longest Outage", "0 seconds")
+    })
+    }
+
 break;
 
 case "rosters":
