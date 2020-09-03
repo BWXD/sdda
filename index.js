@@ -515,7 +515,6 @@ var anonymous = `🇫🇷 ***doliprune*** (C)
 🇳🇱 ***Elmo***
 🇷🇸 ***Pera***
 🇷🇴 ***aguero***
-🇷🇴 ***garrincha***
 🇹🇷 ***kevo***
 🇹🇷 ***Nepus***
 🇮🇹 ***skrt***
