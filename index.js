@@ -388,16 +388,16 @@ case "rosters":
             .setDescription(anonymous)
 	})
 	client.channels.get("750818053025038416").send({embed: new Discord.RichEmbed()
-            .setColor('#B18536')
-            .setTitle("Champions FC")
-            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/742072649550790676/Champions_FC.png')
-            .setDescription(champions)
-	})
-	client.channels.get("750818053025038416").send({embed: new Discord.RichEmbed()
             .setColor('#00A784')
             .setTitle("Champions FC B")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/744188700476440647/Champions_FC_B.png')
             .setDescription(championsb)
+	})
+	client.channels.get("750818053025038416").send({embed: new Discord.RichEmbed()
+            .setColor('#2F6472')
+            .setTitle("Hurricane FC")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/753004291391750184/hurricane.png')
+            .setDescription(hurricane)
 	})
 	client.channels.get("750818053025038416").send({embed: new Discord.RichEmbed()
             .setColor('#fefefe')
@@ -424,6 +424,12 @@ case "rosters":
             .setDescription(tiggers)
 	})
         
+	/*client.channels.get("750818053025038416").send({embed: new Discord.RichEmbed()
+            .setColor('#B18536')
+            .setTitle("Champions FC")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/742072649550790676/Champions_FC.png')
+            .setDescription(champions)
+	})*/
         /*client.channels.get("741770858963664947").send({embed: new Discord.RichEmbed()
             .setColor('#4B8936')
             .setTitle("Mafia")
@@ -520,15 +526,6 @@ var anonymous = `🇫🇷 ***doliprune*** (C)
 🇮🇹 ***skrt***
 🇬🇧 ***env***`;
 
-var champions = `🇫🇷 ***TheGoal*** (C)
-🇵🇰 ***DELUXE*** (Co)
-🇫🇷 ***akira***
-🇬🇧 ***architect***
-🇫🇷 ***mattgreen***
-🇫🇷 ***Toshiba***
-🇮🇹 ***Ilicic***
-🇺🇦 ***tango***`;
-
 var championsb = `🇳🇱 ***Lol or something*** (C)
 🇫🇷 ***Yathobame***
 🇬🇧 ***TOBY789***
@@ -536,16 +533,22 @@ var championsb = `🇳🇱 ***Lol or something*** (C)
 🇭🇷 ***dddd***
 🇵🇹 ***Ster***`;
 
+var hurricane = `:flag_it: ***C o d e'*** (C)
+:flag_de: Provdni
+:flag_it: O.Prof
+:flag_it: Noob
+:flag_it: A.Meret
+:flag_it: Duván
+:flag_it: Eronuovodelposto
+:flag_it: Compased
+:flag_td: Zert`;
+
 var köhlenatlar = `🇦🇿 ***Marcél*** (C)
 🇦🇿 ***Folkiè*** (Co)
 🇹🇷 ***šubwây/Estreâ***
-🇹🇷 ***denkoko***
-🇺🇦 ***arfinho***
 🇹🇷 ***Flämmable***
 🇹🇷 ***Chainz.***
-🇹🇷 ***Xéd***
-🇹🇷 ***Cheaw***
-🇷🇸 ***Sancho***`;
+🇹🇷 ***Cheaw***`;
 
 var leaders = `🇲🇦 ***ITS ME*** (C)
 🇲🇦 ***> BW <*** (C)
@@ -587,8 +590,7 @@ var tiggers = `🇵🇹 ***peter.*** (C)
 🇵🇹 ***Chazeiro***
 🇵🇹 ***tidus***
 🇵🇹 ***Folk***
-🇵🇹 ***Chicao***
-🇵🇹 DarthVader/dartacao`;
+🇵🇹 ***Chicao***`;
 
 
 
@@ -605,6 +607,15 @@ var tiggers = `🇵🇹 ***peter.*** (C)
 
 
 
+
+/*var champions = `🇫🇷 ***TheGoal*** (C)
+🇵🇰 ***DELUXE*** (Co)
+🇫🇷 ***akira***
+🇬🇧 ***architect***
+🇫🇷 ***mattgreen***
+🇫🇷 ***Toshiba***
+🇮🇹 ***Ilicic***
+🇺🇦 ***tango***`;*/
 
 /*var mafia = `:flag_tn: ***Luka Jovic*** (C)
 :flag_si: Hugo (Co)
