@@ -388,6 +388,12 @@ case "rosters":
             .setDescription(anonymous)
 	})
 	client.channels.get("750818053025038416").send({embed: new Discord.RichEmbed()
+            .setColor('#A02327')
+            .setTitle("Atlas Lions")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/753375332442177556/atlaslions.png')
+            .setDescription(atlaslions)
+	})
+	client.channels.get("750818053025038416").send({embed: new Discord.RichEmbed()
             .setColor('#00A784')
             .setTitle("Champions FC B")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/744188700476440647/Champions_FC_B.png')
@@ -406,12 +412,6 @@ case "rosters":
             .setDescription(köhlenatlar)
 	})
 	client.channels.get("750818053025038416").send({embed: new Discord.RichEmbed()
-            .setColor('#0396E3')
-            .setTitle("The Leaders")
-            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/744998275207135262/leaders.png')
-            .setDescription(leaders)
-	})
-	client.channels.get("750818053025038416").send({embed: new Discord.RichEmbed()
             .setColor('#6a6c8e')
             .setTitle("SBR FC")
             .setThumbnail('http://cdn.discordapp.com/attachments/706641802374938644/731131638381281280/sbrFC.png')
@@ -424,6 +424,12 @@ case "rosters":
             .setDescription(tiggers)
 	})
         
+	/*client.channels.get("750818053025038416").send({embed: new Discord.RichEmbed()
+            .setColor('#0396E3')
+            .setTitle("The Leaders")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/744998275207135262/leaders.png')
+            .setDescription(leaders)
+	})*/
 	/*client.channels.get("750818053025038416").send({embed: new Discord.RichEmbed()
             .setColor('#B18536')
             .setTitle("Champions FC")
@@ -525,6 +531,16 @@ var anonymous = `🇫🇷 ***doliprune*** (C)
 🇹🇷 ***Nepus***
 🇮🇹 ***skrt***
 🇬🇧 ***env***`;
+
+var atlaslions = `:flag_ma: ***ITS ME*** (C)
+:flag_ma: ***> BW <***
+:flag_ma: Anas
+:flag_ma: schizo
+:flag_ma: De Gea
+:flag_ma: Haddad
+:flag_ma: ;jarda;
+:flag_ma: Sonaldo
+:flag_ro: miracle.!`;
 
 var championsb = `🇳🇱 ***Lol or something*** (C)
 🇫🇷 ***Yathobame***
