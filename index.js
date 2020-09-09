@@ -530,7 +530,13 @@ var anonymous = `🇫🇷 ***doliprune*** (C)
 🇹🇷 ***kevo***
 🇹🇷 ***Nepus***
 🇮🇹 ***skrt***
-🇬🇧 ***env***`;
+🇬🇧 ***env***
+:flag_gb: Vak
+:flag_nl: veil
+:flag_gb: Hulk
+:flag_fr: Lyreco
+:flag_fr: Pax
+:flag_gb: Tsubasa`;
 
 var atlaslions = `:flag_ma: ***ITS ME*** (C)
 :flag_ma: ***> BW <***
@@ -571,14 +577,13 @@ var sbr = `🇳🇱 ***Yazuneh*** (C)
 🇳🇱 ***Yorzi*** (Co)
 🇳🇱 ***Yujio***
 🇳🇱 ***Tsukuyomi.***
-🇵🇱 ***üb***
 🇵🇹 ***Kesso***
-🇫🇷 ***Risky***
 🇬🇧 ***Larry***
 🇫🇷 ***Sosa***
 🇫🇷 ***Raiden***
 🇫🇷 ***Reije***
-🇷🇴 ***Eijun***`;
+🇷🇴 ***Eijun***
+:flag_lt: vesy`;
 
 var tiggers = `🇵🇹 ***peter.*** (C) 
 🇵🇹 ***Munir*** (Co)
