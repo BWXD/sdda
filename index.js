@@ -551,22 +551,6 @@ var köhlenatlar = `🇦🇿 ***Marcél*** (C)
 :flag_de: Senju
 :flag_tr: Euroleague`;
 
-var leaders = `🇲🇦 ***ITS ME*** (C)
-🇲🇦 ***> BW <*** (C)
-🇹🇳 ***yellow*** (Co)
-🇳🇱 ***stoutpoop*** (Co)
-🇲🇦 ***Anas***
-🇲🇦 ***;jarda;***
-🇹🇷 ***RYZEN***
-🇲🇦 ***X-MA***
-🇲🇦 ***SNIPER***
-🇫🇮 ***Wolf***
-🇫🇷 ***Karim Suarez***
-🇲🇦 ***De Gea***
-🇹🇳 ***PHASMA***
-🇲🇦 ***Haddad***
-🇷🇴 ***miracle.!***`;
-
 var sbr = `🇳🇱 ***Yazuneh*** (C)
 🇳🇱 ***Yorzi*** (Co)
 🇳🇱 ***Yujio***
@@ -608,6 +592,22 @@ var tiggers = `🇵🇹 ***peter.*** (C)
 
 
 
+
+/*var leaders = `🇲🇦 ***ITS ME*** (C)
+🇲🇦 ***> BW <*** (C)
+🇹🇳 ***yellow*** (Co)
+🇳🇱 ***stoutpoop*** (Co)
+🇲🇦 ***Anas***
+🇲🇦 ***;jarda;***
+🇹🇷 ***RYZEN***
+🇲🇦 ***X-MA***
+🇲🇦 ***SNIPER***
+🇫🇮 ***Wolf***
+🇫🇷 ***Karim Suarez***
+🇲🇦 ***De Gea***
+🇹🇳 ***PHASMA***
+🇲🇦 ***Haddad***
+🇷🇴 ***miracle.!***`;*/
 
 /*var champions = `🇫🇷 ***TheGoal*** (C)
 🇵🇰 ***DELUXE*** (Co)
