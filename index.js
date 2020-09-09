@@ -534,21 +534,22 @@ var championsb = `🇳🇱 ***Lol or something*** (C)
 🇵🇹 ***Ster***`;
 
 var hurricane = `:flag_it: ***C o d e'*** (C)
+:flag_it: O.Prof (Co)
+:flag_it: ***A.Meret***
+:flag_it: ***Eronuovodelposto***
 :flag_rs: Providni
-:flag_it: O.Prof
 :flag_it: Noob
-:flag_it: A.Meret
 :flag_it: Duván
-:flag_it: Eronuovodelposto
 :flag_it: Compased
 :flag_td: Zert`;
 
 var köhlenatlar = `🇦🇿 ***Marcél*** (C)
 🇦🇿 ***Folkiè*** (Co)
 🇹🇷 ***šubwây/Estreâ***
-🇹🇷 ***Flämmable***
 🇹🇷 ***Chainz.***
-🇹🇷 ***Cheaw***`;
+🇹🇷 ***Cheaw***
+:flag_de: Senju
+:flag_tr: Euroleague`;
 
 var leaders = `🇲🇦 ***ITS ME*** (C)
 🇲🇦 ***> BW <*** (C)
