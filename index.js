@@ -534,10 +534,10 @@ var championsb = `🇳🇱 ***Lol or something*** (C)
 🇵🇹 ***Ster***`;
 
 var hurricane = `:flag_it: ***C o d e'*** (C)
-:flag_it: O.Prof (Co)
+:flag_it: ***O.Prof*** (Co)
 :flag_it: ***A.Meret***
 :flag_it: ***Eronuovodelposto***
-:flag_rs: Providni
+:flag_rs: ***Providni***
 :flag_it: Noob
 :flag_it: Duván
 :flag_it: Compased
