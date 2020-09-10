@@ -561,10 +561,10 @@ var hurricane = `:flag_it: ***C o d e'*** (C)
 :flag_it: ***A.Meret***
 :flag_it: ***Eronuovodelposto***
 :flag_rs: ***Providni***
+:flag_td: ***Zert***
 :flag_it: Noob
 :flag_it: Duván
-:flag_it: Compased
-:flag_td: Zert`;
+:flag_it: Compased`;
 
 var köhlenatlar = `🇦🇿 ***Marcél*** (C)
 🇦🇿 ***Folkiè*** (Co)
