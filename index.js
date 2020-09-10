@@ -513,13 +513,14 @@ break;
 var akatsuki = `🇧🇦 ***Xaroth*** (C)
 🇩🇪 ***Son 7*** (Co)
 🇵🇱 ***Endou***
-🇩🇿 ***Deku***
 🇵🇱 ***Skillz***
 🇳🇱 ***Decayy'***
 🇵🇱 ***Mr.Worldwide***
 🇫🇷 ***Thors***
 🇳🇱 ***Rajzojee'***
-🇨🇿 ***armin***`;
+🇨🇿 ***armin***
+:flag_it: Gordo
+:flag_gb: Bob`;
 
 var anonymous = `🇫🇷 ***doliprune*** (C)
 🇧🇪 ***Sphinx'*** (Co)
