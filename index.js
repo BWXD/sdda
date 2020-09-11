@@ -519,8 +519,8 @@ var akatsuki = `🇧🇦 ***Xaroth*** (C)
 🇫🇷 ***Thors***
 🇳🇱 ***Rajzojee'***
 🇨🇿 ***armin***
-:flag_it: Gordo
-:flag_gb: Bob`;
+:flag_it: ***Gordo***
+:flag_gb: ***Bob***`;
 
 var anonymous = `🇫🇷 ***doliprune*** (C)
 🇧🇪 ***Sphinx'*** (Co)
@@ -571,7 +571,7 @@ var köhlenatlar = `🇦🇿 ***Marcél*** (C)
 🇹🇷 ***šubwây/Estreâ***
 🇹🇷 ***Chainz.***
 🇹🇷 ***Cheaw***
-:flag_de: Senju
+:flag_de: ***Senju***
 :flag_tr: Euroleague`;
 
 var sbr = `🇳🇱 ***Yazuneh*** (C)
@@ -584,7 +584,7 @@ var sbr = `🇳🇱 ***Yazuneh*** (C)
 🇫🇷 ***Raiden***
 🇫🇷 ***Reije***
 🇷🇴 ***Eijun***
-:flag_lt: vesy`;
+:flag_lt: ***vesy***`;
 
 var tiggers = `🇵🇹 ***peter.*** (C) 
 🇵🇹 ***Munir*** (Co)
