@@ -603,11 +603,11 @@ var tiggersb = `:flag_rs: ***Providini*** (C)
 :flag_pt: ***EdgyTheKing*** (C)
 :flag_us: ***9ine***
 :flag_pt: ***Lewandowski.***
-:flag_it: Eren Yeager
+:flag_it: ***Eren Yeager***
+:flag_pt: ****Phanter***
+:flag_pt: ***Knock Out***
 :flag_pt: Ben Simmons
 :flag_pt: notBlue
-:flag_pt: Phanter
-:flag_pt: Knock Out
 :flag_pt: RDT9
 :flag_nl: The Wall
 :flag_nl: Decayy'`;
