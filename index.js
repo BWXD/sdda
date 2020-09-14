@@ -564,6 +564,7 @@ var köhlenatlar = `🇦🇿 ***Marcél*** (C)
 
 var latoho = `:flag_fr: ***alpha*** (C)
 :flag_fr: ***Shelby***
+:flag_fr: ***Ali94K***
 :flag_fr: matthieu vert
 :flag_fr: Paredes
 :flag_fr: mztd
