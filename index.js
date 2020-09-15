@@ -533,8 +533,7 @@ var akatsuki = `🇧🇦 ***Xaroth*** (C)
 :flag_it: ***Gordo***
 :flag_gb: ***Bob***
 :flag_pk: ***delux***
-:flag_de: **bln**
-:flag_fr: Toshiba"`;
+:flag_de: **bln**`;
 
 var anonymous = `🇫🇷 ***doliprune*** (C)
 🇧🇪 ***Sphinx'*** (Co)
@@ -545,22 +544,14 @@ var anonymous = `🇫🇷 ***doliprune*** (C)
 🇹🇷 ***kevo***
 🇹🇷 ***Nepus***
 🇮🇹 ***skrt***
-🇬🇧 ***env***
-:flag_gb: Vak
-:flag_nl: veil
-:flag_gb: Hulk
-:flag_fr: Lyreco
-:flag_fr: Pax
-:flag_gb: Tsubasa`;
+🇬🇧 ***env***`;
 
 var köhlenatlar = `🇦🇿 ***Marcél*** (C)
 🇦🇿 ***Folkiè*** (Co)
 🇹🇷 ***šubwây/Estreâ***
 🇹🇷 ***Chainz.***
 🇹🇷 ***Cheaw***
-:flag_de: ***Senju***
-:flag_tr: Euroleague
-:flag_tr: D3XT3R`;
+:flag_de: ***Senju***`;
 
 var latoho = `:flag_fr: ***alpha*** (C)
 :flag_fr: ***Shelby***
@@ -596,20 +587,19 @@ var tiggers = `🇵🇹 ***peter.*** (C)
 🇵🇹 ***tidus***
 🇵🇹 ***Folk***
 🇵🇹 ***Chicao***
-:flag_es: ***aitor***
-:flag_pt: Mesut`;
+:flag_es: ***aitor***`;
 
 var tiggersb = `:flag_rs: ***Providini*** (C)
 :flag_pt: ***EdgyTheKing*** (C)
 :flag_us: ***9ine***
 :flag_pt: ***Lewandowski.***
 :flag_it: ***Eren Yeager***
-:flag_pt: ****Phanter***
+:flag_pt: ****PhanteR***
 :flag_pt: ***Knock Out***
+:flag_pt: ***notBlue***
+:flag_nl: ***The Wall***
 :flag_pt: Ben Simmons
-:flag_pt: notBlue
 :flag_pt: RDT9
-:flag_nl: The Wall
 :flag_nl: Decayy'`;
 
 
