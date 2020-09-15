@@ -533,7 +533,7 @@ var akatsuki = `🇧🇦 ***Xaroth*** (C)
 :flag_it: ***Gordo***
 :flag_gb: ***Bob***
 :flag_pk: ***delux***
-:flag_de: **bln**`;
+:flag_de: ***bln***`;
 
 var anonymous = `🇫🇷 ***doliprune*** (C)
 🇧🇪 ***Sphinx'*** (Co)
@@ -594,7 +594,7 @@ var tiggersb = `:flag_rs: ***Providini*** (C)
 :flag_us: ***9ine***
 :flag_pt: ***Lewandowski.***
 :flag_it: ***Eren Yeager***
-:flag_pt: ****PhanteR***
+:flag_pt: ***PhanteR***
 :flag_pt: ***Knock Out***
 :flag_pt: ***notBlue***
 :flag_nl: ***The Wall***
