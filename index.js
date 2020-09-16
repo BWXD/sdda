@@ -556,12 +556,12 @@ var firmabublowlana = `:flag_pl: ***TITTIES*** (C)
 :flag_pl: ***zax*** (C)
 :flag_gb: ***Ohboi***
 :flag_pl: ***BLUZKAS***
-:flag_pl: qn
+:flag_pl: ***qn***
+:flag_pl: ***üb***
 :flag_gb: Haxmaster
 :flag_pl: BananaSS
 :flag_pl: eve
 :flag_gb: Fernando Lizoduppo
-:flag_pl: üb
 :flag_pl: bully`;
 
 var köhlenatlar = `🇦🇿 ***Marcél*** (C)
