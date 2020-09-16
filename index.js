@@ -388,6 +388,12 @@ case "rosters":
             .setDescription(anonymous)
 	})
 	client.channels.get("750818053025038416").send({embed: new Discord.RichEmbed()
+            .setColor('#ffff00')
+            .setTitle("FIRMA BUBLOWLANA SP. Z O. O.")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/755778123546492957/firmabublowlana.png')
+            .setDescription(firmabublowlana)
+	})
+	client.channels.get("750818053025038416").send({embed: new Discord.RichEmbed()
             .setColor('#fefefe')
             .setTitle("Köhlen Atlar")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/741810902877339678/Kohlen_Atlar.png')
@@ -545,6 +551,18 @@ var anonymous = `🇫🇷 ***doliprune*** (C)
 🇹🇷 ***Nepus***
 🇮🇹 ***skrt***
 🇬🇧 ***env***`;
+
+var firmabublowlana = `:flag_pl: ***TITTIES*** (C)
+:flag_pl: ***zax*** (C)
+:flag_pl: Qn
+:flag_gb: Haxmaster
+:flag_pl: BananaSS
+:flag_pl: eve
+:flag_gb: Ohboi
+:flag_pl: BLUZKAS
+:flag_gb: Fernando Lizoduppo
+:flag_pl: üb
+:flag_pl: bully`;
 
 var köhlenatlar = `🇦🇿 ***Marcél*** (C)
 🇦🇿 ***Folkiè*** (Co)
