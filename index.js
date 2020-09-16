@@ -554,12 +554,12 @@ var anonymous = `🇫🇷 ***doliprune*** (C)
 
 var firmabublowlana = `:flag_pl: ***TITTIES*** (C)
 :flag_pl: ***zax*** (C)
-:flag_pl: Qn
+:flag_gb: ***Ohboi***
+:flag_pl: ***BLUZKAS***
+:flag_pl: qn
 :flag_gb: Haxmaster
 :flag_pl: BananaSS
 :flag_pl: eve
-:flag_gb: Ohboi
-:flag_pl: BLUZKAS
 :flag_gb: Fernando Lizoduppo
 :flag_pl: üb
 :flag_pl: bully`;
