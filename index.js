@@ -376,12 +376,6 @@ case "rosters":
     client.channels.get("750818053025038416").bulkDelete(30)
   
 	client.channels.get("750818053025038416").send({embed: new Discord.RichEmbed()
-            .setColor('#E31E24')
-            .setTitle("Akatsuki")
-            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/743224730026246164/akatsuki.png')
-            .setDescription(akatsuki)
-	})
-	client.channels.get("750818053025038416").send({embed: new Discord.RichEmbed()
             .setColor('#ffff00')
             .setTitle("FIRMA BUBLOWLANA SP. Z O. O.")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/755778123546492957/firmabublowlana.png')
@@ -417,6 +411,12 @@ case "rosters":
             .setDescription(tiggersb)
 	})
         
+	/*client.channels.get("750818053025038416").send({embed: new Discord.RichEmbed()
+            .setColor('#E31E24')
+            .setTitle("Akatsuki")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/743224730026246164/akatsuki.png')
+            .setDescription(akatsuki)
+	})*/
 	/*client.channels.get("750818053025038416").send({embed: new Discord.RichEmbed()
             .setColor('#A03B3B')
             .setTitle("Anonymous FC")
@@ -527,20 +527,6 @@ break;
 
 // SEASON 2
 
-var akatsuki = `🇩🇪 ***Son 7*** (C)
-🇵🇱 ***Endou***
-🇵🇱 ***Skillz***
-🇳🇱 ***Decayy'***
-🇵🇱 ***Mr.Worldwide***
-🇫🇷 ***Thors***
-🇳🇱 ***Rajzojee'***
-🇨🇿 ***armin***
-:flag_it: ***Gordo***
-:flag_gb: ***Bob***
-:flag_pk: ***delux***
-:flag_de: ***bln***
-:flag_nl: ***stoutpoop***`;
-
 var firmabublowlana = `:flag_pl: ***TITTIES*** (C)
 :flag_pl: ***zax*** (C)
 :flag_gb: ***Ohboi***
@@ -606,9 +592,9 @@ var tiggersb = `:flag_rs: ***Providini*** (C)
 :flag_pt: ***notBlue***
 :flag_nl: ***The Wall***
 :flag_fr: ***Aninos***
-:flag_pt: Ben Simmons
-:flag_pt: RDT9
-:flag_nl: Decayy'`;
+:flag_nl: ***58***
+:flag_dz: ***Deku***
+:flag_pt: ***suk1ng***`;
 
 
 
@@ -624,6 +610,20 @@ var tiggersb = `:flag_rs: ***Providini*** (C)
 
 
 
+
+/*var akatsuki = `🇩🇪 ***Son 7*** (C)
+🇵🇱 ***Endou***
+🇵🇱 ***Skillz***
+🇳🇱 ***Decayy'***
+🇵🇱 ***Mr.Worldwide***
+🇫🇷 ***Thors***
+🇳🇱 ***Rajzojee'***
+🇨🇿 ***armin***
+:flag_it: ***Gordo***
+:flag_gb: ***Bob***
+:flag_pk: ***delux***
+:flag_de: ***bln***
+:flag_nl: ***stoutpoop***`;*/
 
 /*var anonymous = `🇫🇷 ***doliprune*** (C)
 🇧🇪 ***Sphinx'*** (Co)
