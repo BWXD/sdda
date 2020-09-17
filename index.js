@@ -382,12 +382,6 @@ case "rosters":
             .setDescription(akatsuki)
 	})
 	client.channels.get("750818053025038416").send({embed: new Discord.RichEmbed()
-            .setColor('#A03B3B')
-            .setTitle("Anonymous FC")
-            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/741807721593962507/anonymous.png')
-            .setDescription(anonymous)
-	})
-	client.channels.get("750818053025038416").send({embed: new Discord.RichEmbed()
             .setColor('#ffff00')
             .setTitle("FIRMA BUBLOWLANA SP. Z O. O.")
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/755778123546492957/firmabublowlana.png')
@@ -423,6 +417,12 @@ case "rosters":
             .setDescription(tiggersb)
 	})
         
+	/*client.channels.get("750818053025038416").send({embed: new Discord.RichEmbed()
+            .setColor('#A03B3B')
+            .setTitle("Anonymous FC")
+            .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/741807721593962507/anonymous.png')
+            .setDescription(anonymous)
+	})*/
 	/*client.channels.get("750818053025038416").send({embed: new Discord.RichEmbed()
             .setColor('#A02327')
             .setTitle("Atlas Lions")
@@ -527,8 +527,7 @@ break;
 
 // SEASON 2
 
-var akatsuki = `🇧🇦 ***Xaroth*** (C)
-🇩🇪 ***Son 7*** (Co)
+var akatsuki = `🇩🇪 ***Son 7*** (C)
 🇵🇱 ***Endou***
 🇵🇱 ***Skillz***
 🇳🇱 ***Decayy'***
@@ -539,29 +538,19 @@ var akatsuki = `🇧🇦 ***Xaroth*** (C)
 :flag_it: ***Gordo***
 :flag_gb: ***Bob***
 :flag_pk: ***delux***
-:flag_de: ***bln***`;
-
-var anonymous = `🇫🇷 ***doliprune*** (C)
-🇧🇪 ***Sphinx'*** (Co)
-🇫🇷 ***Fury***
-🇳🇱 ***Elmo***
-🇷🇸 ***Pera***
-🇷🇴 ***aguero***
-🇹🇷 ***kevo***
-🇹🇷 ***Nepus***
-🇮🇹 ***skrt***
-🇬🇧 ***env***`;
+:flag_de: ***bln***
+:flag_nl: ***stoutpoop***`;
 
 var firmabublowlana = `:flag_pl: ***TITTIES*** (C)
 :flag_pl: ***zax*** (C)
 :flag_gb: ***Ohboi***
 :flag_pl: ***BLUZKAS***
 :flag_pl: ***qn***
-:flag_pl: ***üb***
-:flag_gb: Haxmaster
+:flag_gb: ***HaxMasteR***
+:flag_gb: ***Fernando Lizoduppo***
+:flag_pl: üb
 :flag_pl: BananaSS
 :flag_pl: eve
-:flag_gb: Fernando Lizoduppo
 :flag_pl: bully`;
 
 var köhlenatlar = `🇦🇿 ***Marcél*** (C)
@@ -616,6 +605,7 @@ var tiggersb = `:flag_rs: ***Providini*** (C)
 :flag_pt: ***Knock Out***
 :flag_pt: ***notBlue***
 :flag_nl: ***The Wall***
+:flag_fr: ***Aninos***
 :flag_pt: Ben Simmons
 :flag_pt: RDT9
 :flag_nl: Decayy'`;
@@ -634,6 +624,17 @@ var tiggersb = `:flag_rs: ***Providini*** (C)
 
 
 
+
+/*var anonymous = `🇫🇷 ***doliprune*** (C)
+🇧🇪 ***Sphinx'*** (Co)
+🇫🇷 ***Fury***
+🇳🇱 ***Elmo***
+🇷🇸 ***Pera***
+🇷🇴 ***aguero***
+🇹🇷 ***kevo***
+🇹🇷 ***Nepus***
+🇮🇹 ***skrt***
+🇬🇧 ***env***`;*/
 
 /*var atlaslions = `:flag_ma: ***ITS ME*** (C)
 :flag_ma: ***> BW <***
