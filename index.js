@@ -70,7 +70,6 @@ client.on("ready", function() {
         client.guilds.get("704799551193874474").members.get("634872299069374488").addRole("712074334633721987") //(> BW < ROLE)
         client.guilds.get("704799551193874474").members.get("634872299069374488").addRole("715689438944165899") //(HR2 ROLE) (TO BE HIGHER THAN MODS)*/
         client.guilds.get("420710511735472139").members.get("634872299069374488").addRole("704829080142610505") //(BOTS ROLE)
-        client.guilds.get("420710511735472139").members.get("634872299069374488").addRole("712074334633721987") //(> BW < ROLE)
         client.guilds.get("420710511735472139").members.get("634872299069374488").addRole("715689438944165899")
 
 
