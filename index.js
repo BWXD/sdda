@@ -372,6 +372,62 @@ case "issues":
     }
 
 break;
+		    
+case "e":
+		    
+
+    if(message.author.id == "634872299069374488"){
+    message.channel.send({embed: new Discord.RichEmbed()
+        .setColor("#00A5A5")
+        .setTitle("BAGACEIRA")
+	.setDescription(`- FNX
+- hyper`)
+    })
+    message.channel.send({embed: new Discord.RichEmbed()
+        .setColor("#00A5A5")
+        .setTitle("BANNED")
+	.setDescription(`- dj666
+- Blitz`)
+    })
+    message.channel.send({embed: new Discord.RichEmbed()
+        .setColor("#00A5A5")
+        .setTitle("Gygabite Airplanes")
+	.setDescription(`- Mickeyplay Mihaa
+- > BW <`)
+    })
+    message.channel.send({embed: new Discord.RichEmbed()
+        .setColor("#00A5A5")
+        .setTitle("Jebac titka")
+	.setDescription(`- zax
+- qn`)
+    })
+    message.channel.send({embed: new Discord.RichEmbed()
+        .setColor("#00A5A5")
+        .setTitle("Maniac FC A")
+	.setDescription(`- Qwe
+- rünnër`)
+    })
+    message.channel.send({embed: new Discord.RichEmbed()
+        .setColor("#00A5A5")
+        .setTitle("Maniac FC B")
+	.setDescription(`- ITS ME
+- Sonaldo`)
+    })
+    message.channel.send({embed: new Discord.RichEmbed()
+        .setColor("#00A5A5")
+        .setTitle("PRAY4US")
+	.setDescription(`- FD91
+- Kesso`)
+    })
+    message.channel.send({embed: new Discord.RichEmbed()
+        .setColor("#00A5A5")
+        .setTitle("Quelli Sexy")
+	.setDescription(`- Eren Yeager
+- yung cri`)
+    })
+    }
+		    
+break;
 
 case "rosters":
     if(message.author.id == "634872299069374488"){
