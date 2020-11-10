@@ -425,7 +425,6 @@ case "e":
 	.setDescription(`- FD91
 - Kesso`)
     })
-    })
     }
 		    
 break;
