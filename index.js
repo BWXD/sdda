@@ -391,6 +391,12 @@ case "e":
     })
     message.channel.send({embed: new Discord.RichEmbed()
         .setColor("#00A5A5")
+        .setTitle("Brat")
+	.setDescription(`- vaske
+- YELLOW`)
+	})
+    message.channel.send({embed: new Discord.RichEmbed()
+        .setColor("#00A5A5")
         .setTitle("Gygabite Airplanes")
 	.setDescription(`- Mickeyplay Mihaa
 - > BW <`)
@@ -419,11 +425,6 @@ case "e":
 	.setDescription(`- FD91
 - Kesso`)
     })
-    message.channel.send({embed: new Discord.RichEmbed()
-        .setColor("#00A5A5")
-        .setTitle("Quelli Sexy")
-	.setDescription(`- Eren Yeager
-- yung cri`)
     })
     }
 		    
