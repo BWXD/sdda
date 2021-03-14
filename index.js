@@ -20,7 +20,7 @@ client.on("guildMemberRemove", function(){
 
 var embedMove = "off";
 var embedMove2 = "off";
-var bugProtectMode = "off";
+//var bugProtectMode = "off";
 var commandsUsed = 0;
 
 var sec = 0;
@@ -121,7 +121,7 @@ client.on("message", message => {
         message.delete()
         client.user.setStatus("invisible")
     }
-	if(message.author.id == "" && message.content.startsWith("f!protect ")){
+	/*if(message.author.id == "" && message.content.startsWith("f!protect ")){
 		if(message.content.split("f!protect ").slice(1,5) == "on"){
 		message.delete();
 		bugProtectMode = "on";
@@ -129,7 +129,7 @@ client.on("message", message => {
 		message.delete();
 		bugProtectMode = "off";
 		}
-	}
+	}*/
 })
 
 client.on("message", message => {
@@ -262,7 +262,7 @@ client.on("message", message => {
 });
 
 client.on("message", async function(message) {
-		    if(bugProtectMode == "off"){
+		    //if(bugProtectMode == "off"){
     if (message.author.equals(client.user)) return;
 
 
@@ -373,7 +373,7 @@ case "issues":
 
 break;
 		    
-case "e":
+/*case "e":
 		    
 
     if(message.author.id == "634872299069374488"){
@@ -530,11 +530,11 @@ case "rosters":
             .setThumbnail('https://cdn.discordapp.com/attachments/706641802374938644/742543045819367788/Valencia.png')
             .setDescription(valencia)
 	})*/
-    } else if(message.author.id != "634872299069374488"){message.react('❌')
+    /*} else if(message.author.id != "634872299069374488"){message.react('❌')
     }
-break;
+break;*/
 		   
-    }
+    //}
         }  
 
 
@@ -547,7 +547,7 @@ break;
 
 //THE PROTECTION MODE IS ON, WARNING BEFORE USING COMMANDS
 
-if(bugProtectMode == "on"){
+/*if(bugProtectMode == "on"){
 	
     if (message.author.equals(client.user)) return;
 
@@ -577,7 +577,7 @@ case "rosters":
 If you think you are seeing this by mistake, please notify an admin.`)
         })
 break;
-}
+}*/
         }    
 });
 
